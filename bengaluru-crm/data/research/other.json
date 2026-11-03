@@ -63,7 +63,8 @@
     "verification": "Existence, branches and phone confirmed; founder attribution differs slightly across sources (Dr. Pawan Kumar most cited).",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Cessna has grown from a one-room clinic into three veterinary hospitals."
   },
   {
     "id": "bonito-designs",
@@ -136,7 +137,8 @@
     "verification": "Addresses and phone from the official website; founder/CEO names conflict between sources - confirm decision-maker.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Bonito runs experience centres in HSR Layout and HRBR Layout."
   },
   {
     "id": "decorpot",
@@ -209,7 +211,8 @@
     "verification": "Founders, scale and HSR office from press and directories. Phone not captured - use decorpot.com.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Decorpot has grown to more than 25 experience centres."
   },
   {
     "id": "bhive-workspace",
@@ -282,7 +285,8 @@
     "verification": "Founders and expansion confirmed by press; HQ and phone from a business directory - verify.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Congratulations on the new 1,000-seat BHIVE centre."
   },
   {
     "id": "pitstop",
@@ -355,6 +359,7 @@
     "verification": "Founders and model confirmed by media; address/phone from CB Insights - verify on getpitstop.com.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Pitstop has upgraded a network of more than 150 partner workshops."
   }
 ]

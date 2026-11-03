@@ -66,7 +66,8 @@
     "verification": "Existence, founder and recent news confirmed (Wikipedia, UNI). Addresses from directories; no phone or email found - use the official website/Google listing.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on the recent 'Leading Yoga Institution' accreditation from the Yoga Certification Board."
   },
   {
     "id": "game-theory",
@@ -128,7 +129,8 @@
     "verification": "Founder, funding and centre count confirmed by business press and the official website. No public phone/email captured - use website contact form.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Game Theory has scaled to more than 20 centres in Bengaluru."
   },
   {
     "id": "dolphin-aquatics",
@@ -194,7 +196,8 @@
     "verification": "Existence, head coach and phone confirmed by two listings plus Wikipedia/centre page.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Dolphin Aquatics has been running swimming programmes under Nihar Ameen since 2010."
   },
   {
     "id": "golds-gym-malleshwaram",
@@ -260,7 +263,8 @@
     "verification": "Address, phones and email from the official Gold's Gym India page (page may be out of date - confirm). Franchisee owner not published.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I found your Malleshwaram club on the Gold's Gym India website and wanted to reach the person who runs it."
   },
   {
     "id": "golds-gym-jp-nagar",
@@ -316,7 +320,8 @@
     "verification": "Address, phones and email from the official Gold's Gym India page (confirm currency).",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I found your JP Nagar 3rd Phase club on the Gold's Gym India website and wanted to reach the person who runs it."
   },
   {
     "id": "golds-gym-electronic-city",
@@ -378,7 +383,8 @@
     "verification": "Address, phones and email from the official Gold's Gym India page (confirm currency).",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Your Electronic City club sits right in the tech corridor, which is a big membership opportunity."
   },
   {
     "id": "anytime-fitness-jp-nagar",
@@ -436,7 +442,8 @@
     "verification": "Franchise partners and launch confirmed by the official press release. Phone/email not captured - use club page on anytimefitness.co.in.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on running the first Anytime Fitness club in Karnataka."
   },
   {
     "id": "anytime-fitness-koramangala",
@@ -488,7 +495,8 @@
     "verification": "Club launch and address confirmed by trade press; partner list partly truncated in sources. Phone/email not captured.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I read about the Koramangala club launch that MP Tejasvi Surya flagged off."
   },
   {
     "id": "centre-for-badminton-excellence",
@@ -549,7 +557,8 @@
     "verification": "Rename and status confirmed by The Bridge (Dec 2025). Address/phone from a third-party blog and email from a 2023 job post - verify all before use.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "I read that the academy is now the Centre for Badminton Excellence after the October 2025 rename."
   },
   {
     "id": "padukone-school-of-badminton",
@@ -615,7 +624,8 @@
     "verification": "Scale and founders confirmed by sports/business press. No verified head-office phone/email - approach via official website or LinkedIn.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "PSB has grown to more than 75 centres in 18 cities, with a target of 250 by 2027."
   },
   {
     "id": "multifit-hennur",
@@ -682,7 +692,8 @@
     "ratingsNote": "LyfSkills listing: 4.2 stars from 471 reviews (source of rating not stated - may mirror Google; verify).",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Your Hennur studio shows 4.2 stars from 471 reviews on LyfSkills."
   },
   {
     "id": "iconic-fitness",
@@ -739,7 +750,8 @@
     "verification": "Multiple branches confirmed across two directory platforms. Owner, phone and email not found - get numbers from Google Maps.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Iconic Fitness now gives members access to 16-plus gyms across Bengaluru."
   },
   {
     "id": "honour-mma",
@@ -790,7 +802,8 @@
     "verification": "Both branches confirmed by directory listings. No phone/email/founder found - use the listing contact button or Google Maps.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Honour MMA runs academies in both Indiranagar and Koramangala."
   },
   {
     "id": "the-zone-mind-body-studio",
@@ -872,7 +885,8 @@
     "verification": "Address and phones confirmed by STOTT PILATES and LBB. Email and named contacts are from older postings - verify.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "The Zone is the licensed STOTT PILATES training centre in Bengaluru."
   },
   {
     "id": "golds-gym-bellandur",
@@ -925,6 +939,7 @@
     "verification": "Address, phone and email from the official Gold's Gym India page (page about a year old).",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Your Bellandur club is right opposite RMZ Ecoworld, a huge corporate catchment."
   }
 ]

@@ -70,7 +70,8 @@
     "verification": "Existence and MG Road address consistent across 3 sources. Ownership info is from an older article; phone from a travel guide - verify.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Deepam has been a silk-saree destination on MG Road for over four decades."
   },
   {
     "id": "prasiddhi-silks",
@@ -123,7 +124,8 @@
     "verification": "Existence and MG Road address from guides/directories. Phone masked in sources - get it from Google Maps.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Prasiddhi Silks has a prime MG Road store right next to Cauvery Emporium."
   },
   {
     "id": "angadi-galleria",
@@ -193,7 +195,8 @@
     "verification": "Founder and stores confirmed by fashion press; phone from LBB.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I read about Angadi Heritage in Jayanagar - a big step for the House of Angadi."
   },
   {
     "id": "mysore-saree-udyog",
@@ -270,7 +273,8 @@
     "verification": "Existence, ownership and contacts confirmed across YourStory, IndiaMART and LBB (two different phone numbers).",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I read YourStory's feature on Mysore Saree Udyog as one of Bengaluru's iconic saree brands."
   },
   {
     "id": "sapna-book-house",
@@ -337,7 +341,8 @@
     "verification": "History, leadership and scale confirmed by Wikipedia and press. Head-office phone/email not captured - use sapnaonline.com contact page.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Sapna has grown since 1967 into about 19 bookstores across Karnataka and Tamil Nadu."
   },
   {
     "id": "girias",
@@ -396,7 +401,8 @@
     "verification": "Multiple Bengaluru stores confirmed via listings and dealer documents. Founder/head office not found; large account - expect procurement process.",
     "confidence": "Medium",
     "interest": "Low",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Girias has served customers for over four decades across a large store network."
   },
   {
     "id": "c-krishniah-chetty",
@@ -467,7 +473,8 @@
     "verification": "Leadership, history and showroom list confirmed by press and listings. Phone not captured - use ckcjewellers.com/contactus.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on 157 years, and on launching the Magnificent Weddings service."
   },
   {
     "id": "anand-sweets",
@@ -559,7 +566,8 @@
     "verification": "Founder, leadership, website and scale confirmed by press and official site. Store phones from directories.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Anand Sweets has grown from the first Commercial Street outlet in 1988 to 15 stores plus airport retail."
   },
   {
     "id": "asha-sweet-center",
@@ -636,7 +644,8 @@
     "verification": "Existence, owners, branches and headcount (~900) confirmed by official site and Deccan Herald. Phone from a news feature - confirm which branch it reaches.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Asha Sweet Center has served Bengaluru since 1951, with around 900 people behind it."
   },
   {
     "id": "blossom-book-house",
@@ -707,7 +716,8 @@
     "verification": "Founder, address and phones confirmed by multiple media/listings.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Blossom has grown to multiple stores on Church Street with a huge book-lover community."
   },
   {
     "id": "trident-hyundai",
@@ -783,7 +793,8 @@
     "verification": "Official website and phones confirmed; showroom list from directories. Dealer principal not identified.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Trident Hyundai has grown since 1998 to four showrooms and eleven service centres."
   },
   {
     "id": "blue-hyundai",
@@ -834,7 +845,8 @@
     "verification": "MD and locations confirmed by Deccan Herald. Phone in directories looked malformed - get from Hyundai's dealer locator or Google Maps.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I read the Deccan Herald piece on Blue Hyundai's growth under Latif Hussain."
   },
   {
     "id": "navrathan-jewellers",
@@ -886,7 +898,8 @@
     "verification": "Existence, MD and expansion confirmed by trade press (MD surname spelling varies). No address/phone captured - use Google Maps.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on opening your sixth Bengaluru showroom in Yelahanka."
   },
   {
     "id": "ganjam",
@@ -952,7 +965,8 @@
     "verification": "Existence, directors and store network confirmed by trade press. Address/phone not captured - use Google Maps listing.",
     "confidence": "Medium",
     "interest": "Low",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Ganjam's 130-plus-year legacy and the Vittal Mallya Road flagship are well known in the city."
   },
   {
     "id": "advaith-hyundai",
@@ -1023,6 +1037,7 @@
     "verification": "Network size and showroom phones from directories; director from an insider database. Large organisation - expect a longer sales cycle.",
     "confidence": "Medium",
     "interest": "Low",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Advaith has built one of Karnataka's largest Hyundai networks, with around 25 showrooms."
   }
 ]

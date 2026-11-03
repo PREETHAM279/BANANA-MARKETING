@@ -56,7 +56,8 @@
     "verification": "Existence, address and website confirmed. Phone is from a third-party listing; current director not confirmed - ask for the Administrator.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Alliance Francaise runs one of the city's busiest cultural calendars alongside its French courses."
   },
   {
     "id": "base-educational-services",
@@ -129,7 +130,8 @@
     "verification": "Founder, address and contacts from listings and profiles. Confirm the right decision-maker (centre head vs. management).",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "BASE has grown since 1991 to seven centres across Bengaluru."
   },
   {
     "id": "little-elly",
@@ -189,7 +191,8 @@
     "verification": "Founder and scale from business databases (counts conflict). Head-office contact not captured - use the official website.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Little Elly has grown from Bengaluru in 2005 into a large preschool network across India."
   },
   {
     "id": "lavonne-academy",
@@ -276,7 +279,8 @@
     "verification": "Founders and address confirmed by multiple sources. Two different mobile numbers appear in listings - verify which is current.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Lavonne has trained pastry professionals since 2012, and Vinesh Johny was named in the World's 50 Best '50 Next' list."
   },
   {
     "id": "inventure-academy",
@@ -363,7 +367,8 @@
     "verification": "Address, admissions numbers and founders from the official website. Current principal varies across pages - confirm on call.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Inventure has grown since 2005 to the Whitefield-Sarjapur campus, a preschool and a Yeshwanthpur campus."
   },
   {
     "id": "vidyashilp-academy",
@@ -428,7 +433,8 @@
     "verification": "Existence and relocation confirmed by Wikipedia; phones from a directory. Principal/chairman not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Congratulations on the move to the new Govindapura campus in Yelahanka."
   },
   {
     "id": "nritarutya",
@@ -502,7 +508,8 @@
     "verification": "Founders and activity confirmed by the official site. Phone and email are from 2019 - verify before use.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Nritarutya has been one of India's leading contemporary dance companies since 2000."
   },
   {
     "id": "ekya-schools",
@@ -579,7 +586,8 @@
     "verification": "Campuses, admissions contacts and leadership from official pages and disclosures; some head-of-school names conflict across directories.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Ekya now runs seven campuses across Bengaluru."
   },
   {
     "id": "sri-kumaran-childrens-home",
@@ -634,7 +642,8 @@
     "verification": "Campuses and central email from official disclosures. No reliable phone found - call via the campus websites.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Kumarans runs several campuses across south Bengaluru."
   },
   {
     "id": "urban-raga-music-school",
@@ -694,6 +703,7 @@
     "verification": "Founder and branches from partner directory and class listings. Phone/email not captured.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Urban Raga has been teaching music across Bengaluru since 2008."
   }
 ]

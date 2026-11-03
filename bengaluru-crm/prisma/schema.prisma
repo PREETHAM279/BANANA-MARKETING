@@ -19,11 +19,14 @@ model Business {
   category              String
   subcategory           String    @default("")
   area                  String    @default("")
+  locality              String    @default("")
+  zone                  String    @default("")
   address               String    @default("")
   mapsQuery             String    @default("")
   website               String?
   websiteNote           String?
   instagram             String?
+  instagramNote         String?
   facebook              String?
   linkedin              String?
   youtube               String?
@@ -38,6 +41,7 @@ model Business {
   googleMapsUri         String?
   googleFetchedAt       DateTime?
   googleData            String?
+  ratingsNote           String?
   // Public contacts (JSON arrays with source URL for every item)
   phone                 String?
   phoneLabel            String?
@@ -76,7 +80,9 @@ model Business {
   bestTimeToCall        String    @default("")
   callBlock             Int       @default(0)
   facts                 String    @default("[]")
+  hook                  String    @default("")
   objections            String    @default("[]")
+  discoveryQuestions    String    @default("[]")
   // Provenance
   sources               String    @default("[]")
   researchDate          String    @default("")

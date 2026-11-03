@@ -73,7 +73,8 @@
     "verification": "Founders and HQ consistent across Wikipedia, CB Insights and PitchBook; phone from CB Insights - verify. Has in-house tech, so attendance pitch should focus on hub/warehouse staff.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Blowhorn has grown from Bengaluru to five metros since 2014."
   },
   {
     "id": "letstransport",
@@ -145,7 +146,8 @@
     "verification": "Founders, acquisition and headcount range confirmed across several business databases. No public phone captured.",
     "confidence": "High",
     "interest": "Low",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "I read about Bertelsmann acquiring LetsTransport and the new LetsTransport Group."
   },
   {
     "id": "wareiq",
@@ -211,7 +213,8 @@
     "verification": "Founders and HQ city confirmed by company profiles. Aggregator phone numbers were found but excluded because they may be personal numbers - use wareiq.com contact page.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "WareIQ has built a fulfilment network for D2C and quick-commerce brands since 2019."
   },
   {
     "id": "pikkol",
@@ -283,7 +286,8 @@
     "verification": "Founders and phone consistent across two sources; ownership change and current address need confirmation on the call.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Pikkol has been simplifying relocations in Bengaluru since 2015."
   },
   {
     "id": "beyond-sqfeet",
@@ -338,6 +342,7 @@
     "verification": "Sites and sales email from a LinkedIn post and trade-news coverage; founders, HQ and phone not found - medium confidence. Confirm details before the call.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Congratulations on onboarding your third Bengaluru warehouse."
   }
 ]

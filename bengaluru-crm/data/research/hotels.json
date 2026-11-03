@@ -53,7 +53,8 @@
     "verification": "Address and phone consistent across venue directories. GM not identified - ask for GM / HR manager.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "The Capitol is one of the most central business hotels in the city, right opposite the GPO."
   },
   {
     "id": "st-marks-hotel",
@@ -115,7 +116,8 @@
     "verification": "Address, phone and Radisson affiliation confirmed. Owner/GM not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on joining Radisson Individuals."
   },
   {
     "id": "goldfinch-hotel",
@@ -187,7 +189,8 @@
     "verification": "Address, phone, reservations email and company registration confirmed across listings. GM not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I noticed your team replies personally to guest reviews, so you clearly care about online reputation."
   },
   {
     "id": "hotel-ajantha",
@@ -242,7 +245,8 @@
     "verification": "Address and phone from a travel directory; operator company inferred from registry address - confirm.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Hotel Ajantha has a prime location just off MG Road."
   },
   {
     "id": "chancery-pavilion",
@@ -302,7 +306,8 @@
     "verification": "Address and phones from venue and conference listings. GM not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "The Chancery Pavilion hosts major tech conferences such as COMSNETS."
   },
   {
     "id": "discovery-village",
@@ -355,7 +360,8 @@
     "verification": "Existence and website confirmed. No phone/owner captured - use the website contact page.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Discovery Village is a favourite for corporate day-outs on Kanakapura Road."
   },
   {
     "id": "our-native-village",
@@ -415,7 +421,8 @@
     "verification": "Founder and location confirmed; operator may have changed (Niraamaya listing). No phone captured.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Our Native Village has been a model eco resort since 2006."
   },
   {
     "id": "guhantara-resort",
@@ -479,7 +486,8 @@
     "verification": "Existence and address consistent across sources; several phone numbers in circulation - start with the 080 4639 4444 line.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Guhantara is India's first underground cave resort - a very visual story."
   },
   {
     "id": "clarks-exotica",
@@ -534,7 +542,8 @@
     "verification": "Address and phone from venue directories; website named in listings. GM not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Clarks Exotica is one of the go-to convention resorts near the airport."
   },
   {
     "id": "golden-palms-hotel",
@@ -589,6 +598,7 @@
     "verification": "Address and phone consistent across listings. Owner/GM not identified.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Golden Palms is a popular resort-and-spa getaway off Tumkur Road."
   }
 ]

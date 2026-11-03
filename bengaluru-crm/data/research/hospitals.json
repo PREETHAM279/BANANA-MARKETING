@@ -73,7 +73,10 @@
     "verification": "Founder, expansion and website confirmed by press. Phone numbers from job/academy listings - confirm the right desk.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on the new Sarjapura Road and Basaveshwara Nagar clinics.",
+    "locality": "Lalbagh Road",
+    "zone": "Central"
   },
   {
     "id": "cutis-academy",
@@ -119,7 +122,8 @@
     "verification": "Address, phone and website from a single third-party listing - confirm on cutis.org.in. Leadership not verified in this research.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Cutis runs both a dermatology hospital and a training academy in Vijayanagar."
   },
   {
     "id": "physiotattva",
@@ -163,7 +167,8 @@
     "verification": "Branch existence from directory listings only; founder, website and phones not verified - confirm on Google Maps before calling.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Physiotattva now has clinics from Bannerghatta Road to Electronic City and Bellandur."
   },
   {
     "id": "nethradhama",
@@ -239,7 +244,8 @@
     "verification": "Leadership, branches and recent expansion confirmed. Phones from health directories - confirm before calling.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on launching the Yelahanka super-speciality centre in March."
   },
   {
     "id": "milann-fertility",
@@ -314,7 +320,8 @@
     "verification": "Founder and history confirmed; branch count is from 2016. Phones from directories. Ownership structure may route decisions to a corporate team.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Milann has built one of Bengaluru's most trusted fertility brands since Dr. Kamini Rao founded it."
   },
   {
     "id": "rangadore-memorial-hospital",
@@ -392,7 +399,8 @@
     "verification": "Address, phone and leadership from the official website; bed count from a third-party listing.",
     "confidence": "High",
     "interest": "High",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Rangadore Memorial has served Basavanagudi for decades as a 150-bed multispeciality hospital."
   },
   {
     "id": "hosmat-hospital",
@@ -463,7 +471,8 @@
     "verification": "Address, phones and founder from the official website.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "HOSMAT is one of Bengaluru's best-known orthopaedic and sports-medicine hospitals."
   },
   {
     "id": "chinmaya-mission-hospital",
@@ -528,7 +537,8 @@
     "verification": "Address, phone and email from the official Chinmaya Mission page. Director not identified - ask for the administrator/HR head.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Chinmaya Mission Hospital runs both a 200-plus bed hospital and a nursing institute in Indiranagar."
   },
   {
     "id": "spectrum-physio-centre",
@@ -594,7 +604,8 @@
     "verification": "Founder and branch network from directories; phone from a health directory. Note: one listed centre was inside Sita Bhateja hospital, which has closed.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Spectrum has grown to about eight physiotherapy centres since 1999."
   },
   {
     "id": "ovum-hospitals",
@@ -672,6 +683,7 @@
     "verification": "Founder, locations, phones and email from the official website.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Ovum now runs six hospitals, two IVF centres and two clinics around Bengaluru."
   }
 ]

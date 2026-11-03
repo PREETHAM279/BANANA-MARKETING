@@ -61,7 +61,8 @@
     "verification": "Acquisition confirmed by trade press; branch phones from LBB. Decision-making may now sit with JCB's India team.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "I read about Bounce joining the Jean-Claude Biguine salon group."
   },
   {
     "id": "bodycraft",
@@ -144,7 +145,8 @@
     "verification": "Founder, leadership, scale and corporate address confirmed by trade press and business databases. Corporate phone/email not captured.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Bodycraft has grown from one salon in 1997 to 25-plus outlets, with new launches in Gurugram, Dehradun and Mysuru."
   },
   {
     "id": "tattva-spa-bengaluru",
@@ -211,7 +213,8 @@
     "verification": "Brand scale, website and Bengaluru outlets confirmed. HQ appears to be Delhi; Bengaluru outlets may be franchisee-run - identify the outlet owner on the call.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Tattva now has more than 100 spas and a big Bengaluru footprint."
   },
   {
     "id": "ylg-salon",
@@ -278,7 +281,8 @@
     "verification": "Founders, funding and footprint confirmed. Contact details not captured - use ylgindia.com.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "YLG has grown to 45-plus salons, most of them in Bengaluru."
   },
   {
     "id": "blown-studio",
@@ -345,7 +349,10 @@
     "verification": "Founder and outlets confirmed by trade press and listings; phone/website from an older blog - verify.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Blown has grown to multiple salons, including the New BEL Road studio.",
+    "locality": "Ashok Nagar",
+    "zone": "Central"
   },
   {
     "id": "envi-salon",
@@ -414,7 +421,8 @@
     "verification": "Addresses and phones from official Envi salon pages. HQ city not confirmed.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Your Orion Brigade and Orion Uptown salons sit in two of the city's busiest malls."
   },
   {
     "id": "bellance-salon",
@@ -470,7 +478,8 @@
     "verification": "Founder and expansion from press releases (partly advertorial). Contact details not captured - use Google Maps/Instagram.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on Bellance's first year and the 12-salon roadmap for 2026."
   },
   {
     "id": "play-salon",
@@ -521,7 +530,8 @@
     "verification": "Existence and founder from PTI press-release syndication. Address/phone not captured.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Congratulations on launching the AVEDA flagship at Essensai 067."
   },
   {
     "id": "ayurvedagram",
@@ -586,7 +596,8 @@
     "verification": "Existence confirmed by Karnataka Tourism and Incredible India. Two different phone numbers in directories - verify. Owner not confirmed.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "AyurvedaGram is featured by Karnataka Tourism as a heritage village for healing."
   },
   {
     "id": "toni-and-guy-indiranagar",
@@ -636,6 +647,7 @@
     "verification": "Existence and booking page confirmed; two slightly different addresses in listings. Franchisee owner not identified - ask for the salon owner/manager.",
     "confidence": "Medium",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Your Indiranagar salon already takes online bookings, so you clearly invest in digital."
   }
 ]

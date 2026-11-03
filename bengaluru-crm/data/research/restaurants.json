@@ -73,7 +73,8 @@
     "verification": "Existence, category and Residency Road address confirmed across several independent listings. Phone numbers conflict between listings - confirm on first call. No official website or email found.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Nagarjuna has been serving Andhra meals on Residency Road since 1984 and now has outlets across the city."
   },
   {
     "id": "nandhini-deluxe",
@@ -164,7 +165,8 @@
     "verification": "Existence, founder and outlet scale confirmed by trade press (Restaurant India). Branch phone numbers come from an older directory and must be re-confirmed. No official email found.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Congratulations on reopening the revamped Jayanagar flagship in July."
   },
   {
     "id": "truffles",
@@ -237,7 +239,8 @@
     "verification": "Existence, category, address and multi-outlet footprint confirmed across listings and press. Phone numbers from directories; founder not identified.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Truffles has grown from St. Mark's Road to outlets in Koramangala, Indiranagar, New BEL Road and Kalyan Nagar."
   },
   {
     "id": "glens-bakehouse",
@@ -309,7 +312,8 @@
     "verification": "Existence and multi-outlet footprint confirmed across directories and food guides. Founder, website and email not found.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Glen's Bakehouse now has around six outlets and keeps showing up in Bengaluru's best-bakery lists."
   },
   {
     "id": "brik-oven",
@@ -380,7 +384,8 @@
     "verification": "Existence, founders and multi-outlet footprint confirmed by trade press. Outlet count differs between sources (7 vs 10). No public phone/email captured - use Google Maps listing.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Brik Oven has grown from a two-person operation on Church Street to outlets across the city."
   },
   {
     "id": "toit",
@@ -467,7 +472,8 @@
     "verification": "Existence, founders and address confirmed across media and directories. Phone from directories. Email not found.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Toit has been one of Bengaluru's best-known brewpubs since the company started in 2009."
   },
   {
     "id": "vidyarthi-bhavan",
@@ -527,7 +533,8 @@
     "verification": "Existence, address and phone confirmed across two listings plus Wikipedia. Website unverified; owner not identified in research.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Vidyarthi Bhavan is one of Bengaluru's most iconic dosa destinations, with queues every weekend."
   },
   {
     "id": "meghana-foods",
@@ -599,7 +606,8 @@
     "verification": "Existence and multi-outlet footprint confirmed by press and listings. Phone numbers from directories (one older) - confirm before calling. No official website/email found.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Meghana Foods has grown to around 15 outlets and was featured in Swiggy's 2026 best-biryani list."
   },
   {
     "id": "corner-house",
@@ -679,7 +687,8 @@
     "verification": "Founder, history, flagship address and multi-outlet footprint confirmed by several media sources. Phone numbers from LBB with uncertain outlet pairing - confirm before calling.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Corner House has grown from the original Residency Road parlour in 1982 to around 20 parlours."
   },
   {
     "id": "mtr-mavalli-tiffin-rooms",
@@ -743,7 +752,8 @@
     "verification": "Existence, address, official website and history confirmed. Phone from a travel directory - verify. Current decision-makers not identified in research.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "MTR keeps expanding, including the Sydney franchise announced in August 2026."
   },
   {
     "id": "hatti-kaapi",
@@ -824,7 +834,8 @@
     "verification": "Founders, history and scale confirmed by business press. HQ phone from CB Insights - verify. Likely already uses some technology; position as a lightweight add-on.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Attendance"
+    "product": "Attendance",
+    "hook": "Hatti Kaapi has grown from one Gandhi Bazaar store in 2009 to 65 touchpoints in Bengaluru."
   },
   {
     "id": "the-biere-club",
@@ -896,7 +907,8 @@
     "verification": "Founders, history and outlets confirmed by trade press. The only phone number is from 2015 - use Google Maps listing to confirm.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "The Biere Club has grown from Bengaluru's first microbrewery on Lavelle Road to three outlets, including RMZ EcoWorld."
   },
   {
     "id": "koshys",
@@ -966,7 +978,8 @@
     "verification": "Existence, address, owner and phone confirmed by Wikipedia plus two directories.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Koshy's has been a St. Mark's Road institution since 1940."
   },
   {
     "id": "paakashala",
@@ -1051,7 +1064,8 @@
     "verification": "Founder and outlets confirmed by company profiles and listings. Phones from directories.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Paakashala has grown to around eight vegetarian outlets since 2018."
   },
   {
     "id": "kapoors-cafe",
@@ -1132,6 +1146,7 @@
     "verification": "Multi-outlet existence confirmed across several directories. Founder, website and email not found; phones from directories.",
     "confidence": "Medium",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Kapoor's Cafe now has around seven outlets across Bengaluru."
   }
 ]

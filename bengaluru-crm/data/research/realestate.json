@@ -57,7 +57,8 @@
     "verification": "Founder, office and projects confirmed via property portals and RERA data. Phone not captured - use the website.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "DS-Max has a large pipeline of RERA-registered projects across Bengaluru."
   },
   {
     "id": "vajram-group",
@@ -123,7 +124,8 @@
     "verification": "Office address and MD from RERA filings; chairman from a wiki-style source. Phone not captured - use vajramgroup.com.",
     "confidence": "High",
     "interest": "High",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Vajram has several active projects such as Vivera and Chrysanthemum."
   },
   {
     "id": "mana-projects",
@@ -184,7 +186,8 @@
     "verification": "Founder, office and expansion plans confirmed by press and registry listings. Phone/email not captured.",
     "confidence": "High",
     "interest": "High",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "I read that Mana is investing in branding and planning 3.3 million sq ft of new projects."
   },
   {
     "id": "vaswani-group",
@@ -256,7 +259,8 @@
     "verification": "Office address consistent across listings; phone from one directory; leadership from GRI profiles.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Both"
+    "product": "Both",
+    "hook": "Vaswani's premium projects such as Starlight are well known in Bengaluru."
   },
   {
     "id": "assetz-property-group",
@@ -333,6 +337,7 @@
     "verification": "Leadership from the company's own profile; address from two business databases; phone numbers conflict - use website enquiry.",
     "confidence": "High",
     "interest": "Medium",
-    "product": "Social Media"
+    "product": "Social Media",
+    "hook": "Congratulations on the 'Melodies of Life' launch in South-East Bengaluru."
   }
 ]

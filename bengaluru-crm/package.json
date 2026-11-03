@@ -28,7 +28,7 @@
     "nodemailer": "10.3.1",
     "react": "19.1.10",
     "react-dom": "19.1.10",
-    "recharts": "3.10.1"
+    "server-only": "0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.3.4",
