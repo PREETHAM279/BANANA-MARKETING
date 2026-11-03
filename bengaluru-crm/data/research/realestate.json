@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ds-max-properties",
+    "name": "DS-Max Properties",
+    "category": "Real Estate",
+    "subcategory": "Residential developer (affordable & mid-segment apartments)",
+    "area": "HBR Layout",
+    "address": "#1797, 14th Main Road, 5th Block, Brindavan Nagar, HBR Layout, Bengaluru 560043",
+    "website": "https://dsmaxproperties.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Dr. K.V. Satish",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://www.commonfloor.com/ds-max-properties-pvt-ltd/builder/x4wbd3"
+      }
+    ],
+    "description": "Bengaluru residential developer founded by Dr. K.V. Satish, known for numerous RERA-registered affordable and mid-segment apartment projects across east and north Bengaluru.",
+    "offerings": "Apartments and plotted developments (e.g. DS Max Sky Sanman, Sky Fields, Sky Shlokam, Sky Samurai, Shresta, Spoorthi, Sasmara, Sukruth).",
+    "branches": "Head office in HBR Layout plus multiple project sites and site sales offices.",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "200-500",
+      "basis": "Estimate only: many simultaneous projects with sales, site and engineering teams."
+    },
+    "facts": [
+      "Founded by Dr. K.V. Satish",
+      "Many RERA-registered projects (Sky Sanman, Sky Fields, Sky Shlokam, Sky Samurai, Shresta...)",
+      "Hires across sales and site roles (Indeed)"
+    ],
+    "socialObserved": "Project launches and site-visit drives are lead-gen heavy; multi-project social scheduling plus site/sales staff attendance both fit.",
+    "sources": [
+      {
+        "label": "CommonFloor - DS Max Properties",
+        "url": "https://www.commonfloor.com/ds-max-properties-pvt-ltd/builder/x4wbd3"
+      },
+      {
+        "label": "Gharpe - DS MAX Properties",
+        "url": "https://gharpe.com/ds-max-properties-pvt-ltd"
+      },
+      {
+        "label": "Aurum PropTech - RERA: DS Max Sky Sanman",
+        "url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/ds-max-sky-sanman/12312"
+      },
+      {
+        "label": "Indeed - DS Max Properties",
+        "url": "https://in.indeed.com/cmp/Ds-Max-Properties"
+      }
+    ],
+    "verification": "Founder, office and projects confirmed via property portals and RERA data. Phone not captured - use the website.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "vajram-group",
+    "name": "Vajram Group",
+    "category": "Real Estate",
+    "subcategory": "Residential, commercial and hospitality developer",
+    "area": "Outer Ring Road (Devarabisanahalli)",
+    "address": "Vajram Esteva, 2nd Floor, 57/4, Outer Ring Road, Devarabisanahalli, Bengaluru 560103 (RERA promoter address)",
+    "website": "https://www.vajramgroup.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Pavan Kumar Vajram",
+        "role": "Founder & Managing Director",
+        "type": "owner",
+        "source": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/vajram-vivera/13121"
+      },
+      {
+        "name": "Pardeep Vajram",
+        "role": "Non-Executive Chairman (per Wikitia - verify)",
+        "type": "owner",
+        "source": "https://wikitia.com/wiki/Vajram_Group"
+      }
+    ],
+    "description": "Bengaluru developer founded in 2009 building residential, commercial and hospitality projects across Bengaluru and Hyderabad.",
+    "offerings": "Apartments and villas (e.g. Vajram Vivera, Newtown, Chrysanthemum, Tiara, Orchid), commercial office (Vajram Esteva, Onyx), hospitality.",
+    "branches": "Corporate office on ORR plus multiple project sites in Bengaluru and Hyderabad.",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-400",
+      "basis": "Estimate only: mid-size developer with several concurrent projects."
+    },
+    "facts": [
+      "Founded in 2009",
+      "Projects across Bengaluru and Hyderabad",
+      "Several active RERA-registered projects (Vivera, Newtown II, Chrysanthemum)"
+    ],
+    "socialObserved": "Launch-driven marketing; multi-project content calendar and site/sales staff attendance both fit.",
+    "sources": [
+      {
+        "label": "Aurum PropTech - RERA: Vajram Vivera",
+        "url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/vajram-vivera/13121"
+      },
+      {
+        "label": "Wikitia - Vajram Group",
+        "url": "https://wikitia.com/wiki/Vajram_Group"
+      },
+      {
+        "label": "Gharpe - Vajram Group",
+        "url": "https://gharpe.com/vajram-group"
+      },
+      {
+        "label": "Aurum PropTech - RERA: Vajram Chrysanthemum",
+        "url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/vajram-chrysanthemum/14023"
+      }
+    ],
+    "verification": "Office address and MD from RERA filings; chairman from a wiki-style source. Phone not captured - use vajramgroup.com.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "mana-projects",
+    "name": "Mana Projects",
+    "category": "Real Estate",
+    "subcategory": "Residential developer (premium apartments and villas)",
+    "area": "Outer Ring Road (Kadubisanahalli)",
+    "address": "No. 20/7, 3rd Floor, Swamy Legato, Kadubisanahalli, Outer Ring Road, Bengaluru 560103",
+    "website": "https://www.manaprojects.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "D. Kishore Reddy",
+        "role": "Founder & CMD",
+        "type": "owner",
+        "source": "https://www.freepressjournal.in/amp/brandsutra/mana-projects-pushes-the-pedal-on-branding-eyes-expansion"
+      }
+    ],
+    "description": "Bengaluru premium residential developer led by founder-CMD D. Kishore Reddy, expanding into North Bengaluru and planning 3.3 million sq ft of new residential projects.",
+    "offerings": "Premium apartments, sky villas and villas (Mana Verdant, Daintree, Capitol, Dale, Cianna, The Nook).",
+    "branches": "Corporate office on ORR plus project sites across Bengaluru's growth corridors.",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-350",
+      "basis": "Estimate only: mid-size developer with multiple live projects."
+    },
+    "facts": [
+      "Founder & CMD D. Kishore Reddy",
+      "'Pushes the pedal on branding' - actively investing in brand marketing (Free Press Journal)",
+      "Plans 3.3 mn sq ft residential expansion (The Realty Today)",
+      "Launched Mana Verdant in North Bengaluru (2023)"
+    ],
+    "socialObserved": "Publicly investing in branding - prime candidate for a social media management tool.",
+    "sources": [
+      {
+        "label": "Free Press Journal - Mana pushes the pedal on branding",
+        "url": "https://www.freepressjournal.in/amp/brandsutra/mana-projects-pushes-the-pedal-on-branding-eyes-expansion"
+      },
+      {
+        "label": "The Realty Today - 3.3 mn sq ft expansion",
+        "url": "https://therealtytoday.com/news/residential/mana-projects-plans-33-mn-sq-ft-residential-expansion-across-bengalurus-growth-corridors/"
+      },
+      {
+        "label": "The Week - Mana Verdant launch",
+        "url": "https://www.theweek.in/wire-updates/business/2023/05/29/dcm34-mana.html"
+      },
+      {
+        "label": "CommonFloor - Mana Projects",
+        "url": "https://www.commonfloor.com/mana-projects-pvt-ltd/builder/u13ecx"
+      }
+    ],
+    "verification": "Founder, office and expansion plans confirmed by press and registry listings. Phone/email not captured.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Social Media"
+  },
+  {
+    "id": "vaswani-group",
+    "name": "Vaswani Group",
+    "category": "Real Estate",
+    "subcategory": "Residential and commercial developer",
+    "area": "Victoria Road (Richmond Town area)",
+    "address": "3rd Floor, Vaswani Victoria, 30, Victoria Road, Bengaluru 560047",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4040 0000",
+        "label": "Office number (single directory listing - confirm)",
+        "source": "https://www.griclub.org/company-profile/real-estate/vaswani-group-bangalore_9573"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Neville Vaswani",
+        "role": "Co-owner & Managing Director",
+        "type": "owner",
+        "source": "https://www.griinstitute.org/member-profile/0033600000IeUKdAAN"
+      },
+      {
+        "name": "Ajay Vaswani",
+        "role": "Director",
+        "type": "owner",
+        "source": "https://www.griinstitute.org/member-profile/0033600000eIdMeAAK"
+      }
+    ],
+    "description": "Bengaluru developer of premium residential and commercial projects (with a separate Mumbai lineage), headquartered at Vaswani Victoria on Victoria Road.",
+    "offerings": "Premium apartments and villas (Vaswani Starlight, Marks 36, Augusta, Bella Vista, Oakmont, Reserve), commercial offices.",
+    "branches": "Head office on Victoria Road plus project sites.",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "100-250",
+      "basis": "Estimate only: mid-size developer."
+    },
+    "facts": [
+      "Head office at Vaswani Victoria, Victoria Road",
+      "MD Neville Vaswani is a GRI member",
+      "Active RERA project Vaswani Starlight"
+    ],
+    "socialObserved": "Premium launches rely on rich visual content and analytics; verify current social cadence per project.",
+    "sources": [
+      {
+        "label": "GRI Club - Vaswani Group",
+        "url": "https://www.griclub.org/company-profile/real-estate/vaswani-group-bangalore_9573"
+      },
+      {
+        "label": "GRI - Neville Vaswani",
+        "url": "https://www.griinstitute.org/member-profile/0033600000IeUKdAAN"
+      },
+      {
+        "label": "Aurum PropTech - RERA: Vaswani Starlight",
+        "url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/vaswani-starlight/12034"
+      },
+      {
+        "label": "CommonFloor - Vaswani Group",
+        "url": "https://www.commonfloor.com/vaswani-group/builder/eq4h17"
+      }
+    ],
+    "verification": "Office address consistent across listings; phone from one directory; leadership from GRI profiles.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "assetz-property-group",
+    "name": "Assetz Property Group",
+    "category": "Real Estate",
+    "subcategory": "Residential and commercial developer",
+    "area": "Seshadripuram (Crescent Road)",
+    "address": "Assetz House, No. 30, Crescent Road, Madhava Nagar, Seshadripuram, Bengaluru 560001 (PitchBook & CommonFloor)",
+    "website": "https://www.assetzproperty.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 81058 20930",
+        "label": "Listed on GRI Institute company profile (sources conflict)",
+        "source": "https://www.griinstitute.org/realestate/company-profile/assetz-property-group_1582"
+      },
+      {
+        "number": "+91 90195 90195",
+        "label": "Listed on CB Insights (sources conflict)",
+        "source": "https://www.cbinsights.com/company/assetz-property-group"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Akshay Dewani",
+        "role": "Executive Director & CEO (company profile)",
+        "type": "owner",
+        "source": "https://www.assetzproperty.com/llms.txt"
+      },
+      {
+        "name": "Sunil Pareek",
+        "role": "Executive Director & CIO",
+        "type": "owner",
+        "source": "https://www.griinstitute.org/realestate/member-profile/sunil-pareek_11953"
+      }
+    ],
+    "description": "Bengaluru real-estate developer and investor (co-founded by Ben Salmon) with residential and commercial projects, recently launching luxury homes in South-East Bengaluru.",
+    "offerings": "Residential communities, luxury homes ('Melodies of Life'), commercial and industrial assets.",
+    "branches": "Corporate office (Assetz House) plus project sites.",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "200-500",
+      "basis": "Estimate only: developer with residential and commercial portfolios."
+    },
+    "facts": [
+      "Launched 'Melodies of Life' luxury homes in South-East Bengaluru at Rs 2.3 Cr",
+      "Leadership: CEO Akshay Dewani, CIO Sunil Pareek",
+      "Co-founded by Ben Salmon"
+    ],
+    "socialObserved": "Luxury launches need polished, scheduled campaigns and lead tracking; likely has an agency - pitch analytics/approvals.",
+    "sources": [
+      {
+        "label": "Assetz - company profile (llms.txt)",
+        "url": "https://www.assetzproperty.com/llms.txt"
+      },
+      {
+        "label": "PitchBook - Assetz",
+        "url": "https://pitchbook.com/profiles/company/61688-17"
+      },
+      {
+        "label": "The Realty Today - Melodies of Life",
+        "url": "https://therealtytoday.com/news/residential/assetz-launches-melodies-of-life-luxury-homes-in-southeast-bengaluru-at-23-cr/"
+      },
+      {
+        "label": "GRI - Assetz Property Group",
+        "url": "https://www.griinstitute.org/realestate/company-profile/assetz-property-group_1582"
+      }
+    ],
+    "verification": "Leadership from the company's own profile; address from two business databases; phone numbers conflict - use website enquiry.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Social Media"
+  }
+]

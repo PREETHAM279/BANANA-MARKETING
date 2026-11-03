@@ -1,0 +1,29 @@
+# dependencies & build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# local runtime (Node downloaded by the start script)
+.runtime/
+
+# your private CRM data - never commit
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/uploads/
+backups/
+exports/
+logs/
+.crm.pid
+
+# secrets
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+*.log
+test-results/

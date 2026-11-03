@@ -1,0 +1,699 @@
+[
+  {
+    "id": "alliance-francaise-bangalore",
+    "name": "Alliance Francaise de Bangalore",
+    "category": "Education",
+    "subcategory": "French language and cultural centre",
+    "area": "Vasanth Nagar",
+    "address": "Thimmaiah Road, opp. UNI, Vasanth Nagar, Bengaluru 560052",
+    "website": "https://bangalore.afindia.org",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 73380 26885",
+        "label": "Mobile from a third-party venue listing (unverified)",
+        "source": "https://liveyourcity.com/en/bengaluru/venue/alliance-francaise-de-bangalore"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "French language school and cultural centre in Vasanth Nagar running French courses, exams, Campus France support and a cultural events programme.",
+    "offerings": "French classes (all levels), DELF/DALF exams, corporate French, cultural events, gallery and auditorium hire.",
+    "branches": "Single campus in Vasanth Nagar.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "40-90",
+      "basis": "Estimate only: teaching faculty (often part-time) plus admin, cultural and events staff."
+    },
+    "facts": [
+      "Runs a busy cultural calendar (concerts, exhibitions, film)",
+      "Recruits pedagogical coordinators and teachers (2023 job description)",
+      "Leadership includes a Director, President and Administrator/HR Manager"
+    ],
+    "socialObserved": "Event-heavy institution - scheduling and analytics for course launches and events is a natural fit; faculty attendance across batches is a second angle.",
+    "sources": [
+      {
+        "label": "Alliance Francaise de Bangalore - official site",
+        "url": "https://bangalore.afindia.org/"
+      },
+      {
+        "label": "AF Bangalore - About us",
+        "url": "https://bangalore.afindia.org/about-us"
+      },
+      {
+        "label": "AF Bangalore - Pedagogical coordinator JD (2023)",
+        "url": "https://bangalore.afindia.org/wp-content/uploads/2023/06/PEDAGOGICAL-COORDINATOR-JOB-DESCRIPTION-JUNE23.pdf"
+      },
+      {
+        "label": "LiveYourCity - venue listing",
+        "url": "https://liveyourcity.com/en/bengaluru/venue/alliance-francaise-de-bangalore"
+      }
+    ],
+    "verification": "Existence, address and website confirmed. Phone is from a third-party listing; current director not confirmed - ask for the Administrator.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "base-educational-services",
+    "name": "BASE Educational Services",
+    "category": "Education",
+    "subcategory": "Coaching institute (JEE/NEET/CET, PU integrated)",
+    "area": "Basavanagudi",
+    "address": "27, Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560004",
+    "website": "https://baseedu.in",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 6960 5300",
+        "label": "Main line (Collegedunia listing)",
+        "source": "https://collegedunia.com/institute/337-base-education-bangalore"
+      },
+      {
+        "number": "+91 80 4260 4600",
+        "label": "Alternate number (listing)",
+        "source": "https://collegedunia.com/institute/337-base-education-bangalore"
+      }
+    ],
+    "emails": [
+      {
+        "email": "enquiry@baseedu.in",
+        "label": "Enquiry email (Collegedunia listing)",
+        "source": "https://collegedunia.com/institute/337-base-education-bangalore"
+      }
+    ],
+    "people": [
+      {
+        "name": "Dr. H. S. Nagaraja",
+        "role": "Founder (established BASE in 1991)",
+        "type": "owner",
+        "source": "https://yourstory.com/people/h-s"
+      }
+    ],
+    "description": "Bangalore Advanced School of Education (BASE), founded in 1991, a coaching institute for IIT-JEE, NEET, CET and school/PU integrated programmes with several Bengaluru centres.",
+    "offerings": "JEE/NEET/CET coaching, PU-integrated programmes, foundation courses, test series.",
+    "branches": "Basavanagudi (main) plus Jayanagar, Uttarahalli, Rajajinagar, Sahakara Nagar, Malleshwaram and Vijayanagar.",
+    "branchCount": 7,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-350",
+      "basis": "Estimate only: 7 centres with faculty and academic/admin staff."
+    },
+    "facts": [
+      "Founded in 1991 by Dr. H. S. Nagaraja",
+      "Seven Bengaluru centres",
+      "Actively hiring IIT-JEE faculty (Weekday job post)"
+    ],
+    "socialObserved": "Results-season marketing (toppers, admissions) is heavily social in this category; faculty attendance across 7 centres is the ops angle.",
+    "sources": [
+      {
+        "label": "Collegedunia - BASE Bangalore",
+        "url": "https://collegedunia.com/institute/337-base-education-bangalore"
+      },
+      {
+        "label": "YourStory - H. S. Nagaraja",
+        "url": "https://yourstory.com/people/h-s"
+      },
+      {
+        "label": "Weekday - BASE faculty hiring",
+        "url": "https://jobs.weekday.works/looking-for-iit-jee-faculties-mathematics-at-base-educational-services-pvt-ltd-bangalore-wkdy547eyq"
+      }
+    ],
+    "verification": "Founder, address and contacts from listings and profiles. Confirm the right decision-maker (centre head vs. management).",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "little-elly",
+    "name": "Little Elly",
+    "category": "Education",
+    "subcategory": "Preschool and daycare chain",
+    "area": "Bengaluru (HQ)",
+    "address": "Bengaluru headquarters (address not captured); many centres across Bengaluru",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Preeti Bhandary",
+        "role": "Co-founder & Director",
+        "type": "owner",
+        "source": "https://www.cbinsights.com/company/little-elly"
+      }
+    ],
+    "description": "Bengaluru-headquartered preschool chain founded in 2005, with company and franchise centres across India (25+ centres in Bengaluru by an older count; 160+ claimed nationally).",
+    "offerings": "Preschool, daycare, teacher training, franchise programme.",
+    "branches": "160+ centres claimed nationally; 47 tracked branches across 12 cities (aggregator); older release: 25 centres in Bengaluru.",
+    "branchCount": 47,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "300-800",
+      "basis": "Estimate only: dozens of centres x 5-12 teachers and caregivers."
+    },
+    "facts": [
+      "Founded in 2005 in Bengaluru",
+      "Co-founder & Director Preeti Bhandary",
+      "Franchise-led expansion to Hyderabad, Chennai and beyond"
+    ],
+    "socialObserved": "Parents choose preschools via Instagram/WhatsApp; centre-level posting and teacher attendance (child-safety compliance) are strong angles.",
+    "sources": [
+      {
+        "label": "CB Insights - Little Elly",
+        "url": "https://www.cbinsights.com/company/little-elly"
+      },
+      {
+        "label": "GetSchoolsInfo - Little Elly",
+        "url": "https://getschoolsinfo.com/preschool/little-elly"
+      },
+      {
+        "label": "Newswire - expansion to Hyderabad & Chennai",
+        "url": "https://www.newswire.com/news/little-elly-preschools-in-hyderabad-and-chennai-soon-155203"
+      },
+      {
+        "label": "Indeed - Little Elly",
+        "url": "https://in.indeed.com/cmp/Little-Elly"
+      }
+    ],
+    "verification": "Founder and scale from business databases (counts conflict). Head-office contact not captured - use the official website.",
+    "confidence": "Medium",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "lavonne-academy",
+    "name": "Lavonne Academy of Baking Science & Pastry Arts",
+    "category": "Education",
+    "subcategory": "Professional baking and pastry academy (with cafe)",
+    "area": "Domlur",
+    "address": "#263, 3rd Cross, Domlur 2nd Stage, Bengaluru 560071",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 97405 44442",
+        "label": "Academy contact (Collegedunia listing)",
+        "source": "https://collegedunia.com/institute/8057-lavonne-academy-of-baking-science-and-pastry-arts-bangalore"
+      },
+      {
+        "number": "+91 97409 54505",
+        "label": "Number in Uppercrust India listing (differs from Collegedunia - verify)",
+        "source": "https://uppercrustindia.com/v3/posts/85/cookie-policy.php"
+      }
+    ],
+    "emails": [
+      {
+        "email": "info@lavonne.in",
+        "label": "Academy email (Collegedunia listing)",
+        "source": "https://collegedunia.com/institute/8057-lavonne-academy-of-baking-science-and-pastry-arts-bangalore"
+      }
+    ],
+    "people": [
+      {
+        "name": "Vinesh Johny",
+        "role": "Co-founder & Executive Pastry Chef",
+        "type": "owner",
+        "source": "https://www.restaurantindia.in/south/2017/vinesh.php"
+      },
+      {
+        "name": "Avin Thaliath",
+        "role": "Co-founder & Director of Academics",
+        "type": "owner",
+        "source": "https://www.goya.in/blog/lavonne-avin-thaliath"
+      }
+    ],
+    "description": "Professional baking and pastry academy founded in 2012 by Vinesh Johny, Avin Thaliath and Lijo Eapen, with a well-known patisserie cafe in Domlur.",
+    "offerings": "Diploma and certificate courses in baking/pastry, hobby classes, patisserie cafe.",
+    "branches": "Domlur academy and cafe (other campuses not verified in this research).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-70",
+      "basis": "Estimate only: chef-instructors, academic staff and cafe team."
+    },
+    "facts": [
+      "Founded in 2012",
+      "Co-founder Vinesh Johny named in The World's 50 Best '50 Next' (2022)",
+      "Co-founder Avin Thaliath writes for Emeritus and leads academics"
+    ],
+    "socialObserved": "Visually rich category; student showcases and admissions cycles suit a scheduled content calendar.",
+    "sources": [
+      {
+        "label": "So Good Magazine - Lavonne Academy",
+        "url": "https://www.sogoodmagazine.com/pastry-schools/lavonne-academy/"
+      },
+      {
+        "label": "Goya - Avin Thaliath and Lavonne",
+        "url": "https://www.goya.in/blog/lavonne-avin-thaliath"
+      },
+      {
+        "label": "Restaurant India - Vinesh Johny",
+        "url": "https://www.restaurantindia.in/south/2017/vinesh.php"
+      },
+      {
+        "label": "Collegedunia - Lavonne Academy",
+        "url": "https://collegedunia.com/institute/8057-lavonne-academy-of-baking-science-and-pastry-arts-bangalore"
+      },
+      {
+        "label": "World's 50 Best - 50 Next 2022",
+        "url": "https://theworlds50best.com/50next/list/2022/empowering-educators/vinesh-johny"
+      }
+    ],
+    "verification": "Founders and address confirmed by multiple sources. Two different mobile numbers appear in listings - verify which is current.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Social Media"
+  },
+  {
+    "id": "inventure-academy",
+    "name": "Inventure Academy",
+    "category": "Education",
+    "subcategory": "K-12 international school",
+    "area": "Whitefield-Sarjapur Road (Chikkavaderapura)",
+    "address": "Whitefield-Sarjapur Road, Chikkavaderapura, near Dommasandra Circle, Bengaluru 562125",
+    "website": "https://www.inventureacademy.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 96201 22849",
+        "label": "Admissions (official contact page)",
+        "source": "https://www.inventureacademy.com/contact/"
+      },
+      {
+        "number": "+91 96325 37007",
+        "label": "Admissions (official contact page)",
+        "source": "https://www.inventureacademy.com/contact/"
+      },
+      {
+        "number": "+91 80 2782 2102",
+        "label": "Landline (EducationWorld listing)",
+        "source": "https://www.educationworld.in/inventure-academy/"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Nooraine Fazal",
+        "role": "Co-founder, CEO & Managing Trustee",
+        "type": "owner",
+        "source": "https://www.inventureacademy.com/?p=7303"
+      },
+      {
+        "name": "Irfan Razack",
+        "role": "Chairman & Co-founder",
+        "type": "owner",
+        "source": "https://www.inventureacademy.com/?p=7297"
+      }
+    ],
+    "description": "K-12 international school founded in 2005 by the India Learning Foundation, with its main campus on Whitefield-Sarjapur Road, a preschool on Whitefield Main Road and a Yeshwanthpur campus.",
+    "offerings": "K-12 education (IGCSE/ISC and other curricula), preschool, co-curricular programmes, Round Square membership.",
+    "branches": "Whitefield-Sarjapur campus, Whitefield Main Road preschool and Yeshwanthpur campus.",
+    "branchCount": 3,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "200-400",
+      "basis": "Estimate only: large K-12 campus plus preschool and second campus (teaching + support staff)."
+    },
+    "facts": [
+      "Founded in 2005 by the India Learning Foundation",
+      "Co-founded by Irfan Razack (Chairman) and Nooraine Fazal (CEO & Managing Trustee)",
+      "Round Square member school",
+      "Multiple admissions numbers published"
+    ],
+    "socialObserved": "Admissions marketing runs through the website with 3D campus walkthroughs; a structured social calendar for admissions seasons and events is an easy add.",
+    "sources": [
+      {
+        "label": "Inventure Academy - Contact",
+        "url": "https://www.inventureacademy.com/contact/"
+      },
+      {
+        "label": "Inventure - Nooraine Fazal",
+        "url": "https://www.inventureacademy.com/?p=7303"
+      },
+      {
+        "label": "Inventure - Irfan Razack",
+        "url": "https://www.inventureacademy.com/?p=7297"
+      },
+      {
+        "label": "Inventure - Leadership",
+        "url": "https://www.inventureacademy.com/?p=1641"
+      },
+      {
+        "label": "EducationWorld - Inventure Academy",
+        "url": "https://www.educationworld.in/inventure-academy/"
+      }
+    ],
+    "verification": "Address, admissions numbers and founders from the official website. Current principal varies across pages - confirm on call.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "vidyashilp-academy",
+    "name": "Vidyashilp Academy",
+    "category": "Education",
+    "subcategory": "K-12 school",
+    "area": "Yelahanka",
+    "address": "Survey No. 1 & 31, Govindapura, behind Yelahanka Air Force Base, Yelahanka, Bengaluru (campus relocated here in 2022)",
+    "website": "https://vidyashilpacademy.edu.in",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 97398 01824",
+        "label": "School contact (EducationWorld listing)",
+        "source": "https://educationworld.in/vidyashilp-academy-yelahanka-bengaluru/"
+      },
+      {
+        "number": "+91 95381 03678",
+        "label": "School contact (EducationWorld listing)",
+        "source": "https://educationworld.in/vidyashilp-academy-yelahanka-bengaluru/"
+      },
+      {
+        "number": "+91 97393 82884",
+        "label": "School contact (EducationWorld listing)",
+        "source": "https://educationworld.in/vidyashilp-academy-yelahanka-bengaluru/"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Well-known North Bengaluru K-12 school (founded 1996-98) with a Wikipedia entry; relocated to a new Govindapura campus in Yelahanka in 2022.",
+    "offerings": "K-12 education, sports and co-curricular programmes.",
+    "branches": "Yelahanka campus (a separate 'Vidyashilp School' exists in Banashankari - confirm relationship).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-300",
+      "basis": "Estimate only: large K-12 campus with teaching and support staff."
+    },
+    "facts": [
+      "Moved to a new campus at Govindapura, Yelahanka in 2022",
+      "Founded in the late 1990s (1996 or 1998 per sources)",
+      "Has a Wikipedia entry"
+    ],
+    "socialObserved": "New campus is a strong visual story for admissions content; verify current social activity.",
+    "sources": [
+      {
+        "label": "Wikipedia - Vidyashilp Academy",
+        "url": "https://en.wikipedia.org/wiki/Vidyashilp_Academy"
+      },
+      {
+        "label": "EducationWorld - Vidyashilp Academy",
+        "url": "https://educationworld.in/vidyashilp-academy-yelahanka-bengaluru/"
+      },
+      {
+        "label": "Careers360 - Vidyashilp Academy",
+        "url": "https://school.careers360.com/schools/vidyashilp-academy-yelahanka-bangalore"
+      }
+    ],
+    "verification": "Existence and relocation confirmed by Wikipedia; phones from a directory. Principal/chairman not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "nritarutya",
+    "name": "Nritarutya",
+    "category": "Education",
+    "subcategory": "Contemporary dance company and dance school",
+    "area": "Bengaluru",
+    "address": "Bengaluru (street address not captured - see nritarutya.com)",
+    "website": "https://www.nritarutya.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 91080 18451",
+        "label": "Contact published in a May 2019 Deccan Chronicle piece (may be outdated)",
+        "source": "https://www.bindugopalrao.com/dance-intensive-in-bengaluru/"
+      }
+    ],
+    "emails": [
+      {
+        "email": "madhuri@nritarutya.com",
+        "label": "Contact email published in a May 2019 article (may be outdated)",
+        "source": "https://www.bindugopalrao.com/dance-intensive-in-bengaluru/"
+      }
+    ],
+    "people": [
+      {
+        "name": "Mayuri Upadhya",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.nritarutya.com/?p=9584"
+      },
+      {
+        "name": "Madhuri Upadhya",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.nritarutya.com/?p=9584"
+      }
+    ],
+    "description": "One of India's foremost contemporary dance companies, formed in 2000 by sisters Mayuri and Madhuri Upadhya, with a dance academy, intensives and productions such as Adhyaya.",
+    "offerings": "Dance classes and intensives, productions, choreography for events and films, corporate shows.",
+    "branches": "Bengaluru dance company and academy (studio locations not verified).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "20-50",
+      "basis": "Estimate only: company dancers, faculty and production team."
+    },
+    "facts": [
+      "Formed in 2000 by Mayuri and Madhuri Upadhya",
+      "Runs annual productions such as 'Adhyaya 2025'",
+      "Holds dance intensives in Bengaluru"
+    ],
+    "socialObserved": "Performance content is native to Instagram/YouTube; productions and class launches benefit from planned campaigns.",
+    "sources": [
+      {
+        "label": "Nritarutya - official site",
+        "url": "https://www.nritarutya.com/?p=9584"
+      },
+      {
+        "label": "Nritarutya - Adhyaya 2025",
+        "url": "https://www.nritarutya.com/adhyaya-2025/"
+      },
+      {
+        "label": "Blog reprint of Deccan Chronicle (2019) - contact",
+        "url": "https://www.bindugopalrao.com/dance-intensive-in-bengaluru/"
+      }
+    ],
+    "verification": "Founders and activity confirmed by the official site. Phone and email are from 2019 - verify before use.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Social Media"
+  },
+  {
+    "id": "ekya-schools",
+    "name": "Ekya Schools",
+    "category": "Education",
+    "subcategory": "K-12 school chain (CMR Group of Institutions)",
+    "area": "JP Nagar / multiple",
+    "address": "Multiple campuses: JP Nagar, BTM Layout, ITPL, Byrathi, NICE Road, Varthur and Ekya Nava (Panathur)",
+    "website": "https://www.ekyaschools.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4680 9096",
+        "label": "Admissions line (official Ekya page)",
+        "source": "https://www.ekyaschools.com/jpnagar/?p=506"
+      },
+      {
+        "number": "+91 80 2658 6821",
+        "label": "JP Nagar campus (school mandatory disclosure)",
+        "source": "https://www.schoolmykids.com/school/ekya-school-jp-nagar-bengaluru-bangalore-urban-karnataka-india-s10015887"
+      }
+    ],
+    "emails": [
+      {
+        "email": "admissions@ekyaschools.com",
+        "label": "Admissions email (official Ekya page)",
+        "source": "https://www.ekyaschools.com/jpnagar/?p=506"
+      }
+    ],
+    "people": [
+      {
+        "name": "Dr. Tristha Ramamurthy",
+        "role": "Leadership / principal named in Ekya disclosures (school site credits her with establishing Ekya)",
+        "type": "owner",
+        "source": "https://ekyaschools.com/wp-content/uploads/2026/05/EITPL_-Mandatory-Disclosure-AY26-27-3.pdf"
+      }
+    ],
+    "description": "Bengaluru K-12 school chain established around 2009-2010 as part of the CMR Group of Institutions, with seven campuses across the city.",
+    "offerings": "K-12 education (CBSE/ICSE/IGCSE campuses), early years.",
+    "branches": "BTM Layout, Byrathi, ITPL, JP Nagar, NICE Road, Varthur and Ekya Nava (Panathur).",
+    "branchCount": 7,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "600-1,200",
+      "basis": "Estimate only: seven K-12 campuses x 80-170 teaching and support staff."
+    },
+    "facts": [
+      "Part of the CMR Group of Institutions",
+      "Seven Bengaluru campuses",
+      "Central admissions line and email"
+    ],
+    "socialObserved": "Multi-campus school group - central brand plus campus-level content (events, results) and staff attendance across 7 campuses.",
+    "sources": [
+      {
+        "label": "Wikipedia - Ekya Schools",
+        "url": "https://en.wikipedia.org/wiki/Ekya_Schools"
+      },
+      {
+        "label": "Ekya - JP Nagar admissions page",
+        "url": "https://www.ekyaschools.com/jpnagar/?p=506"
+      },
+      {
+        "label": "Ekya ITPL mandatory disclosure (2026)",
+        "url": "https://ekyaschools.com/wp-content/uploads/2026/05/EITPL_-Mandatory-Disclosure-AY26-27-3.pdf"
+      },
+      {
+        "label": "SchoolMyKids - Ekya JP Nagar",
+        "url": "https://www.schoolmykids.com/school/ekya-school-jp-nagar-bengaluru-bangalore-urban-karnataka-india-s10015887"
+      }
+    ],
+    "verification": "Campuses, admissions contacts and leadership from official pages and disclosures; some head-of-school names conflict across directories.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "sri-kumaran-childrens-home",
+    "name": "Sri Kumaran Children's Home (Kumarans)",
+    "category": "Education",
+    "subcategory": "K-12 school group",
+    "area": "Basavanagudi / Kanakapura Road",
+    "address": "Chairman's office: 6th A Main, Tata Silk Farm, Basavanagudi, Bengaluru 560004; campuses at Tata Silk Farm (Mallasandra), Mallasandra CBSE (off Kanakapura Main Road) and Doddakallasandra",
+    "website": "https://cbse-mls.kumarans.org",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [
+      {
+        "email": "skchec@kumarans.org",
+        "label": "Chairman's office / Educational Council email (official school filings)",
+        "source": "https://cbse-mls.kumarans.org/files/attachment/attachment/54107f245dc7a227e86067fc5d511081/cbse_mallasandra_2022_docx__1__64c3521527d86.pdf"
+      }
+    ],
+    "people": [],
+    "description": "Long-established Bengaluru school group (Kumarans) with state-board and CBSE campuses in south Bengaluru.",
+    "offerings": "K-12 education (State and CBSE), co-curricular programmes.",
+    "branches": "Tata Silk Farm (Children's Home), Mallasandra CBSE section and Doddakallasandra (Children's Academy).",
+    "branchCount": 3,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "300-600",
+      "basis": "Estimate only: three large school campuses."
+    },
+    "facts": [
+      "Multiple campuses in south Bengaluru",
+      "Official filings publish a central chairman's-office email",
+      "Separate websites per campus (cbse-mls, cbse-dks, state)"
+    ],
+    "socialObserved": "Tradition-focused school group; alumni and event content could be organised better across campus sites.",
+    "sources": [
+      {
+        "label": "Kumarans CBSE Mallasandra disclosure (2022)",
+        "url": "https://cbse-mls.kumarans.org/files/attachment/attachment/54107f245dc7a227e86067fc5d511081/cbse_mallasandra_2022_docx__1__64c3521527d86.pdf"
+      },
+      {
+        "label": "Kumarans CBSE Doddakallasandra disclosure (2022)",
+        "url": "https://cbse-dks.kumarans.org/files/attachment/attachment/99219d0ecd8aa2ea5c17135cb908f34e/cbse_doddakallasandra_2022_docx__2__64c7794090459.pdf"
+      },
+      {
+        "label": "Careers360 - Sri Kumaran Children's Home",
+        "url": "https://school.careers360.com/schools/sri-kumaran-childrens-home-mallasandra-bangalore"
+      }
+    ],
+    "verification": "Campuses and central email from official disclosures. No reliable phone found - call via the campus websites.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "urban-raga-music-school",
+    "name": "Urban Raga Music School",
+    "category": "Education",
+    "subcategory": "Music school chain (Indian & Western)",
+    "area": "Kalyan Nagar (HRBR Layout)",
+    "address": "998/1, 3rd Cross Road, HRBR Layout 1st Block, Kalyan Nagar, Bengaluru 560043 (building number varies 998/1-998/3 across listings)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Bidyut Chakrabarty",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://www.21kschool.com/in/music-arts-partner/"
+      }
+    ],
+    "description": "Bengaluru music school launched in August 2008, teaching piano, guitar, vocals and violin in Indian and Western styles across several centres; music & arts partner of 21K School.",
+    "offerings": "Piano, guitar, vocals, violin, drums; exam preparation; online classes.",
+    "branches": "Kalyan Nagar (HRBR Layout), Kundanahalli, Brookefield, Kothanur (Gubbi Cross), Bannerghatta Main Road; separate online institute in Sahakar Nagar.",
+    "branchCount": 5,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "25-60",
+      "basis": "Estimate only: ~5 centres with music teachers (many part-time) and front desk."
+    },
+    "facts": [
+      "Launched in August 2008",
+      "Music & arts partner for 21K School",
+      "Centres across north and east Bengaluru"
+    ],
+    "socialObserved": "Student performance videos are ideal social content; teacher attendance across centres/batches is an ops pain point.",
+    "sources": [
+      {
+        "label": "21K School - music & arts partner",
+        "url": "https://www.21kschool.com/in/music-arts-partner/"
+      },
+      {
+        "label": "UrbanPro - Urban Raga Kalyan Nagar",
+        "url": "https://www.urbanpro.com/bangalore/urban-raga-kalyan-nagar-hrbr-layout/3909076"
+      },
+      {
+        "label": "UrbanPro - Urban Raga Bannerghatta Road",
+        "url": "https://www.urbanpro.com/bangalore/urban-raga-bannerghatta-main-road/3909148"
+      },
+      {
+        "label": "LyfSkills - Urban Raga",
+        "url": "https://discover.lyfskills.com/listing/4870"
+      }
+    ],
+    "verification": "Founder and branches from partner directory and class listings. Phone/email not captured.",
+    "confidence": "Medium",
+    "interest": "High",
+    "product": "Both"
+  }
+]

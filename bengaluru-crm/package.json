@@ -1,0 +1,43 @@
+{
+  "name": "bengaluru-sales-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first Bengaluru sales prospecting CRM (Next.js + Prisma + SQLite)",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 3100",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 3100",
+    "db:migrate": "prisma migrate deploy",
+    "db:seed": "node scripts/seed.mjs",
+    "db:setup": "prisma migrate deploy && node scripts/seed.mjs",
+    "db:studio": "prisma studio",
+    "backup": "node scripts/backup.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "node tests/e2e.mjs",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.3",
+    "clsx": "2.1.1",
+    "exceljs": "4.4.0",
+    "lucide-react": "1.67.0",
+    "next": "15.5.28",
+    "nodemailer": "10.3.1",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "recharts": "3.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.4",
+    "@types/node": "22.20.5",
+    "@types/nodemailer": "8.0.2",
+    "@types/react": "19.1.17",
+    "@types/react-dom": "19.1.11",
+    "prisma": "6.19.3",
+    "tailwindcss": "4.3.4",
+    "typescript": "5.9.3"
+  }
+}

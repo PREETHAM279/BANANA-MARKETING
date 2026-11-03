@@ -1,0 +1,594 @@
+[
+  {
+    "id": "the-capitol-hotel",
+    "name": "The Capitol Hotel",
+    "category": "Hotels & Resorts",
+    "subcategory": "Business hotel (CBD)",
+    "area": "Raj Bhavan Road (CBD)",
+    "address": "3, Raj Bhavan Road, opposite General Post Office, Bengaluru 560001",
+    "website": "https://www.thecapitolhotel.com",
+    "websiteNote": "Contact page referenced in a venue listing.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2228 1234",
+        "label": "Hotel main line (appears in multiple venue directories)",
+        "source": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/The-Capitol-Hotel-p57504034"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Four-star business hotel on Raj Bhavan Road in central Bengaluru, opposite the GPO, with meeting and event spaces.",
+    "offerings": "Rooms, banquets and meeting rooms, restaurants, corporate stays.",
+    "branches": "Single hotel.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "100-200",
+      "basis": "Estimate only: full-service 4-star city hotel with F&B and banqueting."
+    },
+    "facts": [
+      "Central location opposite the GPO on Raj Bhavan Road",
+      "Listed in international MICE venue directories",
+      "Embassy/consulate recommended-hotel lists include it"
+    ],
+    "socialObserved": "Corporate/MICE-focused; social content around banquets, F&B promotions and weekend offers is usually under-used by business hotels.",
+    "sources": [
+      {
+        "label": "Meetings & Conventions - The Capitol Hotel",
+        "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/The-Capitol-Hotel-p57504034"
+      },
+      {
+        "label": "Travel Weekly Asia - The Capitol Hotel",
+        "url": "https://www.travelweekly-asia.com/Hotels/Bengaluru-India/The-Capitol-Hotel-p57510437"
+      },
+      {
+        "label": "Hotels.com - The Capitol",
+        "url": "https://ie.hotels.com/ho313712/the-capitol-bengaluru-india"
+      }
+    ],
+    "verification": "Address and phone consistent across venue directories. GM not identified - ask for GM / HR manager.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "st-marks-hotel",
+    "name": "St. Mark's Hotel Bengaluru (a member of Radisson Individuals)",
+    "category": "Hotels & Resorts",
+    "subcategory": "Boutique business hotel",
+    "area": "Ashok Nagar (St. Mark's Road)",
+    "address": "4/1, St. Mark's Road, Bengaluru 560001",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-individuals-st-marks-bengaluru/contact",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4001 9000",
+        "label": "Hotel main line (several venue directories)",
+        "source": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/St-Marks-Hotel-p57503997"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Amudha Philip",
+        "role": "Operations Manager (per a meetings directory - may be outdated)",
+        "type": "manager",
+        "source": "https://www.successfulmeetings.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/St-Marks-Hotel-p57508305"
+      }
+    ],
+    "description": "Independent boutique hotel on St. Mark's Road that joined the Radisson Individuals collection in July 2025.",
+    "offerings": "Rooms, restaurant/bar, meeting spaces, corporate stays.",
+    "branches": "Single hotel (affiliated with Radisson Individuals since 2025).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "60-120",
+      "basis": "Estimate only: mid-size city hotel with F&B."
+    },
+    "facts": [
+      "Joined Radisson Individuals in July 2025",
+      "Prime St. Mark's Road location",
+      "Independent owner with brand affiliation"
+    ],
+    "socialObserved": "Rebranding to Radisson Individuals is a moment to refresh content and processes.",
+    "sources": [
+      {
+        "label": "Radisson - St. Mark's Hotel contact",
+        "url": "https://www.radissonhotels.com/en-us/hotels/radisson-individuals-st-marks-bengaluru/contact"
+      },
+      {
+        "label": "Meetings & Conventions - St Marks Hotel",
+        "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/St-Marks-Hotel-p57503997"
+      },
+      {
+        "label": "Radisson press release (2025)",
+        "url": "https://radissonhotels.iceportal.com/asset/pr-emea-2025/miscellaneous/16256-141192-m36124185.docx"
+      }
+    ],
+    "verification": "Address, phone and Radisson affiliation confirmed. Owner/GM not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "goldfinch-hotel",
+    "name": "Goldfinch Hotel Bengaluru",
+    "category": "Hotels & Resorts",
+    "subcategory": "Business hotel (Goldfinch Hotels Pvt Ltd)",
+    "area": "High Grounds (Crescent Road)",
+    "address": "32/3, Crescent Road, High Grounds, Bengaluru 560001",
+    "website": "https://www.goldfinchhotels.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4129 1300",
+        "label": "Hotel main line (venue directories & Trip.com agree)",
+        "source": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/Goldfinch-Hotel-Bengaluru-p57504197"
+      }
+    ],
+    "emails": [
+      {
+        "email": "reserve.gfb@goldfinchhotels.com",
+        "label": "Reservations email (Trip.com listing)",
+        "source": "https://us.trip.com/hotels/bangalore-hotel-detail-763981/goldfinch-hotel-bangalore/"
+      }
+    ],
+    "people": [
+      {
+        "name": "Jyothi Achar",
+        "role": "Operations Manager (signed an April 2025 review reply)",
+        "type": "manager",
+        "source": "https://fr.trip.com/hotels/bangalore-hotel-detail-763981/goldfinch-hotel-bangalore/review.html"
+      }
+    ],
+    "description": "Business hotel on Crescent Road (High Grounds) run by Goldfinch Hotels Pvt Ltd, which also operates Goldfinch Retreat Bengaluru.",
+    "offerings": "Rooms, banquets and conferences, restaurants, corporate stays.",
+    "branches": "Goldfinch Hotel (Crescent Road) and Goldfinch Retreat Bengaluru (group property).",
+    "branchCount": 2,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "80-180",
+      "basis": "Estimate only: full-service city hotel plus a retreat property."
+    },
+    "facts": [
+      "Registered company Goldfinch Hotels Pvt Ltd at the same address",
+      "Group also runs Goldfinch Retreat Bengaluru",
+      "Management actively replies to online reviews"
+    ],
+    "socialObserved": "Responds to reviews (good sign of digital awareness); social content for banquets and weekend F&B is the gap to probe.",
+    "sources": [
+      {
+        "label": "Meetings & Conventions - Goldfinch Hotel",
+        "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/Goldfinch-Hotel-Bengaluru-p57504197"
+      },
+      {
+        "label": "Trip.com - Goldfinch Hotel",
+        "url": "https://us.trip.com/hotels/bangalore-hotel-detail-763981/goldfinch-hotel-bangalore/"
+      },
+      {
+        "label": "InstaFinancials - Goldfinch Hotels Pvt Ltd",
+        "url": "https://www.InstaFinancials.com/company/goldfinch-hotels-private-limited/U55101KA2000PTC028292"
+      },
+      {
+        "label": "MIT Magazine - Goldfinch Retreat",
+        "url": "https://www.mitmagazine.co.uk/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/Goldfinch-Retreat-Bengaluru-p57696658"
+      }
+    ],
+    "verification": "Address, phone, reservations email and company registration confirmed across listings. GM not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "hotel-ajantha",
+    "name": "Hotel Ajantha",
+    "category": "Hotels & Resorts",
+    "subcategory": "Budget/mid-range city hotel",
+    "area": "MG Road (CBD)",
+    "address": "22-A, Mahatma Gandhi Road, Bengaluru 560001",
+    "website": "http://hotelajantha.in",
+    "websiteNote": "Listed by World Travel Guide.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2558 4321",
+        "label": "Hotel line (World Travel Guide listing)",
+        "source": "https://www.worldtravelguide.net/guides/asia/india/bengaluru-bangalore/hotel-listings"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Long-standing mid-range hotel just off MG Road, popular with value travellers; the company Ajantha Paradise Pvt Ltd is registered at the same address.",
+    "offerings": "Rooms, restaurant, travel desk.",
+    "branches": "Single hotel.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "40-90",
+      "basis": "Estimate only: mid-size city hotel with restaurant."
+    },
+    "facts": [
+      "Central MG Road address",
+      "Company Ajantha Paradise Pvt Ltd registered at 22-A MG Road (likely operator - unconfirmed)"
+    ],
+    "socialObserved": "Older property relying on OTAs; direct-booking social content is a likely gap.",
+    "sources": [
+      {
+        "label": "World Travel Guide - Bengaluru hotels",
+        "url": "https://www.worldtravelguide.net/guides/asia/india/bengaluru-bangalore/hotel-listings"
+      },
+      {
+        "label": "InstaFinancials - Ajantha Paradise Pvt Ltd",
+        "url": "https://www.instafinancials.com/company/ajantha-paradise-private-limited/U55101KA1983PTC005546"
+      },
+      {
+        "label": "TripExpert - Ajantha Hotel",
+        "url": "https://tripexpert.com/bangalore/hotels/ajantha-hotel-vs-sandhya-lodge"
+      }
+    ],
+    "verification": "Address and phone from a travel directory; operator company inferred from registry address - confirm.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "chancery-pavilion",
+    "name": "The Chancery Pavilion",
+    "category": "Hotels & Resorts",
+    "subcategory": "Upscale business and convention hotel",
+    "area": "Residency Road (CBD)",
+    "address": "135, Residency Road, Shanthala Nagar, Bengaluru 560025",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4141 4141",
+        "label": "Hotel main line (several venue listings)",
+        "source": "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/The-Chancery-Pavillion-p57515369"
+      },
+      {
+        "number": "+91 91089 87600",
+        "label": "Reservations (recent conference accommodation page)",
+        "source": "https://archive.comsnets.org/archive/2025/accommodation.php"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Large business and conference hotel on Residency Road frequently used for tech conferences (e.g. COMSNETS).",
+    "offerings": "Rooms, conference and banquet halls, restaurants and bars, corporate events.",
+    "branches": "Single hotel.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "200-400",
+      "basis": "Estimate only: large full-service convention hotel."
+    },
+    "facts": [
+      "Regular venue for the COMSNETS conference",
+      "Toll-free line 1800-1033-132 listed in older pages",
+      "Prime Residency Road location"
+    ],
+    "socialObserved": "MICE-led hotel; event recaps and F&B promotions are typical content gaps.",
+    "sources": [
+      {
+        "label": "Northstar Meetings - The Chancery Pavillion",
+        "url": "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/The-Chancery-Pavillion-p57515369"
+      },
+      {
+        "label": "COMSNETS 2025 accommodation",
+        "url": "https://archive.comsnets.org/archive/2025/accommodation.php"
+      },
+      {
+        "label": "Hotels.com - The Chancery Pavilion",
+        "url": "https://ie.hotels.com/ho250700/the-chancery-pavilion-bengaluru-india"
+      }
+    ],
+    "verification": "Address and phones from venue and conference listings. GM not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "discovery-village",
+    "name": "Discovery Village",
+    "category": "Hotels & Resorts",
+    "subcategory": "Adventure day-out and weekend resort",
+    "area": "Kanakapura Road (Vaderahalli)",
+    "address": "Vaderahalli village, Kanakapura Road, near Nandi Institute of Technology and The Sports School, Bengaluru",
+    "website": "https://discoveryvillage.in",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [],
+    "description": "Outdoor adventure resort on Kanakapura Road offering day-outs, team outings and weekend stays; the brand also runs Discovery Village Kabini.",
+    "offerings": "Day-out packages, corporate team outings, adventure activities, nature trails, weekend stays.",
+    "branches": "Kanakapura Road resort plus Discovery Village Kabini.",
+    "branchCount": 2,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "40-100",
+      "basis": "Estimate only: resort with activity instructors, F&B and housekeeping."
+    },
+    "facts": [
+      "Official site markets day-out and weekend adventure packages",
+      "Sister property Discovery Village Kabini",
+      "Popular for corporate outings (Thrillophilia listings)"
+    ],
+    "socialObserved": "Corporate offsite market is won on Instagram/LinkedIn reels of activities - strong social angle.",
+    "sources": [
+      {
+        "label": "Discovery Village - official site",
+        "url": "https://discoveryvillage.in/"
+      },
+      {
+        "label": "Discovery Village - Tree Discovery Trail",
+        "url": "https://discoveryvillage.in/resorts/tree-discovery-trail"
+      },
+      {
+        "label": "Housing.com - Kanakapura Road resorts",
+        "url": "https://housing.com/news/resorts-in-kanakapura-road-mysore"
+      },
+      {
+        "label": "Expedia - Discovery Village Kabini",
+        "url": "https://www.expedia.com/cn/Heggadadevankote-Hotels-Discovery-Village-Kabini.h120408067.Hotel-Information"
+      }
+    ],
+    "verification": "Existence and website confirmed. No phone/owner captured - use the website contact page.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "our-native-village",
+    "name": "Our Native Village Eco Resort",
+    "category": "Hotels & Resorts",
+    "subcategory": "Eco resort",
+    "area": "Hesaraghatta",
+    "address": "Hesaraghatta Village, Bengaluru 560088 (about 90 minutes from MG Road)",
+    "website": "http://www.ournativevillage.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "C.B. Ramkumar",
+        "role": "Founder / owner (started 2006)",
+        "type": "owner",
+        "source": "https://www.indiawaterportal.org/articles/video-conversation-cb-ramkumar-our-native-village-self-sustaining-eco-friendly-resort"
+      }
+    ],
+    "description": "Self-sustaining eco resort near Hesaraghatta conceived by founder C.B. Ramkumar in 2006; a 'Niraamaya Retreats Native Village' listing exists at the same location (possible rebrand/management change).",
+    "offerings": "Eco stays, day visits, rural experiences, corporate retreats, wellness.",
+    "branches": "Single resort.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-70",
+      "basis": "Estimate only: eco resort with hospitality and farm staff."
+    },
+    "facts": [
+      "Founded in 2006 by C.B. Ramkumar as a 100% eco retreat",
+      "Recognised in responsible-tourism listings (GSTC, Responsible Tourism India)",
+      "Niraamaya Retreats lists a property at the same location - confirm current operator"
+    ],
+    "socialObserved": "Sustainability story is highly shareable; confirm who runs marketing now given the Niraamaya listing.",
+    "sources": [
+      {
+        "label": "India Water Portal - C.B. Ramkumar",
+        "url": "https://www.indiawaterportal.org/articles/video-conversation-cb-ramkumar-our-native-village-self-sustaining-eco-friendly-resort"
+      },
+      {
+        "label": "Responsible Tourism India - Our Native Village",
+        "url": "https://responsibletourismindia.com/stay/our-native-village-karnataka/8"
+      },
+      {
+        "label": "Niraamaya - Native Village Bengaluru",
+        "url": "https://niraamaya.com/wellness-retreats/niraamaya-retreats-native-village-bengaluru/"
+      },
+      {
+        "label": "The Better India - eco getaways",
+        "url": "https://thebetterindia.com/282622/one-day-weekend-bengaluru-holiday-getaway-eco-resorts-farm-homestays"
+      }
+    ],
+    "verification": "Founder and location confirmed; operator may have changed (Niraamaya listing). No phone captured.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Social Media"
+  },
+  {
+    "id": "guhantara-resort",
+    "name": "Guhantara Resort",
+    "category": "Hotels & Resorts",
+    "subcategory": "Underground cave-themed resort",
+    "area": "Kanakapura Road (Kaggalipura)",
+    "address": "Sy. No. 177 & 177/18, Nowkal Palya, Kaggalipura, off Kanakapura Main Road, Bengaluru",
+    "website": "https://guhantara.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4639 4444",
+        "label": "Contact number given with booking via the official site",
+        "source": "https://curlytales.com/spend-a-night-at-bengalurus-cave-resort-guhantara-resort-at-%E2%82%B9-6000-only/"
+      },
+      {
+        "number": "+91 97409 98981",
+        "label": "Directory number for the Kaggalipura address (showcaves.com & venue listing)",
+        "source": "https://showcaves.com/english/in/subterranea/Guhantara.html"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "India's first underground cave resort, off Kanakapura Road, offering cave suites, day outings and adventure activities such as an underground zipline.",
+    "offerings": "Cave-suite stays, day-out packages, corporate outings, adventure activities, conferences.",
+    "branches": "Single resort.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "60-140",
+      "basis": "Estimate only: large day-out resort with activities, F&B and housekeeping."
+    },
+    "facts": [
+      "Billed as India's first underground cave resort",
+      "Karnataka Tourism features its underground zipline",
+      "Open daily 9 AM-6 PM for day-outs (guide listing)"
+    ],
+    "socialObserved": "Unique visual concept - ideal for reels; consistent posting can drive weekday corporate bookings.",
+    "sources": [
+      {
+        "label": "Curly Tales - cave resort",
+        "url": "https://curlytales.com/spend-a-night-at-bengalurus-cave-resort-guhantara-resort-at-%E2%82%B9-6000-only/"
+      },
+      {
+        "label": "Karnataka Tourism - underground zipline",
+        "url": "https://karnatakatourism.org/en/experiences/underground-zipline-thrills-at-guhantara-bengaluru"
+      },
+      {
+        "label": "Showcaves.com - Guhantara",
+        "url": "https://showcaves.com/english/in/subterranea/Guhantara.html"
+      },
+      {
+        "label": "Travel Weekly Asia - Guhantara Resort",
+        "url": "https://www.travelweekly-asia.com/Hotels/Bengaluru-India/Guhantara-Resort-p57511687"
+      }
+    ],
+    "verification": "Existence and address consistent across sources; several phone numbers in circulation - start with the 080 4639 4444 line.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "clarks-exotica",
+    "name": "Clarks Exotica Convention Resort & Spa",
+    "category": "Hotels & Resorts",
+    "subcategory": "Convention resort near the airport",
+    "area": "Devanahalli",
+    "address": "Devanahalli Road, Swiss Town, Hollywood Junction, Sadahalli, Bengaluru 562110",
+    "website": "https://www.clarks-exotica.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 7177 7000",
+        "label": "Resort main line (venue directories)",
+        "source": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/Clarks-Exotica-Convention-Resort-Spa-p57504239"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Large convention resort and spa near Kempegowda International Airport, popular for conferences, weddings and corporate events.",
+    "offerings": "Rooms and villas, convention halls, weddings, spa, airport-proximity stays.",
+    "branches": "Single resort.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "250-500",
+      "basis": "Estimate only: large convention resort with banqueting and spa."
+    },
+    "facts": [
+      "Convention resort close to Bengaluru airport",
+      "Used as accommodation for academic conferences (MAHE 2025)",
+      "Listed among Bengaluru's best convention centres"
+    ],
+    "socialObserved": "Wedding and conference marketing is very visual; scheduling across seasons is a fit.",
+    "sources": [
+      {
+        "label": "Meetings & Conventions - Clarks Exotica",
+        "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/Clarks-Exotica-Convention-Resort-Spa-p57504239"
+      },
+      {
+        "label": "MAHE JCAE 2025 accommodation",
+        "url": "https://www.manipal.edu/mu/campuses/mahe-bengaluru/jcae-2025/accommodation.html"
+      },
+      {
+        "label": "Samaro - convention centres Bangalore",
+        "url": "https://samaro.ai/blogs/best-convention-centers-in-bangalore"
+      }
+    ],
+    "verification": "Address and phone from venue directories; website named in listings. GM not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "golden-palms-hotel",
+    "name": "Golden Palms Hotel & Spa",
+    "category": "Hotels & Resorts",
+    "subcategory": "Resort hotel and spa (Tumkur Road)",
+    "area": "Nelamangala (off Tumkur Road)",
+    "address": "Golden Palms Avenue, off Tumkur Road, Nagarur, Nelamangala, Bengaluru 562123",
+    "website": "http://www.goldenpalmshotel.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2371 2222",
+        "label": "Hotel main line (two directory listings agree)",
+        "source": "https://www.amimagazine.global/Meeting-Event-Venues/Nelamangala-India/Convention-Hotel/Golden-Palms-Hotel-Spa-p57959748"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Resort hotel and spa off Tumkur Road on Bengaluru's north-western edge, used for weekend getaways, weddings and corporate events; also an Interval World timeshare resort.",
+    "offerings": "Resort stays, spa, banquets and weddings, corporate offsites, day packages.",
+    "branches": "Single resort.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "120-250",
+      "basis": "Estimate only: resort hotel with spa, banqueting and grounds staff."
+    },
+    "facts": [
+      "Resort with spa off Tumkur Road (Nelamangala)",
+      "Listed as an Interval World exchange resort",
+      "MICE venue listings in international directories"
+    ],
+    "socialObserved": "Weekend-getaway and wedding demand is driven by Instagram; check how often the resort posts offers.",
+    "sources": [
+      {
+        "label": "AMI Magazine - Golden Palms Hotel & Spa",
+        "url": "https://www.amimagazine.global/Meeting-Event-Venues/Nelamangala-India/Convention-Hotel/Golden-Palms-Hotel-Spa-p57959748"
+      },
+      {
+        "label": "Interval World - resort listing",
+        "url": "https://www.intervalworld.com/web/resort/GOP"
+      },
+      {
+        "label": "Hotels.com - Golden Palms",
+        "url": "https://lookup.hotels.com/ho217736/golden-palms-hotel-and-spa-bengaluru-india"
+      }
+    ],
+    "verification": "Address and phone consistent across listings. Owner/GM not identified.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  }
+]

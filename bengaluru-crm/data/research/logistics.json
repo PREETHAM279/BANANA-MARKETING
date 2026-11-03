@@ -1,0 +1,343 @@
+[
+  {
+    "id": "blowhorn",
+    "name": "Blowhorn",
+    "category": "Warehousing & Logistics",
+    "subcategory": "Intra-city logistics and micro-warehousing",
+    "area": "JP Nagar",
+    "address": "511, 8th Cross, JP Nagar 3rd Phase, Bengaluru 560078 (CB Insights & PitchBook)",
+    "website": "https://blowhorn.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 97415 35151",
+        "label": "Company number (CB Insights)",
+        "source": "https://www.cbinsights.com/company/blowhorn"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Mithun Srivatsa",
+        "role": "Co-founder & CEO",
+        "type": "owner",
+        "source": "https://en.wikipedia.org/wiki/Blowhorn"
+      },
+      {
+        "name": "Nikhil Shivaprasad",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://startuptalky.com/blowhorn-success-story/"
+      }
+    ],
+    "description": "Bengaluru-founded (2014) intra-city logistics company providing last-mile delivery, fleet and micro-warehousing for brands, now operating in Bengaluru, Chennai, Hyderabad, Delhi NCR and Mumbai.",
+    "offerings": "Last-mile and intra-city delivery, dedicated fleet, micro-fulfilment/warehousing, logistics tech.",
+    "branches": "Operations in Bengaluru, Chennai, Hyderabad, Delhi NCR and Mumbai.",
+    "branchCount": 5,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-400 staff (plus driver partners)",
+      "basis": "Estimate only: multi-city ops, hubs and tech team."
+    },
+    "facts": [
+      "Founded in 2014 by Mithun Srivatsa and Nikhil Shivaprasad",
+      "Operates in 5 metros",
+      "Featured in Inc42's logistics-tech startup watchlist"
+    ],
+    "socialObserved": "B2B brand - LinkedIn thought leadership and case-study posts matter more than Instagram.",
+    "sources": [
+      {
+        "label": "Wikipedia - Blowhorn",
+        "url": "https://en.wikipedia.org/wiki/Blowhorn"
+      },
+      {
+        "label": "CB Insights - Blowhorn",
+        "url": "https://www.cbinsights.com/company/blowhorn"
+      },
+      {
+        "label": "PitchBook - Blowhorn",
+        "url": "https://pitchbook.com/profiles/company/99414-19"
+      },
+      {
+        "label": "StartupTalky - Blowhorn story",
+        "url": "https://startuptalky.com/blowhorn-success-story/"
+      },
+      {
+        "label": "YourStory - product roadmap",
+        "url": "https://yourstory.com/2020/03/product-roadmap-blowhorn-logistics"
+      }
+    ],
+    "verification": "Founders and HQ consistent across Wikipedia, CB Insights and PitchBook; phone from CB Insights - verify. Has in-house tech, so attendance pitch should focus on hub/warehouse staff.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "letstransport",
+    "name": "LetsTransport (LetsTransport Group)",
+    "category": "Warehousing & Logistics",
+    "subcategory": "B2B logistics and fleet platform",
+    "area": "Hoodi / Whitefield",
+    "address": "Regent Gateway, Road No. 2, Seetharampalya - Hoodi Road, near Hindustan Petrol Pump, Bengaluru (CB Insights)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Pushkar Singh",
+        "role": "Co-founder & CEO",
+        "type": "owner",
+        "source": "https://craft.co/letstransport"
+      },
+      {
+        "name": "Sudarshan Ravi",
+        "role": "Co-founder & CPO",
+        "type": "owner",
+        "source": "https://craft.co/letstransport"
+      },
+      {
+        "name": "Prateek Pujari",
+        "role": "COO",
+        "type": "manager",
+        "source": "https://craft.co/letstransport"
+      }
+    ],
+    "description": "Bengaluru logistics company founded in 2015 by IIT-Kharagpur alumni, providing intra-city and B2B transport and fleet services; acquired by Bertelsmann's buy-and-build unit and renamed LetsTransport Group.",
+    "offerings": "Intra-city and inter-city B2B trucking, dedicated fleet, last-mile delivery, logistics tech.",
+    "branches": "Multi-city operations; HQ in Bengaluru.",
+    "branchCount": null,
+    "employees": {
+      "verified": "About 500-640 employees (Inc42 ~500 post-acquisition; Dealroom 606; Built In 642)",
+      "verifiedSource": "https://inc42.com/buzz/bertelsmann-acquires-letstransport-to-operate-it-under-its-buy-and-build-unit/",
+      "estimate": "500-650",
+      "basis": "Company-database figures differ by date."
+    },
+    "facts": [
+      "Founded in 2015 by IIT-Kharagpur alumni",
+      "Acquired by Bertelsmann; renamed LetsTransport Group with founders retaining operational leadership",
+      "Roughly 500-640 employees per company databases"
+    ],
+    "socialObserved": "Corporate B2B brand under new ownership; may have central tools - pitch only if field/hub attendance is still manual.",
+    "sources": [
+      {
+        "label": "Inc42 - Bertelsmann acquires LetsTransport",
+        "url": "https://inc42.com/buzz/bertelsmann-acquires-letstransport-to-operate-it-under-its-buy-and-build-unit/"
+      },
+      {
+        "label": "Craft.co - LetsTransport",
+        "url": "https://craft.co/letstransport"
+      },
+      {
+        "label": "CB Insights - LetsTransport",
+        "url": "https://www.cbinsights.com/company/letstransport"
+      },
+      {
+        "label": "Built In Bengaluru - LetsTransport",
+        "url": "https://builtinbengaluru.in/company/letstransport"
+      }
+    ],
+    "verification": "Founders, acquisition and headcount range confirmed across several business databases. No public phone captured.",
+    "confidence": "High",
+    "interest": "Low",
+    "product": "Attendance"
+  },
+  {
+    "id": "wareiq",
+    "name": "WareIQ",
+    "category": "Warehousing & Logistics",
+    "subcategory": "E-commerce fulfilment and warehousing network",
+    "area": "HSR Layout / Bellandur area (560103)",
+    "address": "Bengaluru, Karnataka 560103 (HQ per company databases; street address not captured)",
+    "website": "https://wareiq.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": "https://linkedin.com/company/wareiq",
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Harsh Vaidya",
+        "role": "Co-founder & CEO",
+        "type": "owner",
+        "source": "https://yourstory.com/companies/wareiq"
+      },
+      {
+        "name": "Aayush Mattoo",
+        "role": "Co-founder (operations)",
+        "type": "owner",
+        "source": "https://www.vcbacked.co/company/wareiq"
+      }
+    ],
+    "description": "Bengaluru-headquartered (2019) tech-enabled fulfilment company running a network of warehouses for D2C, e-commerce and quick-commerce brands, including temperature-controlled fulfilment.",
+    "offerings": "Multi-warehouse fulfilment, B2B/B2C shipping, temperature-controlled storage, fulfilment software.",
+    "branches": "Network of fulfilment centres across India (count not verified).",
+    "branchCount": null,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "100-300 (plus warehouse associates)",
+      "basis": "Estimate only: company databases range widely (1-25 to 100-200)."
+    },
+    "facts": [
+      "Founded in 2019 by Harsh Vaidya and Aayush Mattoo",
+      "Offers temperature-controlled fulfilment",
+      "Publishes guides on Bengaluru warehousing and logistics companies"
+    ],
+    "socialObserved": "Content-marketing heavy (SEO blogs); LinkedIn posting cadence is the social angle. Warehouse shift attendance is the bigger operational fit.",
+    "sources": [
+      {
+        "label": "WareIQ - official site (blog)",
+        "url": "https://wareiq.com/resources/blogs/warehousing-companies-in-bangalore/"
+      },
+      {
+        "label": "YourStory - WareIQ",
+        "url": "https://yourstory.com/companies/wareiq"
+      },
+      {
+        "label": "VCBacked - WareIQ",
+        "url": "https://www.vcbacked.co/company/wareiq"
+      },
+      {
+        "label": "Inc42 - WareIQ",
+        "url": "https://inc42.com/company/wareiq/"
+      }
+    ],
+    "verification": "Founders and HQ city confirmed by company profiles. Aggregator phone numbers were found but excluded because they may be personal numbers - use wareiq.com contact page.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "pikkol",
+    "name": "Pikkol",
+    "category": "Warehousing & Logistics",
+    "subcategory": "Tech-enabled packers, movers and relocation",
+    "area": "MG Road / Begur",
+    "address": "Raheja Towers, East Wing, Level 9, MG Road, Bengaluru 560001 (CB Insights); ContactOut lists Aishwarya Crystal Layout, Begur, Bengaluru 560068",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80881 10011",
+        "label": "Company number (CB Insights & ContactOut agree)",
+        "source": "https://www.cbinsights.com/investor/pikkol"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Deepu Chandran",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://inc42.com/company/pikkol/"
+      },
+      {
+        "name": "Suraj Valimbe",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://inc42.com/company/pikkol/"
+      }
+    ],
+    "description": "Bengaluru relocation start-up founded in April 2015 (Indian Angel Network-backed) offering technology-led home and office shifting; CB Insights reports it was acquired by Hybrid Shifting Solutions in September 2023.",
+    "offerings": "Home and office relocation, packing, vehicle transport, storage.",
+    "branches": "Bengaluru-based operations (other cities not verified).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-100 (plus packing crews)",
+      "basis": "Estimate only: relocation crews, supervisors and sales."
+    },
+    "facts": [
+      "Founded in April 2015 by Deepu Chandran, Jayaram Kasi Visweswaran, Suraj Valimbe and Siby Mathew",
+      "Raised investment from Indian Angel Network",
+      "Reported acquisition by Hybrid Shifting Solutions (Sept 2023, single source)"
+    ],
+    "socialObserved": "Relocation is review- and trust-driven; customer-story content and crew attendance on job sites are both relevant.",
+    "sources": [
+      {
+        "label": "CB Insights - Pikkol",
+        "url": "https://www.cbinsights.com/investor/pikkol"
+      },
+      {
+        "label": "Inc42 - Pikkol",
+        "url": "https://inc42.com/company/pikkol/"
+      },
+      {
+        "label": "YourStory - Pikkol (2015)",
+        "url": "https://yourstory.com/2015/12/pikkol"
+      },
+      {
+        "label": "Inc42 - Indian Angel Network funding",
+        "url": "https://inc42.com/buzz/pikkol-funding"
+      }
+    ],
+    "verification": "Founders and phone consistent across two sources; ownership change and current address need confirmation on the call.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "beyond-sqfeet",
+    "name": "Beyond Sqfeet",
+    "category": "Warehousing & Logistics",
+    "subcategory": "Warehousing and fulfilment operator",
+    "area": "Hoskote / Nelamangala / Bommasandra",
+    "address": "Bengaluru warehouses at Hoskote (distribution centre, ~1 lakh sq ft), Ecobox Logistics Park Nelamangala (Grade A fulfilment centre) and Bommasandra (in-city fulfilment)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [
+      {
+        "email": "sales@beyondsqfeet.com",
+        "label": "Sales email published in a company LinkedIn post",
+        "source": "https://in.linkedin.com/in/aresh"
+      }
+    ],
+    "people": [],
+    "description": "Warehousing and fulfilment provider serving B2B, D2C, e-commerce, marketplace and quick-commerce brands, which recently onboarded its third Bengaluru warehouse location.",
+    "offerings": "Distribution-centre warehousing, Grade A fulfilment, in-city quick-commerce fulfilment, B2B/D2C order processing.",
+    "branches": "Three Bengaluru sites: Hoskote DC, Nelamangala (Ecobox Logistics Park) FC and Bommasandra in-city fulfilment.",
+    "branchCount": 3,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "80-250 (incl. warehouse associates)",
+      "basis": "Estimate only: three warehouses running multiple shifts."
+    },
+    "facts": [
+      "Onboarded its third Bengaluru warehouse location",
+      "Hoskote distribution centre of about 1 lakh sq ft",
+      "Grade A fulfilment centre at Ecobox Logistics Park, Nelamangala"
+    ],
+    "socialObserved": "B2B brand that announces growth on LinkedIn - a scheduling/analytics tool for LinkedIn fits; shift attendance across three warehouses is the bigger pain.",
+    "sources": [
+      {
+        "label": "LinkedIn post - 3rd Bengaluru warehouse & sales email",
+        "url": "https://in.linkedin.com/in/aresh"
+      },
+      {
+        "label": "India Sea Trade News (2026) - Bengaluru warehousing coverage",
+        "url": "https://indiaseatradenews.com/?p=139730"
+      },
+      {
+        "label": "India Sea Trade News (2026) - Bengaluru warehousing coverage",
+        "url": "https://indiaseatradenews.com/?p=125639"
+      }
+    ],
+    "verification": "Sites and sales email from a LinkedIn post and trade-news coverage; founders, HQ and phone not found - medium confidence. Confirm details before the call.",
+    "confidence": "Medium",
+    "interest": "High",
+    "product": "Attendance"
+  }
+]

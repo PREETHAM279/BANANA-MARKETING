@@ -1,0 +1,190 @@
+// Bengaluru Sales Prospecting CRM - local SQLite database
+// Research fields are (re)imported from data/research/*.json by scripts/seed.mjs.
+// CRM fields (status, notes, activities, follow-ups ...) are only ever written by you in the app.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Business {
+  id                    String    @id
+  priorityRank          Int       @default(0)
+  priorityScore         Int       @default(0)
+  name                  String
+  category              String
+  subcategory           String    @default("")
+  area                  String    @default("")
+  address               String    @default("")
+  mapsQuery             String    @default("")
+  website               String?
+  websiteNote           String?
+  instagram             String?
+  facebook              String?
+  linkedin              String?
+  youtube               String?
+  description           String    @default("")
+  offerings             String    @default("")
+  branches              String    @default("")
+  branchCount           Int?
+  // Google data (optional enrichment through your own Google Places API key)
+  googleRating          Float?
+  googleReviews         Int?
+  googlePlaceId         String?
+  googleMapsUri         String?
+  googleFetchedAt       DateTime?
+  googleData            String?
+  // Public contacts (JSON arrays with source URL for every item)
+  phone                 String?
+  phoneLabel            String?
+  phoneSource           String?
+  phones                String    @default("[]")
+  email                 String?
+  emailSource           String?
+  emails                String    @default("[]")
+  people                String    @default("[]")
+  decisionMakerPhone    String?
+  decisionMakerEmail    String?
+  decisionMakerLinkedin String?
+  // Employees
+  employeeCountVerified String?
+  employeeCountSource   String?
+  employeeEstimate      String    @default("")
+  employeeEstimateBasis String    @default("")
+  employeeBand          String    @default("Unknown")
+  managementStructure   String    @default("")
+  attendanceFit         String    @default("Medium")
+  attendanceFitReason   String    @default("")
+  socialFit             String    @default("Medium")
+  socialFitReason       String    @default("")
+  // Sales intelligence
+  whyProspect           String    @default("")
+  recommendedProduct    String    @default("Both")
+  productReason         String    @default("")
+  operationalProblems   String    @default("[]")
+  socialPresence        String    @default("")
+  socialWeaknesses      String    @default("[]")
+  interestLevel         String    @default("Medium")
+  interestReason        String    @default("")
+  pitch                 String    @default("")
+  approach              String    @default("")
+  opener                String    @default("")
+  bestTimeToCall        String    @default("")
+  callBlock             Int       @default(0)
+  facts                 String    @default("[]")
+  objections            String    @default("[]")
+  // Provenance
+  sources               String    @default("[]")
+  researchDate          String    @default("")
+  verification          String    @default("")
+  confidence            String    @default("Medium")
+  // Website enrichment (fetched on your Mac from the official website)
+  photoUrl              String?
+  photoSource           String?
+  siteData              String?
+  siteFetchedAt         DateTime?
+  // CRM (yours)
+  status                String    @default("New Lead")
+  followUpDate          String?
+  followUpNote          String    @default("")
+  nextAction            String    @default("")
+  dealValue             Int?
+  tags                  String    @default("[]")
+  meetingAt             String?
+  lastContactedAt       DateTime?
+  doNotContact          Boolean   @default(false)
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  activities            Activity[]
+  notes                 Note[]
+  photos                Photo[]
+  recordings            Recording[]
+  outreachTasks         OutreachTask[]
+
+  @@index([category])
+  @@index([status])
+  @@index([followUpDate])
+}
+
+model Activity {
+  id         String   @id @default(cuid())
+  businessId String
+  business   Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  type       String
+  outcome    String   @default("")
+  summary    String   @default("")
+  details    String   @default("")
+  meta       String   @default("{}")
+  occurredAt DateTime @default(now())
+  createdAt  DateTime @default(now())
+
+  @@index([businessId])
+  @@index([type])
+  @@index([occurredAt])
+}
+
+model Note {
+  id         String   @id @default(cuid())
+  businessId String
+  business   Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  kind       String   @default("General")
+  content    String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([businessId])
+}
+
+model Photo {
+  id         String   @id @default(cuid())
+  businessId String
+  business   Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  fileName   String
+  caption    String   @default("")
+  source     String   @default("Uploaded by you")
+  createdAt  DateTime @default(now())
+
+  @@index([businessId])
+}
+
+model Recording {
+  id          String   @id @default(cuid())
+  businessId  String
+  business    Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  fileName    String
+  mimeType    String   @default("audio/webm")
+  durationSec Int      @default(0)
+  note        String   @default("")
+  createdAt   DateTime @default(now())
+
+  @@index([businessId])
+}
+
+model OutreachTask {
+  id         String    @id @default(cuid())
+  date       String
+  businessId String
+  business   Business  @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  done       Boolean   @default(false)
+  doneAt     DateTime?
+  note       String    @default("")
+  skipped    Boolean   @default(false)
+
+  @@unique([date, businessId])
+  @@index([date])
+}
+
+model DayNote {
+  date      String   @id
+  content   String   @default("")
+  updatedAt DateTime @updatedAt
+}
+
+model Setting {
+  key   String @id
+  value String
+}

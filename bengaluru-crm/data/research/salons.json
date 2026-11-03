@@ -1,0 +1,641 @@
+[
+  {
+    "id": "bounce-salon",
+    "name": "Bounce Salon & Spa",
+    "category": "Salons & Spas",
+    "subcategory": "Salon chain (acquired by Jean-Claude Biguine in Oct 2024)",
+    "area": "Koramangala / multiple",
+    "address": "Multiple Bengaluru salons incl. Koramangala, Indiranagar, Kalyan Nagar, Mathikere, JP Nagar, Ashok Nagar, HSR Layout, VR Mall Whitefield and New BEL Road (Bounce Style Lounge)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 88809 03903",
+        "label": "Koramangala salon (LBB)",
+        "source": "https://lbb.in/places/Bounce-indira-nagar-3b0820"
+      },
+      {
+        "number": "+91 80 4115 5238",
+        "label": "Mathikere salon (LBB)",
+        "source": "https://lbb.in/places/Bounce-indira-nagar-3b0820"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "South Indian salon chain with many Bengaluru outlets, acquired by Jean-Claude Biguine (JCB) Salons in October 2024 to strengthen JCB's network.",
+    "offerings": "Hair styling and colour, skin, nails, spa, bridal makeup.",
+    "branches": "Bengaluru salons listed in Koramangala, Indiranagar, Kalyan Nagar, Mathikere, JP Nagar, Ashok Nagar, HSR Layout, Whitefield (VR Mall) and New BEL Road.",
+    "branchCount": 9,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "120-250",
+      "basis": "Estimate only: ~9 salons x 12-25 stylists, therapists and front desk."
+    },
+    "facts": [
+      "Acquired by Jean-Claude Biguine Salons in October 2024",
+      "Around 9 listed Bengaluru salons",
+      "Bridal makeup listings on WeddingWire for several branches"
+    ],
+    "socialObserved": "Post-acquisition rebranding/integration is a moment when social workflows and staff systems are re-evaluated.",
+    "sources": [
+      {
+        "label": "Indian Retailer - JCB acquires Bounce",
+        "url": "https://www.indianretailer.com/news/jcb-salons-revolutionizes-indian-beauty-industry-bounce-salons-acquisition"
+      },
+      {
+        "label": "CB Insights - Jean-Claude Biguine",
+        "url": "https://www.cbinsights.com/company/jean-claude-biguine"
+      },
+      {
+        "label": "LBB - Bounce",
+        "url": "https://lbb.in/places/Bounce-indira-nagar-3b0820"
+      },
+      {
+        "label": "WeddingWire - Bounce HSR Layout",
+        "url": "https://www.weddingwire.in/makeup-salon/bounce-salon-and-spa-hsr-layout--e116742"
+      }
+    ],
+    "verification": "Acquisition confirmed by trade press; branch phones from LBB. Decision-making may now sit with JCB's India team.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "bodycraft",
+    "name": "Bodycraft Salon, Spa & Clinic",
+    "category": "Salons & Spas",
+    "subcategory": "Salon, spa and skin-clinic chain",
+    "area": "Frazer Town (Ulsoor Lake)",
+    "address": "1/3, Civil Station, Assaye Road, near Ulsoor Lake, Fraser Town, Bengaluru 560042 (corporate)",
+    "website": "https://www.bodycraft.co.in",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 90199 32222",
+        "label": "Ashok Nagar outlet (LBB listing)",
+        "source": "https://lbb.in/places/Bodycrafts-ashok-nagar-7d1e8b"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Manjul Gupta",
+        "role": "Founder (started with one salon in Bengaluru in 1997)",
+        "type": "owner",
+        "source": "https://www.crunchbase.com/person/manjul-gupta"
+      },
+      {
+        "name": "Sahil Gupta",
+        "role": "CEO",
+        "type": "owner",
+        "source": "https://www.indiaretailing.com/2024/10/29/beauty-and-wellness-chain-bodycraft-enters-dehradun/"
+      },
+      {
+        "name": "Dr. Mikki Singh",
+        "role": "Founder & Medical Director, Bodycraft Clinics",
+        "type": "manager",
+        "source": "https://www.affluense.ai/profile/mikki-singh-bodycraft-salon-spa-and-clinic-a90048"
+      }
+    ],
+    "description": "Bengaluru-born beauty and wellness chain founded in 1997 with a single 1,500 sq ft salon, now 25+ salon/spa/clinic outlets across Bengaluru, Chennai, Gurugram, Dehradun, Mysuru and Mumbai.",
+    "offerings": "Salon, spa, dermatology and aesthetic clinic services.",
+    "branches": "25+ outlets across India (latest reports), with the largest cluster in Bengaluru; recent launches in Gurugram, Dehradun and Mysuru.",
+    "branchCount": 25,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "400-800",
+      "basis": "Estimate only: 25+ outlets x 15-30 staff."
+    },
+    "facts": [
+      "Founded in 1997 by Manjul Gupta with one Bengaluru salon",
+      "25+ outlets; recent openings in Gurugram, Dehradun and Mysuru",
+      "CEO Sahil Gupta leads expansion",
+      "Raised external funding (Signalbase)"
+    ],
+    "socialObserved": "Expanding multi-city chain - centralised scheduling with location-level posting and analytics is a strong fit.",
+    "sources": [
+      {
+        "label": "IndiaRetailing - Dehradun launch",
+        "url": "https://www.indiaretailing.com/2024/10/29/beauty-and-wellness-chain-bodycraft-enters-dehradun/"
+      },
+      {
+        "label": "The Week - Gurugram launch",
+        "url": "https://www.theweek.in/wire-updates/business/2024/09/03/dcm42-bodycraft.html"
+      },
+      {
+        "label": "Franchise India - Mysore flagship",
+        "url": "https://www.franchiseindia.com/index.php/insights/en/news/bodycraft-launches-flagship-clinic-and-salon-in-mysore.57383"
+      },
+      {
+        "label": "Crunchbase - Manjul Gupta",
+        "url": "https://www.crunchbase.com/person/manjul-gupta"
+      },
+      {
+        "label": "LBB - Ashok Nagar outlet",
+        "url": "https://lbb.in/places/Bodycrafts-ashok-nagar-7d1e8b"
+      }
+    ],
+    "verification": "Founder, leadership, scale and corporate address confirmed by trade press and business databases. Corporate phone/email not captured.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "tattva-spa-bengaluru",
+    "name": "Tattva Spa (Bengaluru outlets)",
+    "category": "Salons & Spas",
+    "subcategory": "Wellness spa chain (100+ spas nationally)",
+    "area": "Koramangala / multiple",
+    "address": "Bengaluru outlets incl. Grand Mercure Koramangala, Electronic City Phase 1 (54B/55A Wipro Ave) and Hebbal",
+    "website": "https://tattvaspa.com",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4512 1619",
+        "label": "Grand Mercure Koramangala outlet (review listing)",
+        "source": "https://www.bindugopalrao.com/review-of-tattva-spa-grand-mercure-bengaluru/"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Shipra",
+        "role": "Founder (credited on Tattva's own pages)",
+        "type": "owner",
+        "source": "https://locations.tattvaspa.com/amp/tattva-wellness-spa-health-wellness-centers-hebbal-bengaluru-389765/Home"
+      }
+    ],
+    "description": "Wellness spa brand founded in 2011 with 100-115+ spas across India and a large Bengaluru footprint in hotels and malls; actively franchising in Bengaluru.",
+    "offerings": "Massages and body therapies, spa packages, corporate wellness; franchise opportunities.",
+    "branches": "100-115+ spas nationally (company/CB Insights); multiple Bengaluru outlets incl. Koramangala, Electronic City and Hebbal.",
+    "branchCount": 115,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "Bengaluru outlets: 60-150",
+      "basis": "Estimate only: several Bengaluru spas x 8-15 therapists and staff."
+    },
+    "facts": [
+      "Founded in 2011",
+      "Claims 115+ wellness spas across India",
+      "Publishes Bengaluru franchise and spa guides on its blog",
+      "Outlets inside hotels such as Grand Mercure Koramangala"
+    ],
+    "socialObserved": "Strong SEO blog presence on tattvaspa.com; outlet-level social and therapist attendance across hotel-based spas are the gaps to probe.",
+    "sources": [
+      {
+        "label": "Tattva - Hebbal location page",
+        "url": "https://locations.tattvaspa.com/amp/tattva-wellness-spa-health-wellness-centers-hebbal-bengaluru-389765/Home"
+      },
+      {
+        "label": "Tattva - Bengaluru franchise",
+        "url": "https://tattvaspa.com/tattva-spa-franchise-in-bengaluru-a-golden-opportunity"
+      },
+      {
+        "label": "CB Insights - Tattva",
+        "url": "https://www.cbinsights.com/company/tattva"
+      },
+      {
+        "label": "Review - Tattva Spa Grand Mercure",
+        "url": "https://www.bindugopalrao.com/review-of-tattva-spa-grand-mercure-bengaluru/"
+      }
+    ],
+    "verification": "Brand scale, website and Bengaluru outlets confirmed. HQ appears to be Delhi; Bengaluru outlets may be franchisee-run - identify the outlet owner on the call.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "ylg-salon",
+    "name": "YLG Salon (R&R Salons Pvt Ltd)",
+    "category": "Salons & Spas",
+    "subcategory": "Women's salon chain",
+    "area": "Bannerghatta Road / multiple",
+    "address": "Multiple Bengaluru salons incl. Bannerghatta Road, Marathahalli, Basaveshwara Nagar, Banashankari, Jalahalli and Kanakapura Road",
+    "website": "https://www.ylgindia.com",
+    "websiteNote": "Website per private-equity directory.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Rahul Bhalchandra",
+        "role": "Co-founder, promoter & CEO",
+        "type": "owner",
+        "source": "https://avendus.com/india/newsroom-download-pdf/avendus-capital-advises-r-r-salons-on-its-fund-raising-from-everstone-capital-and-helion-venture-partners"
+      },
+      {
+        "name": "Vaijayanti Bhalchandra",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.malpaniventures.com/portfolio/ylg-salons"
+      }
+    ],
+    "description": "Bengaluru-based 'You Look Great' women-only salon chain founded by IIT-graduate couple Rahul and Vaijayanti Bhalchandra, backed by Everstone and Helion; 45+ salons across Bengaluru, Chennai, Mysuru and Gurugram.",
+    "offerings": "Hair, skin, makeup and grooming services for women; retail products.",
+    "branches": "45+ salons (Bengaluru, Chennai, Mysuru, Gurugram) - a later profile cited 36 in Bengaluru and 9 in Chennai.",
+    "branchCount": 45,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "400-800",
+      "basis": "Estimate only: 45+ salons x 8-15 staff."
+    },
+    "facts": [
+      "Founded by IIT-graduate couple Rahul and Vaijayanti Bhalchandra",
+      "Backed by Everstone Capital and Helion",
+      "45+ salons; ~36 in Bengaluru"
+    ],
+    "socialObserved": "Large chain with central marketing; salon-level local content and stylist attendance across 45 salons are the angles.",
+    "sources": [
+      {
+        "label": "Avendus - R&R Salons fundraise",
+        "url": "https://avendus.com/india/newsroom-download-pdf/avendus-capital-advises-r-r-salons-on-its-fund-raising-from-everstone-capital-and-helion-venture-partners"
+      },
+      {
+        "label": "Malpani Ventures - YLG portfolio",
+        "url": "https://www.malpaniventures.com/portfolio/ylg-salons"
+      },
+      {
+        "label": "Entrepreneur - The Beholder of Beauty",
+        "url": "https://india.entrepreneur.com/?p=68450"
+      },
+      {
+        "label": "District - YLG Bannerghatta Road",
+        "url": "https://www.district.in/stores/ylg-salon-bannerghatta-road-bangalore-SDP-45897743"
+      }
+    ],
+    "verification": "Founders, funding and footprint confirmed. Contact details not captured - use ylgindia.com.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "blown-studio",
+    "name": "Blown Studio",
+    "category": "Salons & Spas",
+    "subcategory": "Premium blow-dry bar and salon",
+    "area": "Indiranagar / Ashok Nagar",
+    "address": "G1, Embassy Chambers, Vittal Mallya Road, Ashok Nagar, Bengaluru; also 967, 12th Main Road, HAL 2nd Stage, Indiranagar and 80 Feet Road, New BEL Road",
+    "website": "http://blown.co.in",
+    "websiteNote": "From an older blog post - verify.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4370 3783",
+        "label": "Vittal Mallya Road salon (older blog listing - verify)",
+        "source": "https://www.bindugopalrao.com/?p=4543"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Menaka Bhandary",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://www.retail4growth.com/news/blown-studio-launches-its-3rd-salon-in-bangalore-4843"
+      }
+    ],
+    "description": "Bengaluru premium blow-dry bar and salon brand founded by Menaka Bhandary, with salons in the CBD, Indiranagar and New BEL Road.",
+    "offerings": "Blow-dries, hair styling and colour, makeup, bridal and event styling.",
+    "branches": "Vittal Mallya Road, Lavelle Road area, Indiranagar and New BEL Road (third salon, 1,500 sq ft).",
+    "branchCount": 4,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-70",
+      "basis": "Estimate only: 3-4 salons x 8-15 stylists and staff."
+    },
+    "facts": [
+      "Founded by Menaka Bhandary (YourStory 'Signature Startup')",
+      "Third salon opened on New BEL Road (1,500 sq ft)",
+      "Registered as Blown Studio Private Limited"
+    ],
+    "socialObserved": "Style-led brand - before/after reels and stylist spotlights are core; check posting cadence per salon.",
+    "sources": [
+      {
+        "label": "Retail4Growth - 3rd salon",
+        "url": "https://www.retail4growth.com/news/blown-studio-launches-its-3rd-salon-in-bangalore-4843"
+      },
+      {
+        "label": "YourStory - Menaka Bhandary's salon",
+        "url": "https://cwv.yourstory.com/2018/03/experience-menaka-bhandarys-salon"
+      },
+      {
+        "label": "Blog review (phone/website)",
+        "url": "https://www.bindugopalrao.com/?p=4543"
+      },
+      {
+        "label": "WeddingWire - Blown Bangalore",
+        "url": "https://www.weddingwire.in/makeup-salon/blown-bangalore--e189037"
+      }
+    ],
+    "verification": "Founder and outlets confirmed by trade press and listings; phone/website from an older blog - verify.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "envi-salon",
+    "name": "Envi Salon & Spa (Bengaluru)",
+    "category": "Salons & Spas",
+    "subcategory": "Mall-based salon and spa chain",
+    "area": "Rajajinagar / Old Madras Road",
+    "address": "No 102, First Floor, Orion Brigade Mall, Dr Rajkumar Road, Rajajinagar, Bengaluru; and No 201-202, Second Floor, Orion Uptown Mall, Old Madras Road (Huskur)",
+    "website": "https://salons.envi.in",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 6927 0017",
+        "label": "Orion Brigade Mall, Rajajinagar (official salon page)",
+        "source": "https://salons.envi.in/locations/bengaluru/rajaji-nagar/envi-salon-and-spa-orion-bridgade-mall-in-rajaji-nagar-bengaluru--6zX7XP/home"
+      },
+      {
+        "number": "+91 80 6927 0018",
+        "label": "Orion Uptown Mall, Old Madras Road (official salon page)",
+        "source": "https://salons.envi.in/locations/bengaluru/old-madras-road/envi-salon-and-spa-orion-uptown-mall-in-old-madras-road-bengaluru--4ti48Y/home"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Rajesh Kant",
+        "role": "Co-founder (brand began as 'Exquise')",
+        "type": "owner",
+        "source": "https://salons.envi.in/envi-salon/bengaluru/rajajinagar/envi-salon-and-spa--6zX7XP/home"
+      },
+      {
+        "name": "Renu Kant",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://salons.envi.in/envi-salon/bengaluru/rajajinagar/envi-salon-and-spa--6zX7XP/home"
+      }
+    ],
+    "description": "Salon and spa brand established in 2004 (originally 'Exquise'), with two Bengaluru salons inside Orion malls and outlets in other cities such as Chennai.",
+    "offerings": "Hair, skin, nails, spa therapies and bridal services; app-based booking.",
+    "branches": "Two Bengaluru salons (Orion Brigade Mall, Orion Uptown Mall) plus other cities (e.g. Velachery, Chennai).",
+    "branchCount": 2,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "Bengaluru: 25-50",
+      "basis": "Estimate only: two mall salons x 12-25 staff."
+    },
+    "facts": [
+      "Established 2004, originally named 'Exquise'",
+      "Both Bengaluru salons are inside Orion malls",
+      "Official salon pages publish direct numbers and a booking app"
+    ],
+    "socialObserved": "Uses local salon pages with blog posts (e.g. self-care weekend); mall footfall offers are good scheduled-post material.",
+    "sources": [
+      {
+        "label": "Envi - Orion Brigade Mall page",
+        "url": "https://salons.envi.in/locations/bengaluru/rajaji-nagar/envi-salon-and-spa-orion-bridgade-mall-in-rajaji-nagar-bengaluru--6zX7XP/home"
+      },
+      {
+        "label": "Envi - Orion Uptown Mall page",
+        "url": "https://salons.envi.in/locations/bengaluru/old-madras-road/envi-salon-and-spa-orion-uptown-mall-in-old-madras-road-bengaluru--4ti48Y/home"
+      }
+    ],
+    "verification": "Addresses and phones from official Envi salon pages. HQ city not confirmed.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "bellance-salon",
+    "name": "Bellance Salon",
+    "category": "Salons & Spas",
+    "subcategory": "New premium salon brand (expanding)",
+    "area": "Whitefield / Indiranagar",
+    "address": "Whitefield flagship (opened Oct 2025) and 12th Main, Indiranagar (opened early 2026) - street numbers not captured",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Sushant Mehta",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://www.tribuneindia.com/news/business/one-year-of-bellance-from-vision-to-three-operational-outlets-with-london-debut-headlining-a-12-salon-roadmap-for-2026/"
+      }
+    ],
+    "description": "Young salon brand that launched flagship outlets in Whitefield (Oct 2025) and Indiranagar (2026), with a 12-salon roadmap for 2026 including London and Bengaluru franchises.",
+    "offerings": "Premium hair, skin and beauty services; franchise model.",
+    "branches": "Three operational outlets (May 2026) incl. Whitefield and Indiranagar; two Bengaluru franchise sign-ups confirmed; 12-salon roadmap for 2026.",
+    "branchCount": 3,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-60",
+      "basis": "Estimate only: three premium salons x 10-20 staff, growing."
+    },
+    "facts": [
+      "Founded by Sushant Mehta; flagship opened in Whitefield in October 2025",
+      "12-salon roadmap for 2026 including a London debut",
+      "Two Bengaluru franchise sign-ups confirmed"
+    ],
+    "socialObserved": "Fast-growing brand building awareness from scratch - needs consistent multi-outlet content and franchise-ready staff systems.",
+    "sources": [
+      {
+        "label": "Tribune - One year of Bellance (2026)",
+        "url": "https://www.tribuneindia.com/news/business/one-year-of-bellance-from-vision-to-three-operational-outlets-with-london-debut-headlining-a-12-salon-roadmap-for-2026/"
+      },
+      {
+        "label": "Tribune - Bellance enters Bengaluru",
+        "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/bellance-salon-makes-a-grand-entry-in-bengaluru-and-faridabad-expands-footprint-across-india-and-london"
+      },
+      {
+        "label": "Punjab Kesari - One year of Bellance",
+        "url": "https://english.punjabkesari.com/business/one-year-of-bellance-from-vision-to-three-operational-outlets-with-london-debut-headlining-a-12-salon-roadmap-for-2026/"
+      }
+    ],
+    "verification": "Founder and expansion from press releases (partly advertorial). Contact details not captured - use Google Maps/Instagram.",
+    "confidence": "Medium",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "play-salon",
+    "name": "Play Salon",
+    "category": "Salons & Spas",
+    "subcategory": "Premium salon (AVEDA flagship)",
+    "area": "Essensai 067 (Bengaluru)",
+    "address": "AVEDA flagship store at Essensai 067, Bengaluru (opened Dec 2025) - full address to confirm",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Neeru Radhakrishnan",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://easternherald.com/2025/12/08/play-salon-expands-with-a-landmark-aveda-flagship-in-bengaluru-championing-plant-powered-beauty-wellness/"
+      }
+    ],
+    "description": "Bengaluru premium salon brand that launched a flagship AVEDA store at Essensai 067 in December 2025, combining salon services with AVEDA's plant-based products.",
+    "offerings": "Premium salon services, AVEDA retail, wellness rituals.",
+    "branches": "Flagship AVEDA store at Essensai 067 (Dec 2025); other salons not verified in this research.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "15-40",
+      "basis": "Estimate only: flagship salon-store plus any existing salons."
+    },
+    "facts": [
+      "Launched a flagship AVEDA store at Essensai 067 in December 2025",
+      "Founder Neeru Radhakrishnan"
+    ],
+    "socialObserved": "Premium, product-led brand - content calendar for AVEDA launches and rituals is a fit.",
+    "sources": [
+      {
+        "label": "Eastern Herald - Play Salon AVEDA flagship",
+        "url": "https://easternherald.com/2025/12/08/play-salon-expands-with-a-landmark-aveda-flagship-in-bengaluru-championing-plant-powered-beauty-wellness/"
+      },
+      {
+        "label": "The Wire (PTI PR) - Play Salon",
+        "url": "https://m.thewire.in/article/ptiprnews/play-salon-expands-with-a-landmark-aveda-flagship-in-bengaluru-championing-plant-powered-beauty-wellness"
+      }
+    ],
+    "verification": "Existence and founder from PTI press-release syndication. Address/phone not captured.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Social Media"
+  },
+  {
+    "id": "ayurvedagram",
+    "name": "AyurvedaGram Heritage Wellness Centre",
+    "category": "Salons & Spas",
+    "subcategory": "Ayurveda wellness retreat and spa",
+    "area": "Whitefield (Hemmandanahalli)",
+    "address": "Hemmandanahalli, Samethanahalli Post, Whitefield, Bengaluru 560067",
+    "website": "http://www.ayurvedagram.com",
+    "websiteNote": "Listed in a venue directory.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 6565 1090",
+        "label": "Main line (venue directory - verify)",
+        "source": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/AyurvedaGram-Heritage-Wellness-Centre-p57504198"
+      },
+      {
+        "number": "+91 98450 71990",
+        "label": "Mobile (Yappe directory)",
+        "source": "https://yappe.in/karnataka/bengaluru/ayurvedagram/25901"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Heritage-village Ayurveda wellness centre on the edge of Whitefield, featured by Karnataka Tourism and Incredible India, offering residential Ayurveda and yoga programmes.",
+    "offerings": "Ayurveda therapies and retreats, yoga programmes, spa treatments, heritage cottage stays, corporate wellness.",
+    "branches": "Single campus (parent company reported as Kerala Ayurveda Ltd by one travel listing - unverified).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "40-90",
+      "basis": "Estimate only: residential wellness campus with therapists, doctors, kitchen and housekeeping."
+    },
+    "facts": [
+      "Featured by Karnataka Tourism as 'A Heritage Village for Healing'",
+      "Listed by Incredible India as 'the tranquil wellbeing domain'",
+      "Runs packaged Yoga Arc and Ayurveda retreat programmes"
+    ],
+    "socialObserved": "Tourism-board features exist; a regular content calendar (therapies, retreat stories) would support direct bookings.",
+    "sources": [
+      {
+        "label": "Karnataka Tourism - AyurvedaGram",
+        "url": "https://karnatakatourism.org/en/experiences/ayurvedagram-centre-bengaluru"
+      },
+      {
+        "label": "Incredible India - the tranquil wellbeing domain",
+        "url": "https://www.incredibleindia.gov.in/en/karnataka/bengaluru/the-tranquil-wellbeing-domain"
+      },
+      {
+        "label": "Meetings & Conventions - venue listing",
+        "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/Bengaluru-India/Convention-Hotel/AyurvedaGram-Heritage-Wellness-Centre-p57504198"
+      },
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/ayurvedagram/25901"
+      }
+    ],
+    "verification": "Existence confirmed by Karnataka Tourism and Incredible India. Two different phone numbers in directories - verify. Owner not confirmed.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "toni-and-guy-indiranagar",
+    "name": "Toni & Guy Indiranagar",
+    "category": "Salons & Spas",
+    "subcategory": "International-brand franchise salon",
+    "area": "Indiranagar",
+    "address": "First floor, 618, 12th Main, 80 Feet Road, near New Empire restaurant, HAL 2nd Stage, Indiranagar, Bengaluru (Salonist listing; WeddingWire lists 2981, 12th Main - confirm)",
+    "website": "https://salonist.io/cs/s/toniandguyindiranagar",
+    "websiteNote": "Online booking page on Salonist.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [],
+    "description": "TONI&GUY salon in Indiranagar with online/WhatsApp booking via Salonist; other Bengaluru TONI&GUY salons include Whitefield and Vidyaranyapura.",
+    "offerings": "Hair cutting, colour and styling, treatments, bridal styling.",
+    "branches": "Indiranagar salon; other Bengaluru salons (Whitefield, Vidyaranyapura) may be run by different franchisees.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "12-25",
+      "basis": "Estimate only: one full-service salon with stylists and front desk."
+    },
+    "facts": [
+      "Open 8 AM-10 PM Monday-Saturday (Salonist)",
+      "Already uses online booking (Salonist)",
+      "TONI&GUY is expanding salons in India (Indian Retailer)"
+    ],
+    "socialObserved": "Brand-level content exists; franchise salon-level Instagram and stylist attendance are owner-level problems.",
+    "sources": [
+      {
+        "label": "Salonist - Toni and Guy Indiranagar",
+        "url": "https://salonist.io/cs/s/toniandguyindiranagar"
+      },
+      {
+        "label": "WeddingWire - Toni & Guy Indiranagar",
+        "url": "https://www.weddingwire.in/makeup-salon/android-app:/in.co.weddings.launcher/weddingscoin/m.weddingwire.in/makeup-salon/toni-&-guy-indiranagar--e116910"
+      },
+      {
+        "label": "Indian Retailer - TONI&GUY India expansion",
+        "url": "https://indianretailer.com/news/retail-india-news-toniguy-expands-presence-india-new-salon-openings"
+      }
+    ],
+    "verification": "Existence and booking page confirmed; two slightly different addresses in listings. Franchisee owner not identified - ask for the salon owner/manager.",
+    "confidence": "Medium",
+    "interest": "Medium",
+    "product": "Both"
+  }
+]

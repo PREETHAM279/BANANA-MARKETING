@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "nagarjuna",
+    "name": "Nagarjuna",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Andhra-style restaurant chain (banana-leaf meals)",
+    "area": "Ashok Nagar (Residency Road)",
+    "address": "44/1, Residency Road, Ashok Nagar, Bengaluru",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2555 9848",
+        "label": "Residency Road outlet (Yappe & LBB listings agree)",
+        "source": "https://yappe.in/karnataka/bengaluru/nagarjuna-restaurant-residency-road/825972"
+      },
+      {
+        "number": "+91 80 2559 2233",
+        "label": "Alternate number (latlong.net map data; conflicts with other listings)",
+        "source": "https://www.latlong.net/poi/nagarjuna-445744"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Long-running Andhra-style restaurant brand known for banana-leaf meals, biryani and spicy Andhra dishes. The Residency Road outlet is listed as 'Nagarjuna Since 1984'.",
+    "offerings": "Andhra meals on banana leaf, biryani, Andhra-style starters and curries; dine-in, takeaway and delivery via aggregators.",
+    "branches": "Residency Road (flagship), Indiranagar (Double Road), Koramangala (5th Block, KHB Colony) and JP Nagar / Bannerghatta Road (Meu Square) per LBB listings - confirm which are currently operating.",
+    "branchCount": 4,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "60-150",
+      "basis": "Estimate only: 4 listed outlets x roughly 15-35 staff typical for busy full-service restaurants."
+    },
+    "facts": [
+      "Residency Road outlet listed as 'Nagarjuna Since 1984'",
+      "Known for authentic Andhra food served on a banana leaf",
+      "Listed outlets in Residency Road, Indiranagar, Koramangala and JP Nagar"
+    ],
+    "socialObserved": "No official website or verified Instagram handle surfaced in research; discovery appears to rely on aggregator listings (Swiggy, District, EazyDiner).",
+    "sources": [
+      {
+        "label": "Yappe listing - Residency Road",
+        "url": "https://yappe.in/karnataka/bengaluru/nagarjuna-restaurant-residency-road/825972"
+      },
+      {
+        "label": "LBB - Residency Road",
+        "url": "https://lbb.in/places/Nagarjuna-Restaurant-residency-road-1f81b9"
+      },
+      {
+        "label": "LBB - Koramangala",
+        "url": "https://lbb.in/places/Nagarjuna-Restaurant-koramangala-1f81b2"
+      },
+      {
+        "label": "LBB - Indiranagar",
+        "url": "https://lbb.in/places/Nagarjuna-Restaurant-indira-nagar-7979d3"
+      },
+      {
+        "label": "LBB - Bannerghatta Road",
+        "url": "https://lbb.in/places/Nagarjuna-Restaurant-bannerghatta-0308e8"
+      },
+      {
+        "label": "District - Nagarjuna Since 1984",
+        "url": "https://www.district.in/dining/bangalore/nagarjuna-since-1984-residency-road-bangalore"
+      },
+      {
+        "label": "Curly Tales feature",
+        "url": "https://curlytales.com/nagarjuna-bengaluru-serves-authentic-andhra-cuisine-banana-leaf/amp/"
+      }
+    ],
+    "verification": "Existence, category and Residency Road address confirmed across several independent listings. Phone numbers conflict between listings - confirm on first call. No official website or email found.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "nandhini-deluxe",
+    "name": "Nandhini Deluxe",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Andhra restaurant chain",
+    "area": "Jayanagar",
+    "address": "27th Cross, Jayanagar 4th Block, Bengaluru (Jayanagar flagship, per Asklaila listing)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2653 5090",
+        "label": "Jayanagar 4th Block (Asklaila listing - may be outdated)",
+        "source": "https://www.asklaila.com/listing/Bangalore/jaya-nagar-4th-block/nandhini-deluxe/1yIKngn7/"
+      },
+      {
+        "number": "+91 80 2557 6688",
+        "label": "Coles Road, Frazer Town (Asklaila listing)",
+        "source": "https://www.asklaila.com/listing/Bangalore/frazer-town/nandhini-deluxe/Zd70Wshr/"
+      },
+      {
+        "number": "+91 80 2662 7363",
+        "label": "Lalbagh Fort Road, Basavanagudi (Asklaila listing)",
+        "source": "https://www.asklaila.com/listing/Bangalore/basavanagudi/nandhini-deluxe/W8olr1TJ/"
+      },
+      {
+        "number": "+91 80 4349 9999",
+        "label": "Sadaramangala, Whitefield (Asklaila listing)",
+        "source": "https://www.asklaila.com/listing/Bangalore/whitefield/nandhini-deluxe/1IYaPL7l/"
+      },
+      {
+        "number": "+91 80 4035 5566",
+        "label": "24th Main, JP Nagar 6th Phase (Asklaila listing)",
+        "source": "https://www.asklaila.com/listing/Bangalore/j-p-nagar-6th-phase/nandhini-deluxe/MfPs6ey2/"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "N. Anand",
+        "role": "Founder (established the brand in 1989)",
+        "type": "owner",
+        "source": "https://www.restaurantindia.in/news/nandhini-deluxe-returns-to-jayanagar-with-revamped-flagship-outlet.n16657"
+      }
+    ],
+    "description": "Bengaluru Andhra-cuisine chain established in 1989, known for Andhra meals, biryanis and spicy starters. Reported to operate 15-18 outlets in Bengaluru and one in Mysuru.",
+    "offerings": "Andhra meals, biryani, non-veg starters, family dining, takeaway and delivery.",
+    "branches": "15-18 outlets across Bengaluru plus one in Mysuru (Restaurant India reports). Listed branches include Jayanagar, St. Marks Road (Vasavi Complex), Frazer Town, Basavanagudi, Whitefield, JP Nagar, Banashankari, Gandhi Nagar and Indiranagar.",
+    "branchCount": 18,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "300-600",
+      "basis": "Estimate only: about 18 outlets x 15-35 staff per full-service restaurant."
+    },
+    "facts": [
+      "Founded in 1989 by N. Anand",
+      "Revamped Jayanagar flagship reopened on 6 July 2026",
+      "Opened a 6,000 sq ft flagship on St. Marks Road",
+      "Runs seasonal campaigns such as 'More than just Pongal - Harvest Tales on a Leaf'"
+    ],
+    "socialObserved": "Brand runs PR-led seasonal campaigns covered by Restaurant India; official website/Instagram handle not verified in this research.",
+    "sources": [
+      {
+        "label": "Restaurant India - Jayanagar flagship returns",
+        "url": "https://www.restaurantindia.in/news/nandhini-deluxe-returns-to-jayanagar-with-revamped-flagship-outlet.n16657"
+      },
+      {
+        "label": "Restaurant India - St. Marks Road flagship",
+        "url": "https://www.restaurantindia.in/news/restaurant-india-news-nandhini-expands-with-6000-sq-ft-flagship-outlet-on-st-marks-road"
+      },
+      {
+        "label": "Restaurant India - Pongal campaign",
+        "url": "https://www.restaurantindia.in/news/nandhini-deluxe-announces-more-than-just-pongal-harvest-tales-on-a-leaf.n12133"
+      },
+      {
+        "label": "Asklaila - Jayanagar",
+        "url": "https://www.asklaila.com/listing/Bangalore/jaya-nagar-4th-block/nandhini-deluxe/1yIKngn7/"
+      },
+      {
+        "label": "Swiggy - Banashankari",
+        "url": "https://www.swiggy.com/restaurants/nandhini-deluxe-banashankari-bangalore-4981"
+      }
+    ],
+    "verification": "Existence, founder and outlet scale confirmed by trade press (Restaurant India). Branch phone numbers come from an older directory and must be re-confirmed. No official email found.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "truffles",
+    "name": "Truffles",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Burger and continental cafe chain",
+    "area": "Ashok Nagar (St. Mark's Road)",
+    "address": "22, St Mark's Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "website": "https://truffles.co.in",
+    "websiteNote": "Website listed by directories; not opened during research (network restricted).",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4112 1160",
+        "label": "St. Mark's Road outlet (directory listing)",
+        "source": "https://yappe.in/karnataka/bengaluru/truffles/723349"
+      },
+      {
+        "number": "+91 80 4146 6565",
+        "label": "Koramangala outlet (LBB listing)",
+        "source": "https://lbb.in/places/Truffles-koramangala-0fc67a"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Iconic Bengaluru resto-cafe chain known for burgers, steaks and cold coffee, with outlets across the city.",
+    "offerings": "Burgers, steaks, pasta, all-day breakfast, shakes and cold coffee; dine-in and delivery.",
+    "branches": "St. Mark's Road, Koramangala (5th Block), Indiranagar, New BEL Road and Kalyan Nagar, plus a JP Nagar delivery kitchen (LBB).",
+    "branchCount": 5,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "100-200",
+      "basis": "Estimate only: 5 high-footfall outlets x 20-40 staff each."
+    },
+    "facts": [
+      "Iconic burger, steak and cold-coffee destination",
+      "Outlets on St. Mark's Road, Koramangala, Indiranagar, New BEL Road and Kalyan Nagar",
+      "Opened a JP Nagar delivery kitchen"
+    ],
+    "socialObserved": "Directory sites describe a strong online menu presence; Instagram handle not verified in this research.",
+    "sources": [
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/truffles/723349"
+      },
+      {
+        "label": "EazyDiner - St Marks Road",
+        "url": "https://www.eazydiner.com/bengaluru/truffles-st-marks-road-336900"
+      },
+      {
+        "label": "LBB - Koramangala",
+        "url": "https://lbb.in/places/Truffles-koramangala-0fc67a"
+      },
+      {
+        "label": "LBB feature",
+        "url": "https://lbb.in/bangalore/truffles-restaurant-bangalore/"
+      },
+      {
+        "label": "LBB - JP Nagar delivery kitchen",
+        "url": "https://lbb.in/bangalore/jp-nagar-truffles-delivery-kitchen-announcement/"
+      },
+      {
+        "label": "Deccan Herald",
+        "url": "https://www.deccanherald.com/content/549016/fusion-food.html"
+      }
+    ],
+    "verification": "Existence, category, address and multi-outlet footprint confirmed across listings and press. Phone numbers from directories; founder not identified.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "glens-bakehouse",
+    "name": "Glen's Bakehouse",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Bakery-cafe chain",
+    "area": "Indiranagar",
+    "address": "100 Feet Road, Indiranagar, Bengaluru (Indiranagar outlet, per LBB)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4122 8773",
+        "label": "Indiranagar, 100 Feet Road (LBB listing)",
+        "source": "https://lbb.in/places/Glens-Bakehouse-indira-nagar-7979cf"
+      },
+      {
+        "number": "+91 80 4852 4900",
+        "label": "Whitefield outlet (Yappe & LBB agree)",
+        "source": "https://yappe.in/karnataka/bengaluru/glen-s-bakehouse/1259564"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Vintage-style bakehouse and cafe chain popular for breakfasts, cakes and bakes, with multiple outlets in Bengaluru.",
+    "offerings": "Cakes, pastries, breads, all-day breakfast, cafe menu, celebration cakes; dine-in, takeaway and delivery.",
+    "branches": "Indiranagar, Lavelle Road (Ashok Nagar), Whitefield, Koramangala, HSR Layout (2337, Sector 1, 24th Main) and Bannerghatta Road per LBB / PlateLicker / EazyDiner listings.",
+    "branchCount": 6,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "60-150",
+      "basis": "Estimate only: about 6 bakery-cafes x 10-25 staff."
+    },
+    "facts": [
+      "Featured among Bengaluru's best bakeries for cakes (EazyDiner 2026)",
+      "Popular breakfast destination (The South First)",
+      "Six listed outlets across Bengaluru"
+    ],
+    "socialObserved": "No official website surfaced in research; Instagram handle not verified.",
+    "sources": [
+      {
+        "label": "LBB - Indiranagar",
+        "url": "https://lbb.in/places/Glens-Bakehouse-indira-nagar-7979cf"
+      },
+      {
+        "label": "LBB - Whitefield",
+        "url": "https://lbb.in/places/Glens-Bakehouse-whitefield-3ec869"
+      },
+      {
+        "label": "LBB - Ashok Nagar",
+        "url": "https://lbb.in/places/Glens-Bakehouse-ashok-nagar-ac25de"
+      },
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/glen-s-bakehouse/1259564"
+      },
+      {
+        "label": "PlateLicker - HSR Layout",
+        "url": "https://platelicker.talvinder.com/restaurants/glens-bakehouse-hsr-layout?near=hsr"
+      },
+      {
+        "label": "EazyDiner - best bakeries 2026",
+        "url": "https://www.eazydiner.com/food-trends/bangalore-bakeries-the-best-bakeries-in-bangalore-for-cakes-pastries-croissants-and-celebrations"
+      }
+    ],
+    "verification": "Existence and multi-outlet footprint confirmed across directories and food guides. Founder, website and email not found.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "brik-oven",
+    "name": "Brik Oven",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Wood-fired pizzeria chain",
+    "area": "Church Street (CBD)",
+    "address": "19, Church Street, Bengaluru, Karnataka 560001 (original outlet, per listing)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [],
+    "emails": [],
+    "people": [
+      {
+        "name": "Anirudh Nopany",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://thenodmag.com/content/brine-bengaluru-indiranagar-restaurant-bar-review"
+      },
+      {
+        "name": "Sreeram Anvesh",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://thenodmag.com/content/brine-bengaluru-indiranagar-restaurant-bar-review"
+      }
+    ],
+    "description": "Bengaluru wood-fired and Neapolitan-style pizza chain that started as a two-person operation on Church Street and grew into a citywide brand.",
+    "offerings": "Wood-fired and Neapolitan pizzas (incl. whole-wheat sourdough), waffles, shakes, smoked meats, sandwiches and gourmet deli products.",
+    "branches": "7-10 outlets (sources differ). Locations named include Church Street, Indiranagar (HAL 2nd Stage, 80 Feet Road), HSR Layout, Bellandur, Palace Road, Sarjapur, Manyata Tech Park, Whitefield, Kanakapura Road and AECS Layout.",
+    "branchCount": 10,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "100-250",
+      "basis": "Estimate only: 7-10 outlets x 12-25 staff."
+    },
+    "facts": [
+      "Started as a two-person operation on Church Street",
+      "Rolled out whole-wheat sourdough pizza across 10 Bengaluru locations",
+      "Founders also opened Brine, a bar-restaurant in Indiranagar (May 2026)",
+      "Launched gourmet deli products"
+    ],
+    "socialObserved": "Active in food press (Restaurant India, LBB, The NOD). Official website and Instagram handle not verified in research.",
+    "sources": [
+      {
+        "label": "Restaurant India - sourdough across 10 locations",
+        "url": "https://www.restaurantindia.in/news/restaurant-india-news-brik-oven-adds-whole-wheat-sourdough-option-to-its-pizza-lineup-across"
+      },
+      {
+        "label": "Restaurant India - deli products",
+        "url": "https://www.restaurantindia.in/news/brik-oven-expands-their-presence-with-the-launch-of-gourmet-deli-products.n13093"
+      },
+      {
+        "label": "The NOD - Brine review (founders)",
+        "url": "https://thenodmag.com/content/brine-bengaluru-indiranagar-restaurant-bar-review"
+      },
+      {
+        "label": "District - Indiranagar",
+        "url": "https://www.district.in/dining/bangalore/brik-oven-woodfired-pizzas-indiranagar-bangalore"
+      },
+      {
+        "label": "EazyDiner - AECS Layout",
+        "url": "https://www.eazydiner.com/bengaluru/brik-oven-neapolitan-style-pizzas-aecs-layout-brookefield-east-bengaluru-715357"
+      }
+    ],
+    "verification": "Existence, founders and multi-outlet footprint confirmed by trade press. Outlet count differs between sources (7 vs 10). No public phone/email captured - use Google Maps listing.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "toit",
+    "name": "Toit Brewpub",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Brewpub / craft brewery",
+    "area": "Indiranagar",
+    "address": "298, 100 Feet Road, Indiranagar, Bengaluru (per Savaari guide)",
+    "website": "https://www.toit.in",
+    "websiteNote": "Website listed by directories; not opened during research (network restricted).",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": "https://www.linkedin.com/company/ph4",
+    "phones": [
+      {
+        "number": "+91 90197 13388",
+        "label": "Indiranagar brewpub (several listings incl. ZoomInfo)",
+        "source": "https://yappe.in/karnataka/bengaluru/toit-brewpub/44737"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Arun George",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.outlookbusiness.com/magazine/story/arun-george-mukesh-tolani-and-sibi-venkataraju-3311"
+      },
+      {
+        "name": "Mukesh Tolani",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.outlookbusiness.com/magazine/story/arun-george-mukesh-tolani-and-sibi-venkataraju-3311"
+      },
+      {
+        "name": "Sibi Venkataraju",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.outlookbusiness.com/magazine/story/arun-george-mukesh-tolani-and-sibi-venkataraju-3311"
+      }
+    ],
+    "description": "One of Bengaluru's best-known brewpubs, founded in 2009 by a group of friends, brewing its own craft beers in Indiranagar.",
+    "offerings": "In-house craft beers, pub food, events; brewpub dining.",
+    "branches": "Indiranagar flagship brewpub. Other locations not verified in this research.",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "80-200",
+      "basis": "Estimate only: large multi-floor brewpub plus brewing operations."
+    },
+    "facts": [
+      "Founded in 2009 by friends Arun George, Mukesh Tolani and Sibi Venkataraju (plus co-founder Glen per YourStory)",
+      "Featured by YourStory for its brewing success story",
+      "Regularly listed among Bengaluru's top breweries"
+    ],
+    "socialObserved": "Well covered by media and guides; likely an established in-house social presence - verify handle and posting cadence before pitching social media.",
+    "sources": [
+      {
+        "label": "Outlook Business - founders",
+        "url": "https://www.outlookbusiness.com/magazine/story/arun-george-mukesh-tolani-and-sibi-venkataraju-3311"
+      },
+      {
+        "label": "YourStory - Toit story",
+        "url": "https://yourstory.com/2014/07/toit-story"
+      },
+      {
+        "label": "YourStory - brewing success (2024)",
+        "url": "https://yourstory.com/2024/01/toit-brewing-success"
+      },
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/toit-brewpub/44737"
+      },
+      {
+        "label": "Savaari brewery guide (address)",
+        "url": "https://www.savaari.com/blog/best-breweries-in-bangalore-guide/"
+      },
+      {
+        "label": "ZoomInfo company profile",
+        "url": "https://www.zoominfo.com/c/toit/434268302"
+      }
+    ],
+    "verification": "Existence, founders and address confirmed across media and directories. Phone from directories. Email not found.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "vidyarthi-bhavan",
+    "name": "Vidyarthi Bhavan",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Heritage South Indian tiffin restaurant",
+    "area": "Basavanagudi",
+    "address": "32, Gandhi Bazaar Main Rd, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
+    "website": "http://www.vidyarthibhavan.in",
+    "websiteNote": "Listed by Yappe only - unverified.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2667 7588",
+        "label": "Gandhi Bazaar (Yappe & TasteAtlas)",
+        "source": "https://yappe.in/karnataka/bengaluru/vidyarthi-bhavan/760947"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Heritage Bengaluru restaurant in Gandhi Bazaar, Basavanagudi, famous for its crisp masala dosa and long weekend queues; has its own Wikipedia entry.",
+    "offerings": "Masala dosa, idli-vada, kesari bath, filter coffee and other South Indian tiffin items.",
+    "branches": "Single iconic outlet in Gandhi Bazaar (no other branches verified).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "30-60",
+      "basis": "Estimate only: single very high-volume restaurant with kitchen and service shifts."
+    },
+    "facts": [
+      "Iconic Gandhi Bazaar dosa institution with a Wikipedia entry",
+      "Closed on Fridays per listings",
+      "Weekend crowds and queues"
+    ],
+    "socialObserved": "Heritage brand that relies on word of mouth and food media; official social presence not verified.",
+    "sources": [
+      {
+        "label": "Wikipedia - Vidyarthi Bhavan",
+        "url": "https://en.wikipedia.org/wiki/Vidyarthi_Bhavan"
+      },
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/vidyarthi-bhavan/760947"
+      },
+      {
+        "label": "TasteAtlas",
+        "url": "https://tasteatlas.com/VidyarthiBhavan"
+      },
+      {
+        "label": "Swiggy listing",
+        "url": "https://www.swiggy.com/restaurants/vidyarthi-bhavan-gandhi-bazar-gandhi-bazaar-bangalore-3883"
+      }
+    ],
+    "verification": "Existence, address and phone confirmed across two listings plus Wikipedia. Website unverified; owner not identified in research.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "meghana-foods",
+    "name": "Meghana Foods",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Biryani restaurant chain",
+    "area": "Ashok Nagar (Residency Road)",
+    "address": "Jayalakshmi Chambers, 1st Floor, 57/1, Residency Road, Ashok Nagar, Bengaluru (per LBB listing)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 70229 02913",
+        "label": "Residency Road outlet (LBB listing)",
+        "source": "https://lbb.in/places/Meghana-Foods-residency-road-fd7ae9"
+      },
+      {
+        "number": "+91 80 2244 8080",
+        "label": "Jayanagar (older Thomas Cook page - may be outdated)",
+        "source": "https://www.thomascook.in/india-tourism/karnataka-tourism/places-to-visit-in-karnataka/meghana-foods/1469"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "One of Bengaluru's most popular biryani brands, serving Andhra-style biryani and meals across a growing network of outlets.",
+    "offerings": "Biryanis, Andhra meals, non-veg starters; dine-in, takeaway and heavy delivery volume via Swiggy/Zomato.",
+    "branches": "About 15 Bengaluru outlets per a recent listing (older coverage said 5). Listed outlets include Residency Road, Koramangala, Jayanagar, Indiranagar, Marathahalli (Outer Ring Road), PR Layout and Kengeri.",
+    "branchCount": 15,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "250-500",
+      "basis": "Estimate only: about 15 busy outlets x 20-35 staff."
+    },
+    "facts": [
+      "Featured in Swiggy's 2026 'Best Biryani in Bangalore' list",
+      "Grew from about 5 to about 15 outlets in Bengaluru",
+      "Heavy delivery and dine-in volume"
+    ],
+    "socialObserved": "No official website surfaced in research; demand is largely driven by delivery apps and word of mouth.",
+    "sources": [
+      {
+        "label": "Swiggy blog - Best Biryani 2026",
+        "url": "https://blog.swiggy.com/?p=30785"
+      },
+      {
+        "label": "LBB - Residency Road",
+        "url": "https://lbb.in/places/Meghana-Foods-residency-road-fd7ae9"
+      },
+      {
+        "label": "LBB - Koramangala",
+        "url": "https://lbb.in/places/Meghana-Foods-koramangala-1f81a4"
+      },
+      {
+        "label": "magicpin - PR Layout",
+        "url": "https://magicpin.in/Bangalore/Pr-Layout/Restaurant/Meghana-Foods/store/67cb/"
+      },
+      {
+        "label": "Thomas Cook - Meghana Foods",
+        "url": "https://www.thomascook.in/india-tourism/karnataka-tourism/places-to-visit-in-karnataka/meghana-foods/1469"
+      },
+      {
+        "label": "Deccan Herald coverage",
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/i-t-raids-at-bengalurus-meghana-foods-outlets-2942581"
+      }
+    ],
+    "verification": "Existence and multi-outlet footprint confirmed by press and listings. Phone numbers from directories (one older) - confirm before calling. No official website/email found.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "corner-house",
+    "name": "Corner House Ice Creams",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Ice-cream and dessert parlour chain",
+    "area": "Ashok Nagar (Residency Road)",
+    "address": "Shop 45/3, Gopalkrishna Complex, near Mayo Hall, Residency Road, Bengaluru 560025 (per District listing)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80500 38330",
+        "label": "Listed against the Kalyan Nagar outlet on LBB (pairing not fully reliable)",
+        "source": "https://lbb.in/places/Corner-House-kalyan-nagar-188b69"
+      },
+      {
+        "number": "+91 98808 51151",
+        "label": "Listed against a Marathahalli outlet on LBB (pairing not fully reliable)",
+        "source": "https://lbb.in/places/Corner-House-Ice-Cream-koramangala-d4f01b"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "A. Narayan Rao",
+        "role": "Founder (opened Corner House on Residency Road in 1982)",
+        "type": "owner",
+        "source": "https://citizenmatters.in/1998-corner-house-founder-a-narayan-rao/"
+      }
+    ],
+    "description": "Beloved Bengaluru ice-cream brand founded in 1982 on Residency Road, famous for its 'Death by Chocolate' sundae, with company-run and franchise parlours across the city.",
+    "offerings": "Sundaes (incl. Death by Chocolate), ice creams, hot chocolate fudge, desserts; dine-in, takeaway and delivery.",
+    "branches": "15-22 parlours across Bengaluru (one report: 15 stores of which 6 are franchises; a 2025 report: 22 outlets). Listed locations include Residency Road, Jayanagar, Basavanagudi, Lavelle Road, Koramangala, Indiranagar, Kalyan Nagar, Sheshadripuram and HSR Layout.",
+    "branchCount": 22,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-300",
+      "basis": "Estimate only: about 20 parlours x 6-12 staff plus central production."
+    },
+    "facts": [
+      "Founded by A. Narayan Rao on Residency Road in 1982",
+      "Famous for the 'Death by Chocolate' sundae",
+      "Produces about 1.5 lakh litres of ice cream a month (The Better India)",
+      "Mix of company-run and franchise parlours"
+    ],
+    "socialObserved": "Huge word-of-mouth brand with celebrity mentions (Curly Tales); official website/Instagram handle not verified in research.",
+    "sources": [
+      {
+        "label": "Citizen Matters - founder A. Narayan Rao",
+        "url": "https://citizenmatters.in/1998-corner-house-founder-a-narayan-rao/"
+      },
+      {
+        "label": "The News Minute - founder interview",
+        "url": "https://www.thenewsminute.com/features/ice-cream-chocolate-business-happy-business-says-man-who-gave-bengaluru-corner-house-152123"
+      },
+      {
+        "label": "District - Residency Road",
+        "url": "https://www.district.in/dining/bangalore/corner-house-ice-creams-residency-road-bangalore"
+      },
+      {
+        "label": "The Better India - 1.5 lakh litres a month",
+        "url": "https://thebetterindia.com/web-stories/corner-house-bengaluru-death-by-chocolate-story"
+      },
+      {
+        "label": "Homegrown feature",
+        "url": "https://homegrown.co.in/homegrown-explore/a-bengaluru-gem-how-corner-house-ice-creams-shaped-the-citys-culture"
+      },
+      {
+        "label": "LBB - Kalyan Nagar",
+        "url": "https://lbb.in/places/Corner-House-kalyan-nagar-188b69"
+      }
+    ],
+    "verification": "Founder, history, flagship address and multi-outlet footprint confirmed by several media sources. Phone numbers from LBB with uncertain outlet pairing - confirm before calling.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "mtr-mavalli-tiffin-rooms",
+    "name": "MTR - Mavalli Tiffin Rooms",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Heritage South Indian restaurant chain (since 1924)",
+    "area": "Lalbagh Road (Mavalli)",
+    "address": "#14, Lalbagh Road, Bengaluru, Karnataka 560027",
+    "website": "https://www.mavallitiffinrooms.com",
+    "websiteNote": "Official site per Wikipedia; its About/Press pages appear in search results.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2222 0022",
+        "label": "Lalbagh Road flagship (travel directory listing - verify)",
+        "source": "https://travel.sygic.com/en/poi/mtr-poi:33702"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Legendary Bengaluru tiffin restaurant founded in 1924 on Lalbagh Fort Road, now operating multiple restaurants in Bengaluru and abroad.",
+    "offerings": "South Indian breakfast and meals (rava idli, masala dosa, bisi bele bath, filter coffee), sweets; dine-in and takeaway.",
+    "branches": "Wikipedia lists 17 locations; an older News Minute article cites nine Bengaluru restaurants plus Singapore and Dubai; Business Today (Aug 2026) reports a Sydney franchise.",
+    "branchCount": 17,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "250-500",
+      "basis": "Estimate only: about 17 locations x 15-30 staff."
+    },
+    "facts": [
+      "Founded in 1924 on Lalbagh Fort Road",
+      "Restaurants in Bengaluru plus Singapore and Dubai",
+      "Franchise expansion to Sydney reported in August 2026"
+    ],
+    "socialObserved": "Has an official website with About and Press pages; social handles not verified in this research.",
+    "sources": [
+      {
+        "label": "Wikipedia - Mavalli Tiffin Rooms",
+        "url": "https://en.wikipedia.org/wiki/Mavalli_Tiffin_Rooms"
+      },
+      {
+        "label": "Official site - The MTR story",
+        "url": "https://www.mavallitiffinrooms.com/about"
+      },
+      {
+        "label": "Sygic travel listing (address/phone)",
+        "url": "https://travel.sygic.com/en/poi/mtr-poi:33702"
+      },
+      {
+        "label": "The News Minute - nine decades",
+        "url": "https://www.thenewsminute.com/article/mtrs-soul-food-delighting-bengaluru-nine-decades-34632"
+      },
+      {
+        "label": "Business Today - Sydney (2026)",
+        "url": "https://www.businesstoday.in/amp/latest/trends/story/sydney-foodies-get-ready-bengalurus-legendary-mtr-is-heading-your-way-547755-2026-08-06"
+      }
+    ],
+    "verification": "Existence, address, official website and history confirmed. Phone from a travel directory - verify. Current decision-makers not identified in research.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "hatti-kaapi",
+    "name": "Hatti Kaapi",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Filter-coffee cafe and kiosk chain (Hatti Food and Beverages Pvt Ltd)",
+    "area": "Rajajinagar Industrial Suburb (HQ)",
+    "address": "No. 17/A1-2, Industrial Suburb, behind Reliance Petrol Bunk, 2nd Stage, Raja Industrial Estate, Bengaluru 560022 (HQ per CB Insights)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 2558 5544",
+        "label": "Head office (CB Insights - verify)",
+        "source": "https://www.cbinsights.com/company/hatti-kaapi"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "U.S. Mahendar",
+        "role": "Founder & CEO",
+        "type": "owner",
+        "source": "https://40-under-40.et-edge.com/?p=11610"
+      },
+      {
+        "name": "Mahalinge Gowda",
+        "role": "Co-founder",
+        "type": "owner",
+        "source": "https://www.businesstoday.in/amp/latest/corporate/story/hatti-kaapi-raises-rs-10-crore-plans-to-expand-to-over-200-outlets-307251-2021-09-21"
+      }
+    ],
+    "description": "Bengaluru filter-coffee brand started in 2009 in Gandhi Bazaar, now running dozens of cafes and kiosks at airports, tech parks, hospitals and corporate campuses.",
+    "offerings": "South Indian filter coffee, tea, snacks; kiosks and cafes at high-footfall locations; corporate and institutional outlets.",
+    "branches": "65 touchpoints in Bengaluru and 100+ outlets nationally (latest reports); recent openings include Church Street (64th outlet), New BEL Road and Fortis Hospital.",
+    "branchCount": 65,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "300-700",
+      "basis": "Estimate only: about 100 kiosks/cafes x 3-6 staff plus central kitchen and logistics."
+    },
+    "facts": [
+      "Started in 2009 with just over Rs 1 lakh, first store in Gandhi Bazaar",
+      "65 touchpoints across Bengaluru, 100+ outlets nationally",
+      "Raised Rs 10 crore pre-Series A to scale towards 200 outlets",
+      "Says technology is integral to its operations (Retail4Growth)"
+    ],
+    "socialObserved": "Frequent trade-press coverage of openings; official website/Instagram not verified in research.",
+    "sources": [
+      {
+        "label": "Restaurant India - 64th outlet, Church Street",
+        "url": "https://www.restaurantindia.in/news/restaurant-india-news-hatti-kaapi-opens-their-64th-outlet-in-church-street-bengaluru.n14296"
+      },
+      {
+        "label": "Franchise India - Fortis Hospital outlet",
+        "url": "https://www.franchiseindia.com/insights/en/news/hatti-kaapi-expands-bengaluru-presence-with-new-outlet-at-fortis-hospital.59494"
+      },
+      {
+        "label": "Business Today - Rs 10 cr raise",
+        "url": "https://www.businesstoday.in/amp/latest/corporate/story/hatti-kaapi-raises-rs-10-crore-plans-to-expand-to-over-200-outlets-307251-2021-09-21"
+      },
+      {
+        "label": "CB Insights - HQ and phone",
+        "url": "https://www.cbinsights.com/company/hatti-kaapi"
+      },
+      {
+        "label": "ET Edge 40 under 40 - U.S. Mahendar",
+        "url": "https://40-under-40.et-edge.com/?p=11610"
+      },
+      {
+        "label": "Retail4Growth interview",
+        "url": "https://www.retail4growth.com/viewpoints/technology-is-very-integral-to-hatti-kaapi-1256"
+      }
+    ],
+    "verification": "Founders, history and scale confirmed by business press. HQ phone from CB Insights - verify. Likely already uses some technology; position as a lightweight add-on.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Attendance"
+  },
+  {
+    "id": "the-biere-club",
+    "name": "The Biere Club",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Brewpub chain (Bengaluru's first microbrewery)",
+    "area": "Lavelle Road (CBD)",
+    "address": "20/2, Vittal Mallya Road - Lavelle Road junction, Bengaluru",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4212 4383",
+        "label": "Lavelle Road (from a 2015 review - likely outdated, verify)",
+        "source": "https://manuscrypts.com/2015/05/10/the-biere-club-2/"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Meenakshi Raju",
+        "role": "Co-founder & Director",
+        "type": "owner",
+        "source": "https://www.restaurantindia.in/south/2017/meenakshi.php"
+      },
+      {
+        "name": "Arvind Sagiraju",
+        "role": "Managing Director (co-founder)",
+        "type": "owner",
+        "source": "https://www.restaurantindia.in/news/the-biere-club-opens-third-bengaluru-outlet-at-rmz-ecoworld-bellandur.n17139"
+      }
+    ],
+    "description": "Opened in May 2011 on Lavelle Road by siblings Meenakshi and Arvind Raju, widely regarded as Bengaluru's first microbrewery; now runs three Bengaluru outlets.",
+    "offerings": "Craft beers brewed in-house, pub food, events and private parties.",
+    "branches": "Lavelle Road (2011), Whitefield ('153, Biere Street', 2013) and RMZ EcoWorld, Bellandur (third outlet).",
+    "branchCount": 3,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "80-180",
+      "basis": "Estimate only: three large brewpubs x 25-60 staff."
+    },
+    "facts": [
+      "Widely considered Bengaluru's first microbrewery (May 2011)",
+      "Third outlet opened at RMZ EcoWorld, Bellandur",
+      "Founded by siblings Meenakshi and Arvind Raju"
+    ],
+    "socialObserved": "Good trade-press visibility; official website and Instagram not verified in research.",
+    "sources": [
+      {
+        "label": "Restaurant India - Meenakshi Raju profile",
+        "url": "https://www.restaurantindia.in/south/2017/meenakshi.php"
+      },
+      {
+        "label": "Restaurant India - third outlet at RMZ EcoWorld",
+        "url": "https://www.restaurantindia.in/news/the-biere-club-opens-third-bengaluru-outlet-at-rmz-ecoworld-bellandur.n17139"
+      },
+      {
+        "label": "Manuscrypts review (2015)",
+        "url": "https://manuscrypts.com/2015/05/10/the-biere-club-2/"
+      },
+      {
+        "label": "Onmanorama - Bengaluru breweries",
+        "url": "https://www.onmanorama.com/food/features/2023/08/17/bangalore-bengaluru-craft-beer-breweries.html"
+      }
+    ],
+    "verification": "Founders, history and outlets confirmed by trade press. The only phone number is from 2015 - use Google Maps listing to confirm.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "koshys",
+    "name": "Koshy's",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Heritage restaurant and bakery (since 1940)",
+    "area": "Ashok Nagar (St. Mark's Road)",
+    "address": "39, St Mark's Road, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 80 4149 6575",
+        "label": "St. Mark's Road (Yappe & LBB agree)",
+        "source": "https://yappe.in/karnataka/bengaluru/koshy-s/825965"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "Prem Koshy",
+        "role": "Owner (grandson of founder P.O. Koshy)",
+        "type": "owner",
+        "source": "https://en.wikipedia.org/wiki/Koshy%27s"
+      }
+    ],
+    "description": "Iconic St. Mark's Road restaurant that began as a bakery in 1940, famous for breakfasts and as a long-time meeting place for writers, artists and politicians.",
+    "offerings": "All-day dining, breakfast classics, Kerala and continental dishes, bakery items.",
+    "branches": "Single heritage restaurant on St. Mark's Road (no other branches verified).",
+    "branchCount": 1,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "40-80",
+      "basis": "Estimate only: single large heritage restaurant open all day."
+    },
+    "facts": [
+      "Set up in 1940 by P.O. Koshy as a bakery",
+      "Run by grandson Prem Koshy",
+      "Celebrated in Scroll, Outlook and Homegrown features as a Bengaluru institution"
+    ],
+    "socialObserved": "Strong legacy brand in media; official social presence not verified - likely under-uses Instagram relative to its fame.",
+    "sources": [
+      {
+        "label": "Wikipedia - Koshy's",
+        "url": "https://en.wikipedia.org/wiki/Koshy%27s"
+      },
+      {
+        "label": "Yappe listing",
+        "url": "https://yappe.in/karnataka/bengaluru/koshy-s/825965"
+      },
+      {
+        "label": "LBB listing",
+        "url": "https://lbb.in/places/Koshys-st-marks-road-9f37e8"
+      },
+      {
+        "label": "Homegrown - 70-year allure",
+        "url": "https://homegrown.co.in/homegrown-explore/the-70-year-old-allure-of-bengalurus-iconic-koshys-restaurant"
+      },
+      {
+        "label": "Silver Talkies - Prem Koshy",
+        "url": "https://c1.silvertalkies.com/care/description?id=1245"
+      }
+    ],
+    "verification": "Existence, address, owner and phone confirmed by Wikipedia plus two directories.",
+    "confidence": "High",
+    "interest": "Medium",
+    "product": "Both"
+  },
+  {
+    "id": "paakashala",
+    "name": "Paakashala",
+    "category": "Restaurants & Cafes",
+    "subcategory": "Vegetarian South Indian restaurant chain (Sri Anantheswara Foods Pvt Ltd)",
+    "area": "Indiranagar",
+    "address": "#219, opp. BDA Complex, 2nd Stage, Binnamangala, Indiranagar, Bengaluru (Indiranagar outlet)",
+    "website": "https://paakashala.com",
+    "websiteNote": "Website named by YourStory/EverybodyWiki; not opened during research.",
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 84314 32806",
+        "label": "Indiranagar outlet (directory listing)",
+        "source": "https://yappe.in/karnataka/bengaluru/paakashala-indiranagar/899165"
+      },
+      {
+        "number": "+91 93809 09960",
+        "label": "Malleshwaram outlet (directory listing)",
+        "source": "https://yappe.in/karnataka/bengaluru/paakashala-malleshwaram/1222044"
+      },
+      {
+        "number": "+91 84314 32801",
+        "label": "Kumaraswamy Layout outlet (LBB)",
+        "source": "https://lbb.in/places/Paakashala-kumaraswamy-layout-cbe0b4"
+      }
+    ],
+    "emails": [],
+    "people": [
+      {
+        "name": "K.N. Vasudeva Adiga",
+        "role": "Founder",
+        "type": "owner",
+        "source": "https://yourstory.com/companies/paakashala"
+      }
+    ],
+    "description": "Bengaluru pure-vegetarian South Indian chain launched in 2018 by K.N. Vasudeva Adiga under Sri Anantheswara Foods Pvt Ltd.",
+    "offerings": "South Indian tiffin, meals, sweets and snacks; dine-in, takeaway and delivery.",
+    "branches": "About 8 outlets (pandemic-era figure). Listed: Indiranagar, Malleshwaram (Sampige Road), Doddakannalli (Sarjapur Main Rd), Kumaraswamy Layout (Kanakapura Rd) and JP Nagar.",
+    "branchCount": 8,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-300",
+      "basis": "Estimate only: about 8 outlets x 20-35 staff."
+    },
+    "facts": [
+      "Launched in 2018 by K.N. Vasudeva Adiga",
+      "Around 8 pure-veg outlets across Bengaluru",
+      "Outlets in Indiranagar, Malleshwaram, Sarjapur Road, Kanakapura Road and JP Nagar"
+    ],
+    "socialObserved": "Website named in company profiles; Instagram handle not verified.",
+    "sources": [
+      {
+        "label": "YourStory company profile",
+        "url": "https://yourstory.com/companies/paakashala"
+      },
+      {
+        "label": "EverybodyWiki - Paakashala",
+        "url": "https://en.everybodywiki.com/Paakashala"
+      },
+      {
+        "label": "Yappe - Indiranagar",
+        "url": "https://yappe.in/karnataka/bengaluru/paakashala-indiranagar/899165"
+      },
+      {
+        "label": "Yappe - Malleshwaram",
+        "url": "https://yappe.in/karnataka/bengaluru/paakashala-malleshwaram/1222044"
+      },
+      {
+        "label": "LBB - Kumaraswamy Layout",
+        "url": "https://lbb.in/places/Paakashala-kumaraswamy-layout-cbe0b4"
+      },
+      {
+        "label": "LBB - JP Nagar",
+        "url": "https://lbb.in/places/Paakashala-jp-nagar-946191"
+      }
+    ],
+    "verification": "Founder and outlets confirmed by company profiles and listings. Phones from directories.",
+    "confidence": "High",
+    "interest": "High",
+    "product": "Both"
+  },
+  {
+    "id": "kapoors-cafe",
+    "name": "Kapoor's Cafe",
+    "category": "Restaurants & Cafes",
+    "subcategory": "North Indian / Punjabi restaurant chain",
+    "area": "Whitefield",
+    "address": "Thubarahalli, Whitefield, Bengaluru (Whitefield outlet per Yappe; confirm exact street on Google Maps)",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "phones": [
+      {
+        "number": "+91 81056 74336",
+        "label": "Whitefield / Thubarahalli outlet (Yappe; data last updated Jan 2024)",
+        "source": "https://yappe.in/karnataka/bengaluru/kapoor-s-cafe-whitefield/44921"
+      },
+      {
+        "number": "+91 99807 88777",
+        "label": "Kadugodi outlet (Yappe)",
+        "source": "https://yappe.in/karnataka/bengaluru/kapoors-cafe-kadugodi/1279649"
+      },
+      {
+        "number": "+91 94487 68043",
+        "label": "RR Nagar outlet (Yappe)",
+        "source": "https://yappe.in/karnataka/bengaluru/kapoor-s-cafe-rr-nagar/2148360"
+      },
+      {
+        "number": "+91 93641 51457",
+        "label": "Electronic City outlet (LBB)",
+        "source": "https://lbb.in/places/Kapoors-Cafe-electronic-city-3264a3"
+      }
+    ],
+    "emails": [],
+    "people": [],
+    "description": "Popular Punjabi / North Indian restaurant chain with outlets across east, south and west Bengaluru, also used for parties and events.",
+    "offerings": "Punjabi and North Indian cuisine, thalis, tandoor, party bookings; dine-in and delivery.",
+    "branches": "Whitefield (Thubarahalli), Kadugodi, RR Nagar, Electronic City, HSR Layout, Jayanagar and Kalyan Nagar per directory listings.",
+    "branchCount": 7,
+    "employees": {
+      "verified": null,
+      "verifiedSource": null,
+      "estimate": "150-280",
+      "basis": "Estimate only: about 7 outlets x 20-40 staff."
+    },
+    "facts": [
+      "7 listed outlets across Bengaluru",
+      "Kalyan Nagar outlet is listed as a party venue on Weddingz"
+    ],
+    "socialObserved": "No official website or verified Instagram handle surfaced in research.",
+    "sources": [
+      {
+        "label": "Yappe - Whitefield",
+        "url": "https://yappe.in/karnataka/bengaluru/kapoor-s-cafe-whitefield/44921"
+      },
+      {
+        "label": "Yappe - Kadugodi",
+        "url": "https://yappe.in/karnataka/bengaluru/kapoors-cafe-kadugodi/1279649"
+      },
+      {
+        "label": "Yappe - RR Nagar",
+        "url": "https://yappe.in/karnataka/bengaluru/kapoor-s-cafe-rr-nagar/2148360"
+      },
+      {
+        "label": "LBB - Electronic City",
+        "url": "https://lbb.in/places/Kapoors-Cafe-electronic-city-3264a3"
+      },
+      {
+        "label": "LBB - HSR",
+        "url": "https://lbb.in/places/Kapoors-Cafe-hsr-3a6a84"
+      },
+      {
+        "label": "Weddingz - Kalyan Nagar",
+        "url": "https://weddingz.in/bangalore/kapoors-cafe-kalyan-nagar/"
+      }
+    ],
+    "verification": "Multi-outlet existence confirmed across several directories. Founder, website and email not found; phones from directories.",
+    "confidence": "Medium",
+    "interest": "High",
+    "product": "Both"
+  }
+]
