@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Inter SemiBold,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,-0.5,0,1,0,0,2,110,110,500,1
+Style: CapSh,Inter SemiBold,66,&H78000000,&H78000000,&H00000000,&H00000000,0,0,0,0,100,100,-0.5,0,1,0,0,2,110,110,496,1
+Style: Label,Inter Medium,34,&H00B4B4B4,&H00B4B4B4,&H00000000,&H00000000,0,0,0,0,100,100,7,0,1,0,0,8,80,80,0,1
+Style: Title,Inter SemiBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,-0.5,0,1,0,0,8,80,80,0,1
+Style: Sub,Inter,40,&H00A8A8A8,&H00A8A8A8,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.40,CapSh,,0,0,0,,{\blur9\fad(70,50)}Hello everyone,
+Dialogue: 1,0:00:00.08,0:00:00.40,Cap,,0,0,0,,{\fad(70,50)}Hello everyone,
+Dialogue: 0,0:00:00.40,0:00:01.30,CapSh,,0,0,0,,{\blur9\fad(70,50)}today is Day 1
+Dialogue: 1,0:00:00.40,0:00:01.30,Cap,,0,0,0,,{\fad(70,50)}today is {\c&H7AD2FF&}Day 1{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.30,0:00:03.00,CapSh,,0,0,0,,{\blur9\fad(70,50)}of my 60-day challenge.
+Dialogue: 1,0:00:01.30,0:00:03.00,Cap,,0,0,0,,{\fad(70,50)}of my {\c&H7AD2FF&}60-day challenge.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.09,0:00:04.05,CapSh,,0,0,0,,{\blur9\fad(70,50)}In the next 60 days
+Dialogue: 1,0:00:03.09,0:00:04.05,Cap,,0,0,0,,{\fad(70,50)}In the next 60 days
+Dialogue: 0,0:00:04.05,0:00:05.05,CapSh,,0,0,0,,{\blur9\fad(70,50)}I will try to make
+Dialogue: 1,0:00:04.05,0:00:05.05,Cap,,0,0,0,,{\fad(70,50)}I will try to make
+Dialogue: 0,0:00:05.05,0:00:06.43,CapSh,,0,0,0,,{\blur9\fad(70,50)}$1,000
+Dialogue: 1,0:00:05.05,0:00:06.43,Cap,,0,0,0,,{\fad(70,50)}{\c&H7AD2FF&}$1,000{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.47,0:00:07.62,CapSh,,0,0,0,,{\blur9\fad(70,50)}by the end of this year.
+Dialogue: 1,0:00:06.47,0:00:07.62,Cap,,0,0,0,,{\fad(70,50)}by the end of this year.
+Dialogue: 0,0:00:07.75,0:00:08.49,CapSh,,0,0,0,,{\blur9\fad(70,50)}For now,
+Dialogue: 1,0:00:07.75,0:00:08.49,Cap,,0,0,0,,{\fad(70,50)}For now,
+Dialogue: 0,0:00:08.49,0:00:09.23,CapSh,,0,0,0,,{\blur9\fad(70,50)}only you four
+Dialogue: 1,0:00:08.49,0:00:09.23,Cap,,0,0,0,,{\fad(70,50)}only {\c&H7AD2FF&}you four{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.23,0:00:10.40,CapSh,,0,0,0,,{\blur9\fad(70,50)}are seeing this video.
+Dialogue: 1,0:00:09.23,0:00:10.40,Cap,,0,0,0,,{\fad(70,50)}are seeing this video.
+Dialogue: 0,0:00:10.48,0:00:11.53,CapSh,,0,0,0,,{\blur9\fad(70,50)}On January 1st,
+Dialogue: 1,0:00:10.48,0:00:11.53,Cap,,0,0,0,,{\fad(70,50)}On {\c&H7AD2FF&}January 1st,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.53,0:00:12.78,CapSh,,0,0,0,,{\blur9\fad(70,50)}I will make this channel
+Dialogue: 1,0:00:11.53,0:00:12.78,Cap,,0,0,0,,{\fad(70,50)}I will make this channel
+Dialogue: 0,0:00:13.21,0:00:14.13,CapSh,,0,0,0,,{\blur9\fad(70,50)}public.
+Dialogue: 1,0:00:13.21,0:00:14.13,Cap,,0,0,0,,{\fad(70,50)}{\c&H7AD2FF&}public.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.20,0:00:15.85,CapSh,,0,0,0,,{\blur9\fad(70,50)}That was my idea.
+Dialogue: 1,0:00:14.20,0:00:15.85,Cap,,0,0,0,,{\fad(70,50)}That was my idea.
+Dialogue: 0,0:00:15.93,0:00:16.48,CapSh,,0,0,0,,{\blur9\fad(70,50)}Stay tuned for
+Dialogue: 1,0:00:15.93,0:00:16.48,Cap,,0,0,0,,{\fad(70,50)}Stay tuned for
+Dialogue: 0,0:00:16.48,0:00:17.92,CapSh,,0,0,0,,{\blur9\fad(70,50)}tomorrow's video.
+Dialogue: 1,0:00:16.48,0:00:17.92,Cap,,0,0,0,,{\fad(70,50)}{\c&H7AD2FF&}tomorrow's{\c&HFFFFFF&} video.
+Dialogue: 0,0:00:18.03,0:00:19.07,CapSh,,0,0,0,,{\blur9\fad(70,50)}See you. Bye.
+Dialogue: 1,0:00:18.03,0:00:19.07,Cap,,0,0,0,,{\fad(70,50)}See you. Bye.
+Dialogue: 0,0:00:20.10,0:00:24.65,Label,,0,0,0,,{\pos(540,470)\an8\fad(300,0)}DAY 01 / 60
+Dialogue: 0,0:00:20.25,0:00:22.20,Title,,0,0,0,,{\pos(540,1350)\an8\fad(250,250)}Audience: 4
+Dialogue: 0,0:00:20.60,0:00:22.20,Sub,,0,0,0,,{\pos(540,1450)\an8\fad(250,250)}the other four in this photo
+Dialogue: 0,0:00:22.40,0:00:24.65,Title,,0,0,0,,{\pos(540,1350)\an8\fad(300,0)}See you tomorrow.
+Dialogue: 0,0:00:22.75,0:00:24.65,Sub,,0,0,0,,{\pos(540,1450)\an8\fad(300,0)}Day 02 of 60
