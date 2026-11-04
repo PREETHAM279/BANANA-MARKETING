@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Download, LayoutGrid, List, MapPin, Phone, RotateCcw, Search, Users } from "lucide-react";
+import { Download, LayoutGrid, List, MapPin, Phone, RotateCcw, Search, SlidersHorizontal, Users } from "lucide-react";
 import { CATEGORIES, CLOSED_STATUSES, EMPLOYEE_BANDS, FIT_LEVELS, INTEREST_LEVELS, NOT_CONTACTED_STATUSES, PRODUCTS, PRODUCT_LABEL, STATUSES, ZONES } from "@/lib/constants";
 import { cn, dueLabel, telHref } from "@/lib/format";
 import { getLocal, setLocal } from "@/lib/client";
@@ -126,11 +126,14 @@ export function Directory({ leads }: { leads: LeadListItem[] }) {
   }, [leads, filters]);
 
   const active = KEYS.filter((k) => k !== "view" && k !== "sort" && get(k)).length;
+  const filterCount = KEYS.filter((k) => k !== "view" && k !== "sort" && k !== "q" && get(k)).length;
+  // Phones: the 10 filters fold away behind a "Filters" button so the list starts on the first screen.
+  const [showFilters, setShowFilters] = useState(false);
 
   const sel = (k: Key, label: string, options: (string | [string, string])[], width = "w-[150px]") => (
-    <label className="relative">
+    <label className="relative max-sm:w-[calc(50%-4px)]">
       <span className="sr-only">{label}</span>
-      <select className={cn("select", width, get(k) ? "border-accent text-accent-ink" : "")} value={get(k)} onChange={(e) => set(k, e.target.value)} aria-label={label}>
+      <select className={cn("select max-sm:w-full", width, get(k) ? "border-accent text-accent-ink" : "")} value={get(k)} onChange={(e) => set(k, e.target.value)} aria-label={label}>
         <option value="">{label}</option>
         {options.map((o) => {
           const [v, t] = Array.isArray(o) ? o : [o, o];
@@ -152,6 +155,10 @@ export function Directory({ leads }: { leads: LeadListItem[] }) {
             <Search size={15} className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-muted" />
             <input className="input pl-8" placeholder="Search name, area, owner, phone, tag…" value={get("q")} onChange={(e) => set("q", e.target.value)} aria-label="Search businesses" autoComplete="off" />
           </label>
+          <button type="button" className={cn("btn sm:hidden", filterCount ? "border-accent text-accent-ink" : "")} onClick={() => setShowFilters((v) => !v)} aria-expanded={showFilters} aria-controls="directory-filters">
+            <SlidersHorizontal size={15} /> Filters{filterCount ? ` (${filterCount})` : ""}
+          </button>
+          <div id="directory-filters" className={cn(showFilters ? "contents" : "hidden", "sm:contents")}>
           {sel("category", "All categories", [...CATEGORIES], "w-[170px]")}
           {sel("zone", "All locations", [...ZONES], "w-[150px]")}
           {sel(
@@ -183,6 +190,7 @@ export function Directory({ leads }: { leads: LeadListItem[] }) {
             "w-[160px]",
           )}
           {sel("status", "Pipeline status", [...STATUSES], "w-[160px]")}
+          </div>
         </div>
         <div className="mt-2.5 flex flex-wrap items-center justify-between gap-2">
           <div className="text-[12.5px] text-muted">

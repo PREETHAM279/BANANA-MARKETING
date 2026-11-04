@@ -1,9 +1,14 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-// Local-only security:
+// Security for requests made on this Mac:
 //  - Only answer requests addressed to localhost / 127.0.0.1 / ::1 (blocks DNS-rebinding attacks).
 //  - Reject state-changing API calls that come from another website (cross-site request forgery).
+//
+// Phones: when the CRM runs through server.mjs (start-crm.command / npm start) and Phone access is on,
+// server.mjs checks every phone request first (passcode session, private network only, same-origin
+// writes) and marks it with a secret generated at startup. Such requests are let through here.
 const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]", "::1"]);
+const GATE_TOKEN = process.env.CRM_GATE_TOKEN || "";
 
 function hostnameOf(hostHeader: string | null): string {
   if (!hostHeader) return "";
@@ -12,6 +17,7 @@ function hostnameOf(hostHeader: string | null): string {
 }
 
 export function middleware(req: NextRequest) {
+  if (GATE_TOKEN && req.headers.get("x-crm-gate") === GATE_TOKEN) return NextResponse.next();
   const host = req.headers.get("host");
   if (!LOCAL_HOSTS.has(hostnameOf(host))) {
     return new NextResponse("This CRM only accepts local connections (http://localhost).", { status: 403 });

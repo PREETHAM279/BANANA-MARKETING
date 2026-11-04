@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev -H 127.0.0.1 -p 3100",
     "build": "next build",
-    "start": "next start -H 127.0.0.1 -p 3100",
+    "start": "node server.mjs",
     "db:migrate": "prisma migrate deploy",
     "db:seed": "node scripts/seed.mjs",
     "db:setup": "prisma migrate deploy && node scripts/seed.mjs",
@@ -17,6 +17,7 @@
     "backup": "node scripts/backup.mjs",
     "typecheck": "tsc --noEmit",
     "test:e2e": "node tests/e2e.mjs",
+    "test:phone": "node tests/phone.mjs",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "lucide-react": "1.67.0",
     "next": "15.5.28",
     "nodemailer": "10.3.1",
+    "qrcode-generator": "2.0.4",
     "react": "19.1.10",
     "react-dom": "19.1.10",
     "server-only": "0.0.1"

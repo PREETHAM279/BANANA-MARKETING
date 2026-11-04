@@ -125,7 +125,7 @@ export function Communication({ leads, activities: initial, settings, smtp }: { 
           </h2>
           <ul className="space-y-2">
             <li>
-              <span className="font-medium text-ink">Call</span> opens a <code>tel:</code> link. On a Mac this rings through your iPhone (Continuity / FaceTime “Calls from iPhone”). The CRM starts a timer and asks you to record the outcome - it never assumes the call happened.
+              <span className="font-medium text-ink">Call</span> opens a <code>tel:</code> link: on your phone it opens the dialer; on a Mac it rings through your iPhone (Continuity / FaceTime “Calls from iPhone”). The CRM starts a timer and asks you to record the outcome - it never assumes the call happened.
             </li>
             <li>
               <span className="font-medium text-ink">WhatsApp</span> opens WhatsApp Desktop / Web with the message typed in. You press send; then you confirm in the CRM. Fully automatic sending needs the paid WhatsApp Business Platform (Meta business verification, pre-approved templates and recipient opt-in) - not suitable for cold outreach.

@@ -26,6 +26,23 @@ fail() {
 
 is_running() { curl -fsS --max-time 2 "$URL/api/health" >/dev/null 2>&1; }
 
+# Shows the phone addresses when Phone access is switched on (Settings & Data → Phone access).
+print_phone_access() {
+  local lines
+  if [ -x "$APP_DIR/.runtime/node/bin/node" ]; then export PATH="$APP_DIR/.runtime/node/bin:$PATH"; fi
+  command -v node >/dev/null 2>&1 || return 0
+  lines="$(curl -fsS --max-time 4 "$URL/__crm/phone/status" 2>/dev/null | node -e '
+    let d = ""; process.stdin.on("data", (c) => (d += c)).on("end", () => {
+      try { const s = JSON.parse(d); if (s.enabled) for (const a of s.addresses) console.log(`${a.url}   (${a.label})`); } catch {}
+    });' 2>/dev/null)"
+  if [ -n "$lines" ]; then
+    info "Phone access is ON - on your phone open:"
+    printf '%s\n' "$lines" | sed 's/^/      /'
+  else
+    info "To use it on your phone: Settings & Data → Phone access."
+  fi
+}
+
 node_ok() {
   command -v node >/dev/null 2>&1 && node -e 'const [a,b]=process.versions.node.split(".").map(Number);process.exit(a>18||(a===18&&b>=18)?0:1)' 2>/dev/null
 }

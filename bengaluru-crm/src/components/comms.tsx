@@ -28,20 +28,46 @@ function localDateTimeValue(d = new Date()) {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`;
 }
 
+/** Copies text. The Clipboard API needs a secure (https/localhost) page, so phones on the Wi-Fi address use the older copy command. */
+export async function copyText(text: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    /* fall back below */
+  }
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.setAttribute("readonly", "");
+  Object.assign(ta.style, { position: "fixed", top: "0", left: "0", opacity: "0", fontSize: "16px" });
+  document.body.appendChild(ta);
+  ta.focus({ preventScroll: true });
+  ta.select();
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try {
+    ok = document.execCommand("copy");
+  } catch {
+    ok = false;
+  }
+  ta.remove();
+  return ok;
+}
+
 export function CopyButton({ text, label = "Copy", className = "btn btn-sm" }: { text: string; label?: string; className?: string }) {
   const [done, setDone] = useState(false);
+  const toast = useToast();
   return (
     <button
       type="button"
       className={className}
       onClick={async () => {
-        try {
-          await navigator.clipboard.writeText(text);
+        if (await copyText(text)) {
           setDone(true);
           setTimeout(() => setDone(false), 1500);
-        } catch {
-          /* clipboard blocked */
-        }
+        } else toast("Copying isn't allowed here - press and hold the text to copy it.", "info");
       }}
     >
       {done ? <Check size={14} /> : <Copy size={14} />}
@@ -166,7 +192,7 @@ export function LogActivityDialog({
             <PhoneCall size={14} /> Call started {mm} ago{target ? ` · ${target}` : ""}. Fill this in when you hang up.
           </div>
         ) : null}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid gap-3 sm:grid-cols-2">
           <Field label="Type">
             <select className="select" value={type} onChange={(e) => (setType(e.target.value), setOutcome(""))}>
               <option value="CALL">Phone call</option>
@@ -193,7 +219,7 @@ export function LogActivityDialog({
         <Field label="Conversation notes" hint="What they said, who you spoke to, objections, next steps.">
           <textarea className="textarea min-h-[110px]" value={details} onChange={(e) => setDetails(e.target.value)} placeholder="e.g. Spoke to the operations manager. Uses a biometric at 2 outlets, rest on registers. Asked for pricing for 8 outlets." />
         </Field>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid gap-3 sm:grid-cols-2">
           <Field label="Update status to">
             <select className="select" value={status} onChange={(e) => (setStatus(e.target.value), setStatusTouched(true))}>
               <option value="">Keep “{lead.status}”</option>
@@ -258,13 +284,14 @@ export function WhatsAppDialog({
   const selected = lead.phones.find((p) => p.number === to);
   const isLandline = selected ? selected.type === "landline" : false;
 
-  const openWhatsApp = () => {
+  // A real link (not window.open) so phones hand it straight to the WhatsApp app.
+  const openWhatsApp = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!to) {
+      e.preventDefault();
       toast("Enter a WhatsApp number", "error");
       return;
     }
-    window.open(waHref(to, text), "_blank", "noopener");
-    setStage("confirm");
+    setTimeout(() => setStage("confirm"), 0);
   };
 
   const confirm = async (outcome: "Sent" | null) => {
@@ -301,9 +328,9 @@ export function WhatsAppDialog({
         stage === "compose" ? (
           <>
             <CopyButton text={text} label="Copy text" className="btn" />
-            <button className="btn btn-primary" onClick={openWhatsApp}>
+            <a className="btn btn-primary" href={to ? waHref(to, text) : "#"} target="_blank" rel="noopener noreferrer" onClick={openWhatsApp}>
               <ExternalLink size={14} /> Open in WhatsApp
-            </button>
+            </a>
           </>
         ) : (
           <>
@@ -354,7 +381,7 @@ export function WhatsAppDialog({
             <textarea className="textarea min-h-[200px]" value={text} onChange={(e) => setText(e.target.value)} />
           </Field>
           <p className="text-[11.5px] text-muted">
-            “Open in WhatsApp” opens WhatsApp Desktop or WhatsApp Web with this text filled in. You press send there. Only send business messages to numbers published for enquiries, and stop if someone asks you to.
+            “Open in WhatsApp” opens the WhatsApp app (on a computer: WhatsApp Desktop or Web) with this text filled in. You press send there. Only send business messages to numbers published for enquiries, and stop if someone asks you to.
           </p>
         </div>
       ) : (

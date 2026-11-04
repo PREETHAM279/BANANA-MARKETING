@@ -191,8 +191,15 @@ export function Recorder({ businessId, recordings, setRecordings, onSaved }: { b
     [],
   );
 
+  const [insecure, setInsecure] = useState(false);
+  useEffect(() => setInsecure(!window.isSecureContext), []);
+
   const start = async () => {
     const mime = pickMime();
+    if (!window.isSecureContext) {
+      toast("Voice notes need a secure (https) address. On your phone use the Tailscale HTTPS address, or record on the Mac.", "error");
+      return;
+    }
     if (mime === null || !navigator.mediaDevices?.getUserMedia) {
       toast("This browser can't record audio. Use Chrome or Safari.", "error");
       return;
@@ -255,9 +262,12 @@ export function Recorder({ businessId, recordings, setRecordings, onSaved }: { b
   return (
     <div className="space-y-3">
       {state === "idle" ? (
-        <button className="btn w-full" onClick={start}>
-          <Mic size={14} /> Record voice note
-        </button>
+        <>
+          <button className="btn w-full" onClick={start} aria-disabled={insecure || undefined}>
+            <Mic size={14} /> Record voice note
+          </button>
+          {insecure ? <p className="text-[11.5px] text-muted">Voice notes need the secure (https) Tailscale address on a phone. Notes, calls and photos work here.</p> : null}
+        </>
       ) : state === "recording" ? (
         <button className="btn w-full border-bad text-bad-ink" onClick={stop}>
           <Square size={12} className="fill-current" /> Stop recording · <span className="tabular">{mm(seconds)}</span>
@@ -301,6 +311,26 @@ export function Recorder({ businessId, recordings, setRecordings, onSaved }: { b
 
 export type GalleryImage = { url: string; source: string; id?: string; attribution?: string };
 
+/** Phone photos are often 3-12 MB: resize to max 1600 px JPEG before upload (also turns iPhone HEIC into JPEG). */
+async function shrinkImage(file: File): Promise<File> {
+  if (!file.type.startsWith("image/") || file.type === "image/gif" || file.type === "image/svg+xml") return file;
+  if (file.size < 700_000 && file.type !== "image/heic" && file.type !== "image/heif") return file;
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(bitmap.width * scale);
+    canvas.height = Math.round(bitmap.height * scale);
+    canvas.getContext("2d")?.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    bitmap.close?.();
+    const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, "image/jpeg", 0.85));
+    if (!blob || blob.size >= file.size) return file;
+    return new File([blob], `${file.name.replace(/\.[^.]+$/, "") || "photo"}.jpg`, { type: "image/jpeg" });
+  } catch {
+    return file; // the browser can't decode it (e.g. HEIC outside Safari): upload as is
+  }
+}
+
 export function Photos({ businessId, name, images, onUploaded, onDeleted }: { businessId: string; name: string; images: GalleryImage[]; onUploaded: (p: PhotoItem) => void; onDeleted: (id: string) => void }) {
   const toast = useToast();
   const [active, setActive] = useState(0);
@@ -309,9 +339,11 @@ export function Photos({ businessId, name, images, onUploaded, onDeleted }: { bu
   const visible = images.filter((i) => !broken[i.url]);
   const current = visible[Math.min(active, visible.length - 1)];
 
+  const camera = useRef<HTMLInputElement>(null);
   const upload = async (files: FileList | null) => {
     if (!files?.length) return;
-    for (const f of Array.from(files)) {
+    for (const original of Array.from(files)) {
+      const f = await shrinkImage(original);
       const form = new FormData();
       form.set("file", f);
       try {
@@ -323,11 +355,12 @@ export function Photos({ businessId, name, images, onUploaded, onDeleted }: { bu
       }
     }
     if (input.current) input.current.value = "";
+    if (camera.current) camera.current.value = "";
   };
 
   return (
     <div>
-      <div className="relative overflow-hidden rounded-t-xl bg-surface-2" style={{ height: 190 }}>
+      <div className={cn("relative overflow-hidden rounded-t-xl bg-surface-2", current ? "h-[190px]" : "h-[112px] lg:h-[190px]")}>
         {current ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={current.url} alt={`${name}`} referrerPolicy="no-referrer" className="h-full w-full object-cover" onError={() => setBroken((b) => ({ ...b, [current.url]: true }))} />
@@ -366,10 +399,14 @@ export function Photos({ businessId, name, images, onUploaded, onDeleted }: { bu
             <img src={img.url} alt="" referrerPolicy="no-referrer" className="h-full w-full object-cover" onError={() => setBroken((b) => ({ ...b, [img.url]: true }))} />
           </button>
         ))}
-        <button className="flex size-11 shrink-0 items-center justify-center rounded-md border border-dashed border-line-strong text-muted hover:text-ink" onClick={() => input.current?.click()} title="Upload photos">
+        <button className="hidden size-11 shrink-0 items-center justify-center rounded-md border border-dashed border-line-strong text-muted hover:text-ink pointer-coarse:flex" onClick={() => camera.current?.click()} title="Take a photo" aria-label="Take a photo">
+          <Camera size={16} />
+        </button>
+        <button className="flex size-11 shrink-0 items-center justify-center rounded-md border border-dashed border-line-strong text-muted hover:text-ink" onClick={() => input.current?.click()} title="Upload photos" aria-label="Upload photos">
           <Upload size={15} />
         </button>
-        <input ref={input} type="file" accept="image/jpeg,image/png,image/webp,image/gif,image/heic" multiple className="hidden" onChange={(e) => upload(e.target.files)} />
+        <input ref={input} type="file" accept="image/*" multiple className="hidden" onChange={(e) => upload(e.target.files)} />
+        <input ref={camera} type="file" accept="image/*" capture="environment" className="hidden" onChange={(e) => upload(e.target.files)} />
       </div>
     </div>
   );

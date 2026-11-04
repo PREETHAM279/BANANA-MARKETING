@@ -17,6 +17,7 @@ import {
   Mail,
   MapPin,
   MessageSquareText,
+  PhoneCall,
   Plus,
   ShieldCheck,
   Star,
@@ -24,7 +25,7 @@ import {
   Users,
 } from "lucide-react";
 import { PRODUCT_LABEL, STATUSES } from "@/lib/constants";
-import { cn, dueLabel, formatDateTime, formatDay, hostOf, mapsEmbedUrl, mapsSearchUrl } from "@/lib/format";
+import { cn, dueLabel, formatDateTime, formatDay, hostOf, mapsEmbedUrl, mapsSearchUrl, telHref } from "@/lib/format";
 import { api, getLocal } from "@/lib/client";
 import { personalize } from "@/lib/templates";
 import type { ActivityItem, LeadDetail, LeadListItem, NoteItem, PhotoItem, RecordingItem } from "@/lib/types";
@@ -194,6 +195,7 @@ export function ProfileClient({ initial, settings, integrations, prevId, nextId 
     return imgs;
   }, [photos, lead.siteData, lead.googleData, initial.photoSource, initial.photoUrl]);
 
+  const primaryPhone = lead.phones.find((p) => p.type === "mobile") ?? lead.phones[0];
   const owners = lead.people.filter((p) => p.type === "owner");
   const managers = lead.people.filter((p) => p.type !== "owner");
   const due = dueLabel(lead.followUpDate);
@@ -250,6 +252,39 @@ export function ProfileClient({ initial, settings, integrations, prevId, nextId 
                 <StatusBadge status={lead.status} />
                 {lead.doNotContact ? <Badge tone="bad">Do not contact</Badge> : null}
               </div>
+              {/* Phones / small screens: the main actions right under the name (the full Contact card is further down). */}
+              <div className="pt-1.5 lg:hidden" data-testid="quick-actions">
+                <div className="grid grid-cols-4 gap-1.5">
+                  {primaryPhone ? (
+                    <a href={telHref(primaryPhone.number)} onClick={() => setDialog({ kind: "log", type: "CALL", startedAt: Date.now(), target: primaryPhone.number })} className="btn btn-primary h-auto flex-col gap-0.5 px-1 py-2 text-[12px]">
+                      <PhoneCall size={17} /> Call
+                    </a>
+                  ) : (
+                    <a href={lead.googleMapsUri || mapsSearchUrl(lead.mapsQuery)} target="_blank" rel="noopener noreferrer" className="btn h-auto flex-col gap-0.5 px-1 py-2 text-[12px]">
+                      <MapPin size={17} /> Maps
+                    </a>
+                  )}
+                  <button className="btn h-auto flex-col gap-0.5 px-1 py-2 text-[12px]" onClick={() => setDialog({ kind: "wa", number: primaryPhone?.type === "mobile" ? primaryPhone.number : undefined })}>
+                    <WhatsappIcon width={17} height={17} /> WhatsApp
+                  </button>
+                  <button className="btn h-auto flex-col gap-0.5 px-1 py-2 text-[12px]" onClick={() => setDialog({ kind: "email" })}>
+                    <Mail size={17} /> Email
+                  </button>
+                  <button className="btn h-auto flex-col gap-0.5 px-1 py-2 text-[12px]" onClick={() => setDialog({ kind: "log", type: "CALL" })}>
+                    <Plus size={17} /> Log
+                  </button>
+                </div>
+                <p className="mt-1.5 truncate text-[11.5px] text-muted">
+                  {primaryPhone ? (
+                    <>
+                      Calls <span className="tabular text-ink-2">{primaryPhone.number}</span> · {primaryPhone.type === "landline" ? "Landline" : "Mobile"}
+                      {lead.phones.length > 1 ? ` · ${lead.phones.length - 1} more below` : ""}
+                    </>
+                  ) : (
+                    "No public phone verified - find it on Google Maps."
+                  )}
+                </p>
+              </div>
             </div>
           </div>
 
@@ -268,7 +303,7 @@ export function ProfileClient({ initial, settings, integrations, prevId, nextId 
               </a>
             </div>
             <div className="mt-3 overflow-hidden rounded-lg border border-line">
-              <iframe title={`Map of ${lead.name}`} src={mapsEmbedUrl(lead.mapsQuery)} className="h-[190px] w-full" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+              <iframe title={`Map of ${lead.name}`} src={mapsEmbedUrl(lead.mapsQuery)} className="h-[190px] w-full" loading="lazy" referrerPolicy="strict-origin-when-cross-origin" />
             </div>
             <p className="mt-1.5 text-[11px] text-muted">Map shows Google&apos;s best match for the name and address - confirm the pin before visiting.</p>
           </div>
@@ -611,7 +646,7 @@ export function ProfileClient({ initial, settings, integrations, prevId, nextId 
                   <Plus size={14} /> Log
                 </button>
               </div>
-              <p className="mt-2 text-[11.5px] text-muted">“Call” opens your Mac&apos;s phone app (iPhone via Continuity / FaceTime) and starts a timer. Nothing is marked as done until you record the outcome.</p>
+              <p className="mt-2 text-[11.5px] text-muted">“Call” dials from your phone (on the Mac: through your iPhone via Continuity, or FaceTime) and starts a timer. Nothing is marked as done until you record the outcome.</p>
             </div>
 
             <div className="card space-y-3 p-4">

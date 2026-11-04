@@ -5,6 +5,7 @@ A private, local-first prospecting CRM for selling a **Social Media Management a
 Everything runs on your Mac. Your data stays in one SQLite file on your disk. No cloud hosting, no subscription.
 
 - **Website address:** http://localhost:3100
+- **On your phone:** Settings & Data → **Phone access** (see [section 4](#4-use-it-on-your-phone))
 - **Start:** double-click `start-crm.command`
 - **Stop:** double-click `stop-crm.command`
 - **Back up:** double-click `backup-crm.command` (also automatic once a day)
@@ -35,7 +36,7 @@ That removes the "downloaded from the internet" flag so macOS lets the launchers
 Open the `bengaluru-crm` folder in Finder and **double-click `start-crm.command`** (or use `Start Bengaluru CRM.command` at the top of the repository).
 
 - **First run:** 2-4 minutes. It checks for Node.js (and downloads a private copy into `.runtime/` if you don't have Node 18.18+), installs the app's packages, creates the database, imports the 100 researched businesses and builds the website. It needs an internet connection.
-- **After that:** a few seconds. Your browser opens **http://localhost:3100**.
+- **After that:** a few seconds. Your browser opens **http://localhost:3100**. If phone access is on, the window also shows the address for your phone.
 - You can close the Terminal window; the CRM keeps running in the background until you stop it or restart the Mac.
 
 If double-clicking shows *"cannot be opened because it is from an unidentified developer"*, right-click the file → **Open** → **Open** (only needed once). If it says *"permission denied"*, run `bash start-crm.command` from Terminal inside the folder.
@@ -47,7 +48,51 @@ If double-clicking shows *"cannot be opened because it is from an unidentified d
 - **Start automatically at login (optional):** System Settings → General → Login Items → **+** → choose `start-crm.command`.
 - **Port 3100 busy?** Copy `.env.example` to `.env.local`, set `CRM_PORT=3200`, and start again (the address becomes http://localhost:3200).
 
-## 4. Back up and restore your data
+## 4. Use it on your phone
+
+The CRM keeps running on your Mac and your phone opens it over your own network. Nothing goes on the internet and there's no hosting cost. Your data stays in the one database on the Mac, so the Mac and the phone always show the same thing.
+
+**Set it up (once, about a minute)**
+
+1. On the Mac, open the CRM → **Settings & Data → Phone access** → **Turn on phone access**. A passcode appears. Note it down: it's shown only once, but you can create a new one any time.
+   If macOS asks whether "node" may accept incoming network connections, click **Allow**.
+2. Connect your phone to the **same Wi-Fi** as the Mac.
+3. Click **Show sign-in QR code**, point the phone's camera at it, open the link and tap **Sign in**. You can also type the address shown in Settings (for example `http://192.168.1.5:3100`) and enter the passcode.
+4. Optional: put it on your Home Screen. On iPhone: Safari → Share → **Add to Home Screen**. On Android: Chrome → ⋮ → **Add to Home screen**. It then opens full-screen like an app; sign in once more inside it.
+
+**On the phone**
+
+- Tabs at the bottom: **Home, Leads, Outreach, Follow-ups, More**. Business profiles have **Call / WhatsApp / Email / Log** buttons right under the name.
+- **Call** opens your phone's dialer and starts the timer. When you hang up and come back, record the outcome.
+- **WhatsApp** opens the WhatsApp app with the message filled in, and **Email** opens your mail app. As on the Mac, nothing is logged until you confirm.
+- **Photos:** on a profile, the camera button takes a photo (for example of the storefront on a visit) and saves it on the Mac. Large phone photos are resized first.
+- Everything you change is saved straight into the database on your Mac.
+
+**Good to know**
+
+- The Mac must be **on, awake and running the CRM**. To stop it sleeping while plugged in: System Settings → Battery (or Energy) → Options → "Prevent automatic sleeping when the display is off".
+- Use phone access on your home or office Wi-Fi, **not on public Wi-Fi**.
+- If the Mac moves to another network, its new address appears in Settings. On iPhone, the "Mac name" address (`http://Your-Mac-Name.local:3100`) keeps working when the IP changes.
+- Lost your phone? Settings & Data → Phone access → **Sign out** next to that phone, then create a new passcode.
+- **Turn off phone access** closes the Wi-Fi address straight away.
+
+**Away from your Wi-Fi (optional, free): Tailscale**
+
+[Tailscale](https://tailscale.com) is a free (for personal use) private network between your own devices. The CRM still isn't on the public internet.
+
+1. Install Tailscale on the Mac ([download](https://tailscale.com/download) or Mac App Store) and on the phone (App Store / Play Store). Sign in to both with the same account.
+2. With phone access on, a **Tailscale** address (`http://100.x.y.z:3100`) appears in Settings & Data → Phone access. It works over mobile data; sign in the same way.
+3. Voice notes need a secure (https) address on a phone. To get one, run this once in Terminal on the Mac (Homebrew users can type just `tailscale`):
+
+   ```bash
+   /Applications/Tailscale.app/Contents/MacOS/Tailscale serve --bg 3100
+   ```
+
+   If Tailscale asks, enable HTTPS certificates in its admin page. Then use the **Tailscale (HTTPS)** address shown in Settings. Don't use `tailscale funnel`: that would publish the CRM on the internet (the CRM refuses those visitors anyway).
+
+Without Tailscale, everything except voice notes works on the Wi-Fi address.
+
+## 5. Back up and restore your data
 
 Your whole CRM is the file `data/crm.db` (statuses, notes, calls, messages, follow-ups, uploaded photos are in `data/uploads/`).
 
@@ -57,7 +102,7 @@ Your whole CRM is the file `data/crm.db` (statuses, notes, calls, messages, foll
 - **Restore:** double-click `restore-backup.command`, pick a backup by number. Your current database is saved as `backups/crm-…-before-restore.db` first.
 - **Exports:** Settings & Data (or the directory's CSV button) → **Excel (.xlsx)** with Leads, Activities, Notes, Outreach plan and Sources sheets, **CSV**, or **JSON** (everything).
 
-## 5. What's inside
+## 6. What's inside
 
 | Page | What you can do |
 |---|---|
@@ -68,23 +113,23 @@ Your whole CRM is the file `data/crm.db` (statuses, notes, calls, messages, foll
 | **Tomorrow's Outreach** | All 100 businesses in a recommended calling order grouped into time blocks (offices in the morning, gyms/salons/retail late morning, restaurants/hotels 3-5 PM, no-phone leads last), priority rank, phone, pitch and opener, completion checkbox, per-call notes, follow-up dates, day notes, print, and **Call mode** (one business at a time with one-click outcomes). Pick any date; progress is saved per day. |
 | **Follow-ups** | Overdue / today / tomorrow / next 7 days, with call, WhatsApp, snooze and done buttons, plus upcoming meetings. |
 | **Communication** | Compose for any business (call script, WhatsApp, email), plus a searchable log of every call, message and meeting. |
-| **Settings & Data** | Your name/company/products (used in every script and message), backups, exports, website and Google enrichment, research re-import, integration status. |
+| **Settings & Data** | Your name/company/products (used in every script and message), **phone access** (switch, QR code, passcode, signed-in phones), backups, exports, website and Google enrichment, research re-import, integration status. |
 
 Fill in **Settings & Data → Your details** first so openers and messages are signed with your name and company.
 
-## 6. How calling, WhatsApp and email work (honestly)
+## 7. How calling, WhatsApp and email work (honestly)
 
 The CRM never marks something as done just because you clicked a button.
 
-- **Call** opens a `tel:` link. On a Mac this places the call through your iPhone (FaceTime → Settings → "Calls from iPhone", same Apple ID) or FaceTime Audio. The CRM starts a timer and opens **Record conversation**: choose the outcome, type notes, set the next status and follow-up date. Only then is the call logged.
-- **WhatsApp** generates a personalised message (intro, follow-up, after-call, meeting confirmation, re-engage), opens WhatsApp Desktop/Web with the text filled in (`wa.me` link), and asks **"Did you send it?"**. It's logged only when you confirm. Bengaluru landlines (080…) are flagged because they rarely have WhatsApp.
+- **Call** opens a `tel:` link. On your phone that's the normal dialer. On a Mac it places the call through your iPhone (FaceTime → Settings → "Calls from iPhone", same Apple ID) or FaceTime Audio. The CRM starts a timer and opens **Record conversation**: choose the outcome, type notes, set the next status and follow-up date. Only then is the call logged.
+- **WhatsApp** generates a personalised message (intro, follow-up, after-call, meeting confirmation, re-engage), opens the WhatsApp app (or WhatsApp Desktop/Web on a computer) with the text filled in (`wa.me` link), and asks **"Did you send it?"**. It's logged only when you confirm. Bengaluru landlines (080…) are flagged because they rarely have WhatsApp.
   *Fully automatic sending* needs the WhatsApp Business Platform (Meta business verification, paid per conversation, pre-approved templates and recipient opt-in). It isn't suitable for cold outreach, so it isn't built in.
 - **Email** generates a subject (with alternatives) and body, then opens your **Mail app** or **Gmail** with everything filled in; confirm afterwards to log it. To send directly from the CRM, configure SMTP (below) - then **Send now** really sends and logs the message ID.
-- **Record conversation** also includes an optional **voice note** recorder (your microphone, for in-person meetings or a quick post-call summary). Record people only with their consent. Recordings stay in `data/uploads/`.
+- **Record conversation** also includes an optional **voice note** recorder (your microphone, for in-person meetings or a quick post-call summary). Record people only with their consent. Recordings stay in `data/uploads/` on the Mac. On a phone, voice notes need the Tailscale HTTPS address (section 4).
 
 Calling businesses on their published numbers is normal B2B practice; please introduce yourself honestly, respect "not interested", and tick **Do not contact** if someone asks you to stop. For high-volume or automated campaigns in India, telemarketing rules (TRAI, DLT registration) apply.
 
-## 7. Optional: Google ratings/photos and real email sending
+## 8. Optional: Google ratings/photos and real email sending
 
 Copy `.env.example` to `.env.local` (this file is private and never committed), fill in what you want, then stop and start the CRM.
 
@@ -109,7 +154,7 @@ SMTP_FROM=Your Name <you@gmail.com>
 
 **Business photos without any key:** on a profile, **Check website** reads the business's official website from your Mac and picks up the image it publishes for sharing (often a logo or storefront), plus any emails, phone numbers and social links it lists - all labelled "auto-extracted, verify". **Settings & Data → Check all official websites** does it for every business with a website. You can also upload your own photos on any profile.
 
-## 8. The research (what's verified and what isn't)
+## 9. The research (what's verified and what isn't)
 
 - 100 real businesses across the requested categories: Restaurants & Cafes 15, Gyms & Fitness 15, Retail & Showrooms 15, Hospitals & Clinics 10, Salons & Spas 10, Education 10, Hotels & Resorts 10, Warehousing & Logistics 5, Real Estate 5, Other Services 5.
 - Researched on **3 November 2026** from public sources: official websites, business and trade press (Restaurant India, YourStory, Deccan Herald, The News Minute, Inc42…), tourism boards, RERA and company-registry data, and business directories (LBB, Yappe, LyfSkills, AskLaila, Collegedunia…). Every profile lists its source URLs and a verification note; a closed hospital found during research was excluded.
@@ -121,13 +166,22 @@ SMTP_FROM=Your Name <you@gmail.com>
 
 To update or add businesses, edit the JSON files in `data/research/` and use **Settings & Data → Re-import research files** (or just restart). Your CRM data (status, notes, activities, follow-ups) is never overwritten.
 
-## 9. Privacy and security
+## 10. Privacy and security
 
-- The server listens only on `127.0.0.1` (this Mac); other devices on your Wi-Fi can't reach it.
+- By default the server listens only on `127.0.0.1` (this Mac); other devices on your Wi-Fi can't reach it.
 - Requests addressed to any host other than `localhost`/`127.0.0.1` are refused (blocks DNS-rebinding), and changes coming from other websites are rejected (CSRF protection).
-- API keys live in `.env.local`, are read only by the server and are never sent to the browser. `.env.local`, the database, uploads, backups and logs are all excluded from Git.
+- **Phone access** (off until you switch it on):
+  - It adds listeners only on the Mac's **private** addresses: Wi-Fi/Ethernet (192.168.x.x, 10.x.x.x, 172.16-31.x.x) and Tailscale (100.64-127.x.x). It never listens on a public address. Requests from public IP addresses are refused, including Tailscale Funnel.
+  - Every phone must sign in, either with the passcode or with a one-time QR code (works once, for 10 minutes). The Mac itself never needs the passcode.
+  - The passcode is stored only as a scrypt hash in `data/phone-access.json` (private file, not in Git or backups).
+  - Sign-ins are random 256-bit tokens in HttpOnly, SameSite cookies, valid 90 days while in use. Settings shows each signed-in phone, and you can sign out one or all.
+  - After 5 wrong passcodes from a device, sign-in pauses: 1 minute at first, doubling up to 6 hours. Thirty wrong attempts in an hour pause all sign-ins for 15 minutes. The Mac shows the count and can lift the pause.
+  - Phones can use the CRM but can't change phone-access settings; only the Mac can.
+  - Changes must come from the CRM's own pages (same-origin), and only known address forms are accepted (IP addresses, `*.local`, `*.ts.net`).
+  - On the Wi-Fi address, traffic inside your network is plain HTTP, as with most home devices, so use trusted Wi-Fi. Tailscale encrypts everything end to end.
+- API keys live in `.env.local`, are read only by the server and are never sent to the browser. `.env.local`, the database, uploads, backups, logs and `data/phone-access.json` are all excluded from Git.
 
-## 10. Troubleshooting
+## 11. Troubleshooting
 
 | Problem | Fix |
 |---|---|
@@ -136,17 +190,22 @@ To update or add businesses, edit the JSON files in `data/research/` and use **S
 | Start script fails during install/build | Check `logs/server.log`. Make sure you're online for the first run, then run the start script again. |
 | Map on a profile is blank | The map needs internet. Use the "Google Maps" button. |
 | Want a clean start | Stop the CRM, move `data/crm.db` somewhere safe, start again - a fresh database with the 100 businesses is created. |
+| Phone: "can't connect" | Is phone access on (Settings & Data)? Is the phone on the **same Wi-Fi** (not mobile data) and the Mac awake with the CRM running? If the macOS firewall is on: System Settings → Network → Firewall → Options → allow "node". On macOS 15 or later, also check System Settings → Privacy & Security → **Local Network** and allow Terminal if it's listed. Some office or guest Wi-Fi networks block devices from reaching each other; use Tailscale there. |
+| Phone: forgot the passcode | On the Mac: Settings & Data → Phone access → **New passcode**. Phones already signed in stay signed in. |
+| Phone: "Phone access is off" | Turn it on from the Mac: Settings & Data → Phone access. |
+| Phone: "Too many wrong passcodes" | Wait a few minutes, or on the Mac click **Allow sign-in again** (and create a new passcode if it wasn't you). |
+| Phone: voice notes say they need https | Use the Tailscale HTTPS address (section 4); everything else works on the Wi-Fi address. |
 
-## 11. For developers
+## 12. For developers
 
 Stack: Next.js 15 (App Router) · React 19 · Tailwind CSS 4 · Prisma 6 + SQLite · ExcelJS · Nodemailer · Node 18.18+.
 
 ```bash
 npm install
 npx prisma migrate deploy && node scripts/seed.mjs
-npm run dev        # http://localhost:3100 with hot reload
-npm run build && npm start
+npm run dev        # http://localhost:3100 with hot reload (this Mac only - no phone access)
+npm run build && npm start   # production server (server.mjs), the same as start-crm.command uses
 node scripts/research-report.mjs   # regenerate RESEARCHED_BUSINESSES.md and the CSV
 ```
 
-Layout: `data/research/*.json` (research records with sources) → `scripts/intel.mjs` (scoring, pitch, opener and approach generation) → `scripts/seed.mjs` (safe upsert into SQLite) → `src/app` (pages + API routes) and `src/components`. `tests/e2e.mjs` is a Playwright end-to-end suite (see the header of that file).
+Layout: `data/research/*.json` (research records with sources) → `scripts/intel.mjs` (scoring, pitch, opener and approach generation) → `scripts/seed.mjs` (safe upsert into SQLite) → `src/app` (pages + API routes) and `src/components`. `server.mjs` is the production server; `server/gate.mjs` holds the phone-access rules (sign-in page, sessions, rate limits, network and origin checks), and `src/middleware.ts` guards the local side. `tests/e2e.mjs` (app) and `tests/phone.mjs` (phone access) are Playwright end-to-end suites; see the headers of those files.

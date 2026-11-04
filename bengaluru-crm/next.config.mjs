@@ -14,7 +14,8 @@ const nextConfig = {
         headers: [
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
           { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "no-referrer" },
+          // Never send CRM addresses to other websites; same-origin keeps a real Origin header on our own form posts.
+          { key: "Referrer-Policy", value: "same-origin" },
         ],
       },
     ];

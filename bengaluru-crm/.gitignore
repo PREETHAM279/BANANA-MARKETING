@@ -27,3 +27,7 @@ logs/
 .DS_Store
 *.log
 test-results/
+
+# phone access passcode hash and signed-in devices (private to this Mac)
+data/phone-access.json
+data/phone-access.json.*.tmp

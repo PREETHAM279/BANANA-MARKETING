@@ -9,6 +9,11 @@ export async function api<T = unknown>(url: string, opts: { method?: string; bod
   }
   const res = await fetch(url, init);
   const data = await res.json().catch(() => ({}));
+  const signIn = (data as { signIn?: string }).signIn;
+  if (res.status === 401 && signIn?.startsWith("/__crm/")) {
+    // A phone whose sign-in expired or was revoked on the Mac: go to the sign-in page, then come back here.
+    window.location.assign(`${signIn}?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
+  }
   if (!res.ok) throw new Error((data as { error?: string }).error || `Request failed (${res.status})`);
   return data as T;
 }

@@ -6,6 +6,7 @@ source "$(dirname "$0")/scripts/mac/common.sh"
 bold "Bengaluru Sales CRM"
 if is_running; then
   info "Already running at $URL - opening your browser."
+  print_phone_access
   open "$URL"
   exit 0
 fi
@@ -38,7 +39,8 @@ if lsof -iTCP:"$PORT" -sTCP:LISTEN >/dev/null 2>&1; then
 fi
 
 bold "Starting..."
-nohup node node_modules/next/dist/bin/next start -H 127.0.0.1 -p "$PORT" >>"$LOG" 2>&1 </dev/null &
+# server.mjs serves the CRM on this Mac, and on your Wi-Fi only if you switched on Phone access.
+CRM_PORT="$PORT" nohup node server.mjs >>"$LOG" 2>&1 </dev/null &
 echo $! >"$PID_FILE"
 disown 2>/dev/null || true
 for _ in $(seq 1 60); do
@@ -48,6 +50,7 @@ done
 is_running || fail "The CRM did not start."
 
 bold "Bengaluru Sales CRM is running:  $URL"
+print_phone_access
 info "Your data is saved in: $APP_DIR/data/crm.db"
 info "You can close this window - the CRM keeps running in the background."
 info "To stop it, double-click stop-crm.command."

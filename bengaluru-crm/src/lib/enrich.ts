@@ -2,7 +2,7 @@ import "server-only";
 import type { GoogleData, SiteData } from "./types";
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15";
-const PRIVATE_HOST = /^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|169\.254\.|0\.|\[?::1\]?|\[?fc|\[?fd)/i;
+const PRIVATE_HOST = /^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\.|169\.254\.|0\.|\[?::1\]?|\[?fc|\[?fd)/i;
 
 async function fetchText(url: string, timeoutMs = 12000): Promise<{ html: string; finalUrl: string }> {
   const u = new URL(url);

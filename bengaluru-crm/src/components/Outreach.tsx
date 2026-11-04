@@ -166,7 +166,7 @@ export function Outreach({ leads: initial, date, tasks: initialTasks, dayNote: i
               </button>
               <label className="relative">
                 <CalendarDays size={14} className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-muted" />
-                <input type="date" className="input h-8 w-[160px] pl-8" value={date} onChange={(e) => e.target.value && goDate(e.target.value)} aria-label="Outreach date" />
+                <input type="date" className="input h-8 w-[160px] pl-8 pointer-coarse:h-[38px]" value={date} onChange={(e) => e.target.value && goDate(e.target.value)} aria-label="Outreach date" />
               </label>
               <button className="btn btn-sm px-2" onClick={() => goDate(addDays(date, 1))} aria-label="Next day">
                 <ArrowRight size={14} />
@@ -183,7 +183,7 @@ export function Outreach({ leads: initial, date, tasks: initialTasks, dayNote: i
               ) : null}
             </div>
             <div className="ml-auto flex items-center gap-2">
-              <button className="btn btn-sm no-print" onClick={() => window.print()} title="Print or save as PDF">
+              <button className="btn btn-sm no-print pointer-coarse:hidden" onClick={() => window.print()} title="Print or save as PDF">
                 <Printer size={14} /> Print
               </button>
               <button className="btn btn-primary no-print" onClick={startCallMode}>
@@ -215,20 +215,20 @@ export function Outreach({ leads: initial, date, tasks: initialTasks, dayNote: i
                 </button>
               ))}
             </div>
-            <select className="select h-8 w-[130px]" value={show} onChange={(e) => setShow(e.target.value as typeof show)} aria-label="Show">
+            <select className="select h-8 w-[130px] pointer-coarse:h-[38px]" value={show} onChange={(e) => setShow(e.target.value as typeof show)} aria-label="Show">
               <option value="all">All {leads.length}</option>
               <option value="remaining">Remaining</option>
               <option value="done">Completed</option>
             </select>
-            <select className="select h-8 w-[170px]" value={category} onChange={(e) => setCategory(e.target.value)} aria-label="Category">
+            <select className="select h-8 w-[170px] pointer-coarse:h-[38px]" value={category} onChange={(e) => setCategory(e.target.value)} aria-label="Category">
               <option value="">All categories</option>
               {CATEGORIES.map((c) => (
                 <option key={c}>{c}</option>
               ))}
             </select>
-            <label className="relative w-[200px]">
+            <label className="relative w-full sm:w-[200px]">
               <Search size={14} className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-muted" />
-              <input className="input h-8 pl-8" placeholder="Find a business" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Find a business" />
+              <input className="input h-8 pl-8 pointer-coarse:h-[38px]" placeholder="Find a business" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Find a business" />
             </label>
             <label className="flex items-center gap-1.5 text-[12.5px] text-ink-2">
               <input type="checkbox" checked={hideClosed} onChange={(e) => setHideClosed(e.target.checked)} /> Hide closed / do-not-contact
@@ -310,11 +310,11 @@ export function Outreach({ leads: initial, date, tasks: initialTasks, dayNote: i
                         </button>
                         <label className="ml-auto flex items-center gap-1 text-[11.5px] text-muted">
                           Follow-up
-                          <input type="date" className="input h-7 w-[140px] text-[12px]" value={l.followUpDate ?? ""} onChange={(e) => setFollowUp(l, e.target.value)} aria-label={`Follow-up date for ${l.name}`} />
+                          <input type="date" className="input h-7 w-[140px] text-[12px] pointer-coarse:h-9 pointer-coarse:w-[160px]" value={l.followUpDate ?? ""} onChange={(e) => setFollowUp(l, e.target.value)} aria-label={`Follow-up date for ${l.name}`} />
                         </label>
                       </div>
                       <input
-                        className="input mt-1.5 h-7 text-[12.5px]"
+                        className="input mt-1.5 h-7 text-[12.5px] pointer-coarse:h-9"
                         placeholder="Notes for this call…"
                         value={task?.note ?? ""}
                         onChange={(e) => onRowNote(l.id, e.target.value)}
@@ -484,7 +484,11 @@ function CallMode({
       <div className="mx-auto max-w-4xl px-4 py-6 sm:py-10">
         <div className="mb-4 flex items-center justify-between gap-2">
           <span className="text-[12.5px] text-muted">
-            Call mode · {index + 1} of {total} · calling order #{item.n} · <span className="kbd">←</span> <span className="kbd">→</span> to move, <span className="kbd">Esc</span> to exit
+            Call mode · {index + 1} of {total} · calling order #{item.n}
+            <span className="pointer-coarse:hidden">
+              {" "}
+              · <span className="kbd">←</span> <span className="kbd">→</span> to move, <span className="kbd">Esc</span> to exit
+            </span>
           </span>
           <button className="btn btn-sm" onClick={onClose}>
             <X size={14} /> Exit
@@ -492,7 +496,7 @@ function CallMode({
         </div>
         <div className="card p-5 sm:p-6">
           <div className="flex flex-wrap items-start justify-between gap-3">
-            <div>
+            <div className="min-w-0">
               <h2 className="text-[22px] font-semibold tracking-[-0.015em]">{l.name}</h2>
               <p className="text-[13px] text-muted">
                 {l.category} · {l.subcategory} · {l.locality}
@@ -509,8 +513,8 @@ function CallMode({
             </Link>
           </div>
 
-          <div className="mt-5 grid gap-5 md:grid-cols-2">
-            <div className="space-y-3">
+          <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
+            <div className="min-w-0 space-y-3">
               <div>
                 <div className="section-title mb-1.5">Call</div>
                 {l.phones.length ? (
@@ -547,7 +551,7 @@ function CallMode({
                 <p className="text-[13px] text-ink-2">{l.bestTimeToCall}</p>
               </div>
             </div>
-            <div className="space-y-3">
+            <div className="min-w-0 space-y-3">
               <div className="rounded-lg border border-line p-3">
                 <div className="section-title mb-1">Opener</div>
                 <p className="text-[14px] leading-relaxed">{personalize(l.opener, settings)}</p>

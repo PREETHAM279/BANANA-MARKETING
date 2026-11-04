@@ -81,10 +81,13 @@ export function Pipeline({ leads: initial }: { leads: LeadListItem[] }) {
         <label className="flex items-center gap-1.5 text-[12.5px] text-ink-2">
           <input type="checkbox" checked={hideEmpty} onChange={(e) => setHideEmpty(e.target.checked)} /> Hide empty stages
         </label>
-        <span className="ml-auto text-[12px] text-muted">Drag cards between stages, or use the “Move to” menu on a card.</span>
+        <span className="ml-auto text-[12px] text-muted">
+          <span className="pointer-coarse:hidden">Drag cards between stages, or use the “Move to” menu on a card.</span>
+          <span className="hidden pointer-coarse:inline">Swipe sideways through the stages; change a lead&apos;s stage with the menu on its card.</span>
+        </span>
       </div>
 
-      <div className="-mx-4 overflow-x-auto px-4 pb-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+      <div className="-mx-4 snap-x snap-mandatory overflow-x-auto scroll-px-4 px-4 pb-4 sm:-mx-6 sm:snap-none sm:px-6 lg:-mx-8 lg:px-8">
         <div className="flex min-w-max gap-3">
           {columns.map((col) => {
             const value = col.items.reduce((s, l) => s + (l.dealValue || 0), 0);
@@ -92,7 +95,7 @@ export function Pipeline({ leads: initial }: { leads: LeadListItem[] }) {
             return (
               <section
                 key={col.status}
-                className={cn("flex w-[268px] shrink-0 flex-col rounded-xl border border-line bg-surface-2/60 transition-colors", over === col.status && "border-accent bg-accent-soft")}
+                className={cn("flex w-[min(84vw,300px)] shrink-0 snap-start flex-col rounded-xl border border-line bg-surface-2/60 transition-colors sm:w-[268px]", over === col.status && "border-accent bg-accent-soft")}
                 onDragOver={(e) => {
                   e.preventDefault();
                   setOver(col.status);

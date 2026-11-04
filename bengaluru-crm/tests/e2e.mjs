@@ -168,13 +168,10 @@ await step("WhatsApp: opens wa.me with the message and logs only after confirmat
   const text = await dlg.locator("textarea").inputValue();
   assert.ok(text.includes("Toit"), "message is personalised");
   const before = (await j(`/api/businesses/${LEAD}/activities`)).body.filter((a) => a.type === "WHATSAPP").length;
-  await page.evaluate(() => {
-    window.__opened = [];
-    window.open = (u) => (window.__opened.push(String(u)), null);
-  });
-  await dlg.getByRole("button", { name: "Open in WhatsApp" }).click();
-  const opened = await page.evaluate(() => window.__opened);
-  assert.match(opened[0], /^https:\/\/wa\.me\/919019713388\?text=Hi%20/);
+  const wa = dlg.getByRole("link", { name: "Open in WhatsApp" });
+  assert.match(await wa.getAttribute("href"), /^https:\/\/wa\.me\/919019713388\?text=Hi%20/);
+  await wa.evaluate((a) => a.addEventListener("click", (e) => e.preventDefault())); // don't leave the CRM during the test
+  await wa.click();
   const mid = (await j(`/api/businesses/${LEAD}/activities`)).body.filter((a) => a.type === "WHATSAPP").length;
   assert.equal(mid, before, "nothing logged before you confirm");
   await dlg.getByRole("button", { name: "Yes, I sent it" }).click();
@@ -226,7 +223,7 @@ await step("voice note upload is stored and streamed with byte ranges", async ()
 await step("photo upload appears on the profile", async () => {
   await page.goto(`${BASE}/leads/${LEAD}`);
   const png = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==", "base64");
-  await page.locator('input[type="file"]').setInputFiles({ name: "shop.png", mimeType: "image/png", buffer: png });
+  await page.locator('input[type="file"]:not([capture])').setInputFiles({ name: "shop.png", mimeType: "image/png", buffer: png });
   await page.getByText("Photo added").waitFor();
   const detail = (await j(`/api/businesses/${LEAD}`)).body;
   assert.equal(detail.photos.length, 1);

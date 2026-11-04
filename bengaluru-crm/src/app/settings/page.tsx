@@ -1,3 +1,4 @@
+import { headers } from "next/headers";
 import { PageHeader } from "@/components/PageHeader";
 import { SettingsClient } from "@/components/SettingsClient";
 import { listBackups } from "@/lib/backup";
@@ -14,10 +15,12 @@ export default async function SettingsPage() {
     prisma.business.findMany({ select: { id: true, name: true, website: true }, orderBy: { priorityRank: "asc" } }),
     prisma.setting.findUnique({ where: { key: "researchImportedAt" } }),
   ]);
+  const client = (await headers()).get("x-crm-client") === "phone" ? "phone" : "mac";
   return (
     <>
-      <PageHeader title="Settings & data" subtitle="Your details, backups, exports, enrichment and integrations." />
+      <PageHeader title="Settings & data" subtitle="Your details, phone access, backups, exports, enrichment and integrations." />
       <SettingsClient
+        client={client}
         settings={settings}
         integrations={integrationStatus()}
         backups={backups}

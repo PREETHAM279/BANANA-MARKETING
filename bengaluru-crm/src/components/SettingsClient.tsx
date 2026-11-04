@@ -6,10 +6,12 @@ import { CheckCircle2, Circle, Database, Download, FileJson, FileSpreadsheet, Gl
 import { api } from "@/lib/client";
 import { formatDateTime } from "@/lib/format";
 import { Field } from "./ui/primitives";
+import { PhoneAccess } from "./PhoneAccess";
 import { useToast } from "./ui/toast";
 
 type Backup = { name: string; size: number; createdAt: string };
 type Props = {
+  client: "mac" | "phone";
   settings: Record<string, string>;
   integrations: { googlePlaces: boolean; smtp: boolean; smtpFrom: string };
   backups: Backup[];
@@ -24,7 +26,7 @@ function kb(n: number) {
   return n > 1_000_000 ? `${(n / 1_000_000).toFixed(1)} MB` : `${Math.round(n / 1000)} KB`;
 }
 
-export function SettingsClient({ settings: initial, integrations, backups: initialBackups, backupFolder, dataFolder, enrichable, allIds, researchImportedAt }: Props) {
+export function SettingsClient({ client, settings: initial, integrations, backups: initialBackups, backupFolder, dataFolder, enrichable, allIds, researchImportedAt }: Props) {
   const toast = useToast();
   const router = useRouter();
   const [s, setS] = useState(initial);
@@ -131,6 +133,8 @@ export function SettingsClient({ settings: initial, integrations, backups: initi
       </section>
 
       <div className="space-y-4">
+        <PhoneAccess client={client} />
+
         <section className="card p-5">
           <h2 className="card-title mb-1 flex items-center gap-2">
             <Database size={15} className="text-muted" /> Backups & export
@@ -238,7 +242,7 @@ export function SettingsClient({ settings: initial, integrations, backups: initi
               <CheckCircle2 size={16} className="shrink-0 text-good" />
               <div>
                 <p className="font-medium">Private by design</p>
-                <p className="text-muted">The website only listens on this Mac (127.0.0.1) and rejects requests from other sites. Keys live in .env.local and never reach the browser. Nothing is uploaded to any cloud service.</p>
+                <p className="text-muted">The website listens only on this Mac (127.0.0.1) and rejects requests from other sites. With Phone access on, it also answers on your private network (Wi-Fi / Tailscale) - never the public internet - and every phone must sign in with your passcode. Keys live in .env.local and never reach the browser. Nothing is uploaded to any cloud service.</p>
               </div>
             </li>
           </ul>
